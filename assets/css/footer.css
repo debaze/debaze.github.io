@@ -1,0 +1,32 @@
+footer .container {
+	display: flex;
+	flex-direction: column;
+	row-gap: 16px;
+	padding: 8px 0;
+	border-top: 1px solid var(--tertiary);
+}
+
+.link-list {
+	margin: 0;
+	padding-left: 0;
+	list-style-type: none;
+	text-align: center;
+}
+
+.copyright {
+	text-align: center;
+}
+
+@media screen and (min-width: 1000px) {
+	footer .container {
+		padding: 16px 0;
+	}
+
+	.link-list {
+		text-align: left;
+	}
+
+	.copyright {
+		text-align: right;
+	}
+}

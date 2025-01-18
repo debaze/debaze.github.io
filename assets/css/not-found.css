@@ -1,0 +1,21 @@
+.not-found-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 0;
+}
+
+.not-found-title {
+	margin: 0;
+	font-size: 3rem;
+}
+
+@media screen and (min-width: 1000px) {
+	.not-found-container {
+		margin: 32px 0;
+	}
+
+	.not-found-title {
+		font-size: 5rem;
+	}
+}

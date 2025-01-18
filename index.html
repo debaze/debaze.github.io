@@ -2,8 +2,9 @@
 
 <html lang="en">
 	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" type="text/css" href="assets/css/index.css" />
 		<script type="text/x-mathjax-config">
 			MathJax.Hub.Config({
 				tex2jax: {
@@ -14,35 +15,82 @@
 		</script>
 		<script src="vendor/MathJax/MathJax.js"></script>
 		<script src="vendor/MathJax/config/TeX-AMS_HTML.js"></script>
-		<title>Blog</title>
+		<script type="module" src="assets/js/index.js"></script>
+		<title>• debaze's blog</title>
 	</head>
 
 	<body>
-		<p>
-			$\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$
-		</p>
-		<p>
-			$\textbf{bold text}$
-			$\textit{text in italics}$
-			$text\ in\ italics$
-		</p>
-		<p>
-			$$
-			\begin{matrix}
-			1 & x & x^2 \\
-			1 & y & y^2 \\
-			1 & z & z^2 \\
-			\end{matrix}
-			$$
-			$$
-  \begin{pmatrix}
-    a & b\\
-    c & d\\
-  \hline
-    1 & 0\\
-    0 & 1
-  \end{pmatrix}
-$$
-		</p>
+		<header>
+			<nav class="container">
+				<h1>
+					<a href="https://github.com/debaze" target="_blank">debaze</a>
+					/
+					<a href="/">blog</a>
+				</h1>
+			</nav>
+		</header>
+
+		<article>
+			<div class="container"></div>
+		</article>
+
+		<footer>
+			<nav class="container">
+				<ul class="link-list">
+					<li>
+						<a href="/">Home</a>
+					</li>
+
+					<li>
+						<a href="https://debaze.github.io/debaze">Portfolio</a>
+					</li>
+				</ul>
+
+				<span class="copyright">
+					Copyright 2025 Mattéo Legagneux.<br />
+					Licensed under the <a href="https://github.com/debaze/blog/blob/main/LICENSE">MIT License</a>.
+				</span>
+			</nav>
+		</footer>
+
+		<template class="home-template">
+			<section class="home">
+				<h1 class="home-title">
+					Home
+				</h1>
+
+				<h2 class="recent-posts-title">
+					Recent posts
+				</h2>
+
+				<ul class="post-list"></ul>
+			</section>
+
+			<li class="post-list-item">
+				<small class="date"></small>
+
+				<h3>
+					<a href="" class="title" onclick="window.location.href=this.href;window.location.reload()"></a>
+				</h3>
+
+				<span class="description"></span>
+			</li>
+		</template>
+
+		<template class="post-template">
+			<small class="date"></small>
+
+			<h1 class="title"></h1>
+		</template>
+
+		<template class="not-found-template">
+			<section class="not-found-container">
+				<h1 class="not-found-title">
+					404
+				</h1>
+
+				<a href="/">Back to home</a>
+			</section>
+		</template>
 	</body>
 </html>

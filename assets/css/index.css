@@ -1,0 +1,77 @@
+@import url("fonts.css");
+
+@import url("footer.css");
+@import url("header.css");
+@import url("not-found.css");
+@import url("post.css");
+
+@import url("home.css");
+
+@import url("typography.css");
+
+:root {
+	--primary: #545163;
+	--shadow: #43404F;
+	--secondary: #6D6576;
+	--tertiary: #A57E8F;
+	--text: #D4CDC9;
+	--text-hover: #CBB5AC;
+	--external-link: #82cef9;
+	--external-link-hover: #5cafe7;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	margin: 0;
+	background-color: var(--secondary);
+	color: var(--text);
+	font-family: "PPRadioGrotesk";
+}
+
+.container {
+	padding: 0 8px;
+}
+
+article {
+	flex-grow: 1;
+	margin: 16px 0 32px 0;
+}
+
+ul {
+	margin: 0;
+	padding-left: 0;
+}
+
+a {
+	color: var(--text);
+	text-decoration: none;
+	word-wrap: break-word;
+}
+
+a:hover {
+	color: var(--text-hover);
+	text-decoration: underline;
+	text-underline-offset: 3px;
+}
+
+a.external {
+	color: var(--external-link);
+}
+
+a.external:hover {
+	color: var(--external-link-hover);
+}
+
+@media screen and (min-width: 1000px) {
+	.container {
+		max-width: 1000px;
+		margin: 0 auto;
+		padding: 0 16px;
+	}
+
+	article {
+		margin-top: 32px;
+	}
+}
