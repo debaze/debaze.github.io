@@ -3,8 +3,6 @@ import {loadPosts} from "./loadPosts.js";
 const posts = await loadPosts();
 const searchParams = new URLSearchParams(window.location.search);
 
-console.log(searchParams)
-
 if (searchParams.size === 0) {
 	const module = await import("./loadHome.js");
 

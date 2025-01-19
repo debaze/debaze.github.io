@@ -1,3 +1,6 @@
 [submodule "vendor/MathJax"]
 	path = vendor/MathJax
 	url = git@github.com:mathjax/MathJax
+[submodule "vendor/showdown"]
+	path = vendor/showdown
+	url = git@github.com:showdownjs/showdown.git

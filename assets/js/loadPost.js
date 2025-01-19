@@ -27,42 +27,14 @@ export async function loadPost(slug, post) {
 	title.textContent = post.title;
 
 	let postText = await postResponse.text();
+	let postHtml = postText;
 
-	// External link (1)
-	postText = postText.replaceAll(/<(.*)>/g, `<a href="$1" target="_blank" class="external">$1</a>`);
+	// External link
+	postHtml = postHtml.replaceAll(/<(.*)>/g, `<a href="$1" target="_blank" class="external">$1</a>`);
+	postHtml = postHtml.replaceAll(/\[(.*)\]\((.*)\)/g, `<a href="$2" target="_blank" class="external">$1</a>`);
 
-	// External link (2)
-	postText = postText.replaceAll(/\[(.*)\]\((.*)\)/g, `<a href="$2" target="_blank" class="external">$1</a>`);
-
-	// H6
-	postText = postText.replaceAll(/^###### (.*)$/gm, `<small class="date">$1</small>`);
-
-	// H5
-	postText = postText.replaceAll(/^##### (.*)$/gm, `<h5>$1</h5>`);
-
-	// H4
-	postText = postText.replaceAll(/^#### (.*)$/gm, `<h4>$1</h4>`);
-
-	// H3
-	postText = postText.replaceAll(/^### (.*)$/gm, `<h3>$1</h3>`);
-
-	// H2
-	postText = postText.replaceAll(/^## (.*)$/gm, `<h2>$1</h2>`);
-
-	// H1
-	postText = postText.replaceAll(/^# (.*)$/gm, `<h1 class="title">$1</h1>`);
-
-	// Bold
-	postText = postText.replaceAll(/\*\*(.*)\*\*/g, `<b>$1</b>`);
-
-	// Italic
-	postText = postText.replaceAll(/\*(.*)\*/g, `<i>$1</i>`);
-
-	// Paragraph
-	postText = postText.replaceAll(/^\n$^(.+)$^\n$/gm, `$1</br>`);
-
-	// Line break
-	postText = postText.replaceAll(/^(.+)$/gm, `$1</br>`);
+	// @ts-ignore
+	postHtml = new showdown.Converter().makeHtml(postHtml);
 
 	/**
 	 * @type {HTMLDivElement}
@@ -71,7 +43,7 @@ export async function loadPost(slug, post) {
 
 	container.appendChild(date);
 	container.appendChild(title);
-	container.innerHTML += postText;
+	container.innerHTML += postHtml;
 
 	// @ts-ignore
 	MathJax.Hub.Typeset();

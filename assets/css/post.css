@@ -12,7 +12,7 @@
 	row-gap: 8px;
 	padding: 16px;
 	border-radius: 8px;
-	background-color: var(--primary);
+	background-color: var(--secondary);
 }
 
 .post-list-item .date {
@@ -33,4 +33,12 @@ article .container .date {
 
 article .container .title {
 	margin-top: 0;
+}
+
+a.external {
+	color: var(--post-link);
+}
+
+a.external:hover {
+	color: var(--post-link-hover);
 }
