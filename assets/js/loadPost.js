@@ -1,3 +1,5 @@
+import hljs from "../../vendor/highlight/highlight.min.js";
+
 /**
  * @param {String} slug
  * @param {import("./loadPosts.js").Post} post
@@ -26,15 +28,16 @@ export async function loadPost(slug, post) {
 	date.textContent = post.date;
 	title.textContent = post.title;
 
-	let postText = await postResponse.text();
-	let postHtml = postText;
-
-	// External link
-	postHtml = postHtml.replaceAll(/<(.*)>/g, `<a href="$1" target="_blank" class="external">$1</a>`);
-	postHtml = postHtml.replaceAll(/\[(.*)\]\((.*)\)/g, `<a href="$2" target="_blank" class="external">$1</a>`);
+	let postHtml = await postResponse.text();
 
 	// @ts-ignore
 	postHtml = new showdown.Converter().makeHtml(postHtml);
+
+	// Tab
+	postHtml = postHtml.replaceAll("    ", `\t`);
+
+	// External link
+	postHtml = postHtml.replaceAll(/<a href="(.*)">(.*)<\/a>/g, `<a href="$1" target="_blank" class="external">$2</a>`);
 
 	/**
 	 * @type {HTMLDivElement}
@@ -44,6 +47,8 @@ export async function loadPost(slug, post) {
 	container.appendChild(date);
 	container.appendChild(title);
 	container.innerHTML += postHtml;
+
+	hljs.highlightAll();
 
 	// @ts-ignore
 	MathJax.Hub.Typeset();

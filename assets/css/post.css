@@ -42,3 +42,8 @@ a.external {
 a.external:hover {
 	color: var(--post-link-hover);
 }
+
+code {
+	border-radius: 8px;
+	tab-size: 28px;
+}
