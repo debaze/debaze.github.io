@@ -30,8 +30,14 @@ export async function loadPost(slug, post) {
 
 	let postHtml = await postResponse.text();
 
+	// Replace _ by ~
+	postHtml = postHtml.replaceAll("_", "~");
+
 	// @ts-ignore
 	postHtml = new showdown.Converter().makeHtml(postHtml);
+
+	// Replace ~ by _
+	postHtml = postHtml.replaceAll("~", "_");
 
 	// Tab
 	postHtml = postHtml.replaceAll("    ", `\t`);
