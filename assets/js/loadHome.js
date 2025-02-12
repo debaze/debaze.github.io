@@ -4,6 +4,8 @@
 export function loadHome(posts) {
 	document.title = `Home ${document.title}`;
 
+	const postEntries = Object.entries(posts);
+
 	/**
 	 * @type {HTMLTemplateElement}
 	 */
@@ -19,41 +21,44 @@ export function loadHome(posts) {
 	 */
 	const postList = home.querySelector(".post-list");
 
-	for (const [slug, post] of Object.entries(posts)) {
-		/**
-		 * @type {HTMLLIElement}
-		 */
-		const postListItem = homeTemplate.content.querySelector(".post-list-item").cloneNode(true);
-
+	if (postEntries.length === 0) {
 		/**
 		 * @type {HTMLElement}
 		 */
-		const postDate = postListItem.querySelector(".date");
+		const noPostsSection = homeTemplate.content.querySelector(".no-posts-section").cloneNode(true);
 
-		/**
-		 * @type {HTMLAnchorElement}
-		 */
-		const postLink = postListItem.querySelector(".title");
+		postList.replaceWith(noPostsSection);
+	}
+	else {
+		for (const [slug, post] of postEntries) {
+			/**
+			 * @type {HTMLLIElement}
+			 */
+			const postListItem = homeTemplate.content.querySelector(".post-list-item").cloneNode(true);
 
-		/**
-		 * @type {HTMLSpanElement}
-		 */
-		const postDescription = postListItem.querySelector(".description");
+			/**
+			 * @type {HTMLElement}
+			 */
+			const postDate = postListItem.querySelector(".date");
 
-		postDate.textContent = post.date;
-		postLink.href = `?post=${slug}`;
-		postLink.textContent = post.title;
-		postDescription.textContent = post.description;
+			/**
+			 * @type {HTMLAnchorElement}
+			 */
+			const postLink = postListItem.querySelector(".title");
 
-		postList.appendChild(postListItem);
+			/**
+			 * @type {HTMLSpanElement}
+			 */
+			const postDescription = postListItem.querySelector(".description");
+
+			postDate.textContent = post.date;
+			postLink.href = `?post=${slug}`;
+			postLink.textContent = post.title;
+			postDescription.textContent = post.description;
+
+			postList.appendChild(postListItem);
+		}
 	}
 
-	/**
-	 * @type {HTMLDivElement}
-	 */
-	const container = document.querySelector("article .container");
-
-	for (const child of [...home.children]) {
-		container.appendChild(child);
-	}
+	document.querySelector("article .container").appendChild(home);
 }

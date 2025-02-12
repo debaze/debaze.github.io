@@ -39,8 +39,8 @@ export async function loadPost(slug, post) {
 	// Replace ~ by _
 	postHtml = postHtml.replaceAll("~", "_");
 
-	// Tab
-	postHtml = postHtml.replaceAll("    ", `\t`);
+	// Tabs
+	postHtml = postHtml.replaceAll("    ", "\t");
 
 	// External link
 	postHtml = postHtml.replaceAll(/<a href="(.*)">(.*)<\/a>/g, `<a href="$1" target="_blank" class="external">$2</a>`);

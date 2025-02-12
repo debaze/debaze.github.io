@@ -7,7 +7,7 @@
 
 @import url("home.css");
 
-@import url("typography.css");
+@import url("text.css");
 
 :root {
 	--primary: #6d6576;
@@ -35,7 +35,7 @@ body {
 }
 
 .container {
-	padding: 0 8px;
+	padding: 0 16px;
 }
 
 article {
@@ -63,7 +63,6 @@ a:hover {
 	.container {
 		max-width: 1000px;
 		margin: 0 auto;
-		padding: 0 16px;
 	}
 
 	article {

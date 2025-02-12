@@ -11,7 +11,6 @@
 	flex-direction: column;
 	row-gap: 8px;
 	padding: 16px;
-	border-radius: 8px;
 	background-color: var(--secondary);
 }
 
@@ -23,6 +22,10 @@
 
 .post-list-item .title {
 	line-height: 20px;
+}
+
+.no-posts-section {
+	color: var(--text-hover);
 }
 
 article .container .date {
@@ -44,6 +47,5 @@ a.external:hover {
 }
 
 code {
-	border-radius: 8px;
 	tab-size: 28px;
 }

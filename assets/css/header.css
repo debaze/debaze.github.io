@@ -6,10 +6,27 @@ header {
 	z-index: 1;
 }
 
+header nav {
+	display: flex;
+	justify-content: space-between;
+}
+
 header h1 {
-	margin: 0;
-	padding: 8px 0 10px 0;
+	display: flex;
+	column-gap: 4px;
+	padding: 10px 0;
 	font-size: 1.25rem;
+	font-weight: normal;
+}
+
+header .github-link {
+	display: flex;
+	align-items: center;
+	margin-right: 4px;
+}
+
+header a:last-of-type {
+	font-weight: bold;
 }
 
 @media screen and (min-width: 1000px) {
