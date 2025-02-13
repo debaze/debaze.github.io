@@ -51,7 +51,7 @@ export function loadBlog(posts) {
 			 */
 			const postDescription = postListItem.querySelector(".description");
 
-			postDate.textContent = post.date;
+			postDate.textContent = post.publishedAt;
 			postLink.href = `blog?post=${slug}`;
 			postLink.textContent = post.title;
 			postDescription.textContent = post.description;

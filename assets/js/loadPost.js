@@ -25,7 +25,7 @@ export async function loadPost(slug, post) {
 	 */
 	const title = postTemplate.content.querySelector(".title").cloneNode(true);
 
-	date.textContent = post.date;
+	date.textContent = post.publishedAt;
 	title.textContent = post.title;
 
 	let postHtml = await postResponse.text();

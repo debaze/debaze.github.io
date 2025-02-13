@@ -25,6 +25,7 @@
 }
 
 .no-posts-section {
+	margin-top: 16px;
 	color: var(--text-hover);
 }
 
