@@ -47,12 +47,24 @@ a.external:hover {
 	color: var(--post-link-hover);
 }
 
-pre:has(code) {
-	margin-top: 0;
+blockquote {
+	margin-left: 0;
+	padding-left: 8px;
+	border-left: 2px solid var(--text);
+}
+
+hr {
+	margin: 16px 0;
+	border: none;
+	border-top: 1px solid var(--tertiary);
 }
 
 code {
 	tab-size: 28px;
+}
+
+pre:has(code) {
+	margin-top: 0;
 }
 
 p:has(.post-filename) {
