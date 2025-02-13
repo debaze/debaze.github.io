@@ -1,3 +1,3 @@
 # debaze.github.io
 
-Blog and portfolio.
+Blog, portfolio and more.

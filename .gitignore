@@ -1,4 +1,1 @@
 jsconfig.json
-
-blog/posts/*
-!blog/posts/index.json
