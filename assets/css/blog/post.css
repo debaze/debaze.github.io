@@ -47,6 +47,18 @@ a.external:hover {
 	color: var(--post-link-hover);
 }
 
+pre:has(code) {
+	margin-top: 0;
+}
+
 code {
 	tab-size: 28px;
+}
+
+p:has(.post-filename) {
+	margin: 0;
+	padding: 7px 13px 0 13px;
+	background-color: #0d1117;
+	color: var(--text-hover);
+	font-size: 0.75rem;
 }
