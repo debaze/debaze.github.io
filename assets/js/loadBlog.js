@@ -1,8 +1,8 @@
 /**
  * @param {Record<String, import("./loadPosts.js").Post>} posts
  */
-export function loadHome(posts) {
-	document.title = `Home ${document.title}`;
+export function loadBlog(posts) {
+	document.title = `Blog ${document.title}`;
 
 	const postEntries = Object.entries(posts);
 

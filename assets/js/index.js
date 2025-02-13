@@ -4,9 +4,9 @@ const posts = await loadPosts();
 const searchParams = new URLSearchParams(window.location.search);
 
 if (searchParams.size === 0) {
-	const module = await import("./loadHome.js");
+	const module = await import("./loadBlog.js");
 
-	module.loadHome(posts);
+	module.loadBlog(posts);
 }
 else {
 	const postKey = searchParams.get("post");
