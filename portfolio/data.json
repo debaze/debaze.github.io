@@ -1,0 +1,723 @@
+{
+	"technologies": [
+		{
+			"id": 0,
+			"name": "Symfony",
+			"iconSrc": "assets/images/symfony.svg"
+		},
+		{
+			"id": 1,
+			"name": "Next.js",
+			"iconSrc": "assets/images/nextjs.svg"
+		},
+		{
+			"id": 2,
+			"name": "Flutter",
+			"iconSrc": "assets/images/flutter.svg"
+		},
+		{
+			"id": 3,
+			"name": "ARKit",
+			"iconSrc": "assets/images/arkit.jpg"
+		},
+		{
+			"id": 4,
+			"name": "Stripe",
+			"iconSrc": "assets/images/stripe.jpg"
+		},
+		{
+			"id": 5,
+			"name": "Leaflet",
+			"iconSrc": "assets/images/leaflet.png"
+		},
+		{
+			"id": 6,
+			"name": "Elasticsearch",
+			"iconSrc": "assets/images/elasticsearch.svg"
+		},
+		{
+			"id": 7,
+			"name": "Spring",
+			"iconSrc": "assets/images/spring.svg"
+		},
+		{
+			"id": 8,
+			"name": "Angular",
+			"iconSrc": "assets/images/angular.svg"
+		},
+		{
+			"id": 9,
+			"name": "Bootstrap",
+			"iconSrc": "assets/images/bootstrap.svg"
+		},
+		{
+			"id": 10,
+			"name": "WordPress",
+			"iconSrc": "assets/images/wordpress.svg"
+		},
+		{
+			"id": 11,
+			"name": "Ionic",
+			"iconSrc": "assets/images/ionic.svg"
+		},
+		{
+			"id": 12,
+			"name": "JavaScript",
+			"iconSrc": "assets/images/javascript.svg"
+		},
+		{
+			"id": 13,
+			"name": "PHP",
+			"iconSrc": "assets/images/php.svg"
+		},
+		{
+			"id": 14,
+			"name": "React",
+			"iconSrc": "assets/images/react.svg"
+		},
+		{
+			"id": 15,
+			"name": "Vite",
+			"iconSrc": "assets/images/vite.svg"
+		},
+		{
+			"id": 16,
+			"name": "Firebase",
+			"iconSrc": "assets/images/firebase.svg"
+		},
+		{
+			"id": 17,
+			"name": "Node.js",
+			"iconSrc": "assets/images/nodejs.svg"
+		},
+		{
+			"id": 18,
+			"name": "Express",
+			"iconSrc": "assets/images/express.svg"
+		},
+		{
+			"id": 19,
+			"name": "CSS",
+			"iconSrc": "assets/images/css.svg"
+		},
+		{
+			"id": 20,
+			"name": "Sass",
+			"iconSrc": "assets/images/sass.svg"
+		},
+		{
+			"id": 21,
+			"name": "Google Maps",
+			"iconSrc": "assets/images/googlemaps.png"
+		},
+		{
+			"id": 22,
+			"name": "WebGL",
+			"iconSrc": "assets/images/webgl.svg"
+		},
+		{
+			"id": 23,
+			"name": "C#",
+			"iconSrc": "assets/images/csharp.svg"
+		},
+		{
+			"id": 24,
+			"name": "Java",
+			"iconSrc": "assets/images/java.svg"
+		},
+		{
+			"id": 25,
+			"name": "Riverpod",
+			"iconSrc": "assets/images/riverpod.svg"
+		},
+		{
+			"id": 26,
+			"name": "C++",
+			"iconSrc": "assets/images/cpp.svg"
+		},
+		{
+			"id": 27,
+			"name": "OpenGL",
+			"iconSrc": "assets/images/opengl.svg"
+		},
+		{
+			"id": 28,
+			"name": "Vulkan",
+			"iconSrc": "assets/images/vulkan.png"
+		},
+		{
+			"id": 29,
+			"name": "WebGPU",
+			"iconSrc": "assets/images/webgpu.svg"
+		},
+		{
+			"id": 30,
+			"name": "MySQL",
+			"iconSrc": "assets/images/mysql.svg"
+		},
+		{
+			"id": 31,
+			"name": "Dart",
+			"iconSrc": "assets/images/dart.svg"
+		},
+		{
+			"id": 32,
+			"name": "Git",
+			"iconSrc": "assets/images/git.svg"
+		},
+		{
+			"id": 33,
+			"name": "GitHub",
+			"iconSrc": "assets/images/github.svg"
+		},
+		{
+			"id": 34,
+			"name": "Visual Studio Code",
+			"iconSrc": "assets/images/visualstudiocode.svg"
+		},
+		{
+			"id": 35,
+			"name": "Visual Studio",
+			"iconSrc": "assets/images/visualstudio.svg"
+		},
+		{
+			"id": 36,
+			"name": "Sublime Text",
+			"iconSrc": "assets/images/sublimetext.svg"
+		},
+		{
+			"id": 37,
+			"name": "XCode",
+			"iconSrc": "assets/images/xcode.svg"
+		},
+		{
+			"id": 38,
+			"name": "Windows",
+			"iconSrc": "assets/images/windows.svg"
+		},
+		{
+			"id": 39,
+			"name": "Mac",
+			"iconSrc": "assets/images/apple.svg"
+		},
+		{
+			"id": 40,
+			"name": "Linux",
+			"iconSrc": "assets/images/linux.svg"
+		},
+		{
+			"id": 41,
+			"name": "Ubuntu",
+			"iconSrc": "assets/images/ubuntu.svg"
+		},
+		{
+			"id": 42,
+			"name": "Doctrine",
+			"iconSrc": "assets/images/doctrine.svg"
+		},
+		{
+			"id": 43,
+			"name": "Hibernate",
+			"iconSrc": "assets/images/hibernate.svg"
+		},
+		{
+			"id": 44,
+			"name": "Composer",
+			"iconSrc": "assets/images/composer.svg"
+		}
+	],
+	"skillCategories": [
+		{
+			"name": "Langages, frameworks et APIs",
+			"skills": [
+				{
+					"technologyId": 20
+				},
+				{
+					"technologyId": 12,
+					"skills": [
+						{
+							"technologyId": 14,
+							"skills": [
+								{
+									"technologyId": 1
+								}
+							]
+						},
+						{
+							"technologyId": 8
+						},
+						{
+							"technologyId": 22
+						},
+						{
+							"technologyId": 29
+						}
+					]
+				},
+				{
+					"technologyId": 13,
+					"skills": [
+						{
+							"technologyId": 0,
+							"skills": [
+								{
+									"technologyId": 44
+								},
+								{
+									"technologyId": 42
+								}
+							]
+						}
+					]
+				},
+				{
+					"technologyId": 30
+				},
+				{
+					"technologyId": 31,
+					"skills": [
+						{
+							"technologyId": 2,
+							"skills": [
+								{
+									"technologyId": 25
+								}
+							]
+						}
+					]
+				},
+				{
+					"technologyId": 24,
+					"skills": [
+						{
+							"technologyId": 7,
+							"skills": [
+								{
+									"technologyId": 43
+								}
+							]
+						}
+					]
+				},
+				{
+					"technologyId": 26
+				}
+			]
+		},
+		{
+			"name": "VCS",
+			"skills": [
+				{
+					"technologyId": 32,
+					"skills": [
+						{
+							"technologyId": 33
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "IDEs",
+			"skills": [
+				{
+					"technologyId": 34
+				},
+				{
+					"technologyId": 35
+				},
+				{
+					"technologyId": 36
+				},
+				{
+					"technologyId": 37
+				}
+			]
+		},
+		{
+			"name": "Plateformes",
+			"skills": [
+				{
+					"technologyId": 38
+				},
+				{
+					"technologyId": 39
+				},
+				{
+					"technologyId": 40,
+					"skills": [
+						{
+							"technologyId": 41
+						}
+					]
+				}
+			]
+		}
+	],
+	"projectCategories": [
+		{
+			"id": 0,
+			"name": "Android"
+		},
+		{
+			"id": 1,
+			"name": "iOS"
+		},
+		{
+			"id": 2,
+			"name": "Web"
+		},
+		{
+			"id": 3,
+			"name": "Front-office"
+		},
+		{
+			"id": 4,
+			"name": "Back-office"
+		},
+		{
+			"id": 5,
+			"name": "Site vitrine"
+		},
+		{
+			"id": 6,
+			"name": "E-commerce"
+		},
+		{
+			"id": 7,
+			"name": "SPA"
+		},
+		{
+			"id": 8,
+			"name": "API"
+		},
+		{
+			"id": 9,
+			"name": "Librairie"
+		},
+		{
+			"id": 10,
+			"name": "Démo"
+		},
+		{
+			"id": 11,
+			"name": "Jeu"
+		},
+		{
+			"id": 12,
+			"name": "Mod"
+		},
+		{
+			"id": 13,
+			"name": "Framework"
+		}
+	],
+	"professionalExperiences": [
+		{
+			"name": "Studio KG - anciennement Keole (14/09/2021 — 30/09/2024)",
+			"description": "Agence web à Saint-Jean-de-Védas",
+			"projects": [
+				{
+					"name": "Keole Agency",
+					"url": "https://app.keole.agency",
+					"description": "Application interne de gestion de projet",
+					"categoryIds": [2, 4],
+					"technologyIds": [0]
+				},
+				{
+					"name": "Qualy Avocats",
+					"url": "https://app.qualy-avocats.fr",
+					"description": "Cabinet d'avocats",
+					"categoryIds": [2, 3, 4],
+					"technologyIds": [20, 1, 0]
+				},
+				{
+					"name": "Catam's",
+					"url": "https://www.catams.com",
+					"description": "Spécialiste multicoques",
+					"categoryIds": [2, 3, 4],
+					"technologyIds": [0]
+				},
+				{
+					"name": "VTT 2 ALPES",
+					"url": "https://www.vtt-2alpes.com",
+					"description": "Location de VTTs",
+					"categoryIds": [2, 3, 4],
+					"technologyIds": [0]
+				},
+				{
+					"name": "Oxygène Répit",
+					"url": "https://repit-aidants-grandest.fr/oxygene-repit-54",
+					"description": "Plateforme d'accompagnement aux aidants de personnes en situation de handicap",
+					"categoryIds": [2, 3, 4],
+					"technologyIds": [0]
+				},
+				{
+					"name": "Eyematch",
+					"url": "https://lamaisondelavision.com/eyematch-choisir-lunettes",
+					"description": "Recherche de montures adaptées grâce à la réalité augmentée",
+					"categoryIds": [1, 2, 4],
+					"technologyIds": [2, 25, 3, 0]
+				},
+				{
+					"name": "ViaLearn Moto",
+					"url": "https://www.vialearnmoto.fr",
+					"description": "Préparation du code moto",
+					"categoryIds": [0, 1, 2, 6, 4],
+					"technologyIds": [2, 25, 4, 0]
+				},
+				{
+					"name": "FFSA (refonte)",
+					"url": "https://www.ffsa.org",
+					"description": "Fédération Française du Sport Automobile",
+					"categoryIds": [2, 3, 4],
+					"technologyIds": [20, 1, 5, 0, 6]
+				},
+				{
+					"name": "Groupement ACP (refonte)",
+					"url": "https://acpartenaire.fr",
+					"description": "Cabinet de courtiers d'assurance",
+					"categoryIds": [2, 4],
+					"technologyIds": [0]
+				}
+			]
+		},
+		{
+			"name": "Diginamic (2023 — 2024)",
+			"description": "Formation <i>Concepteur-Développeur d'Applications</i> (titre RNCP niveau 6, bac +3/4)",
+			"projects": [
+				{
+					"name": "Firebase",
+					"description": "Restauration",
+					"url": "https://fir-restaurant-44a50.web.app",
+					"sourceUrl": "https://github.com/debaze/firebase_restaurant",
+					"categoryIds": [2, 7, 3, 4],
+					"technologyIds": [20, 14, 15, 16]
+				},
+				{
+					"name": "Fedexpress",
+					"description": "Restauration",
+					"sourceUrl": "https://github.com/debaze/fedexpress",
+					"categoryIds": [8],
+					"technologyIds": [17, 18]
+				},
+				{
+					"name": "Absencia",
+					"sourceUrl": "https://github.com/Diginamic-M02-Groupe-2",
+					"description": "Gestion des congés et jours fériés",
+					"categoryIds": [2, 7, 3, 4],
+					"technologyIds": [20, 8, 7]
+				}
+			]
+		},
+		{
+			"name": "Diginamic (2021 — 2023)",
+			"description": "Formation <i>Développeur Intégrateur en Réalisation d'Applications Web</i> (titre RNCP niveau 5, bac +2)",
+			"projects": [
+				{
+					"name": "The Ice Cream Map",
+					"url": "https://debaze.github.io/TheIceCreamMap",
+					"sourceUrl": "https://github.com/debaze/TheIceCreamMap",
+					"description": "Glacier artisanal",
+					"categoryIds": [2, 5],
+					"technologyIds": [9]
+				},
+				{
+					"name": "Centaury",
+					"url": "https://debaze.github.io/Centaury",
+					"sourceUrl": "https://github.com/debaze/Centaury",
+					"description": "Agence spatiale",
+					"categoryIds": [2, 5],
+					"technologyIds": [9]
+				},
+				{
+					"name": "Sunpower",
+					"url": "https://debaze.github.io/Sunpower",
+					"sourceUrl": "https://github.com/debaze/Sunpower",
+					"description": "Vente d'ombrières solaires",
+					"categoryIds": [2, 5],
+					"technologyIds": [9]
+				},
+				{
+					"name": "hangit.io",
+					"url": "https://moulayli.github.io/hangit.io",
+					"sourceUrl": "https://github.com/Moulayli/hangit.io",
+					"description": "Pendu en ligne",
+					"categoryIds": [2, 3],
+					"technologyIds": [19, 12, 13]
+				},
+				{
+					"name": "Atlas",
+					"sourceUrl": "https://github.com/debaze/Atlas",
+					"description": "Agence web",
+					"categoryIds": [2, 5],
+					"technologyIds": [10, 5]
+				},
+				{
+					"name": "Yellow",
+					"sourceUrl": "https://github.com/debaze/Yellow",
+					"description": "Boutique de mangas",
+					"categoryIds": [2, 3, 4],
+					"technologyIds": [0, 21]
+				},
+				{
+					"name": "Meno",
+					"sourceUrl": "https://github.com/debaze/Meno",
+					"description": "Prise de notes",
+					"categoryIds": [1, 2, 3],
+					"technologyIds": [20, 8, 11]
+				}
+			]
+		}
+	],
+	"personalExperiences": [
+		{
+			"name": "Sites",
+			"projects": [
+				{
+					"name": "Fichet Propreté",
+					"url": "https://debaze.github.io/FichetProprete",
+					"sourceUrl": "https://github.com/debaze/FichetProprete",
+					"description": "Nettoyage de vitres et bureaux",
+					"categoryIds": [2, 7, 5],
+					"technologyIds": [19, 12]
+				},
+				{
+					"name": "La Brasserie des Evêques (refonte)",
+					"sourceUrl": "https://github.com/debaze/LaBrasserieDesEveques",
+					"description": "Brasserie à Villeneuve-lès-Maguelone",
+					"categoryIds": [2, 5],
+					"technologyIds": [19, 13, 21]
+				},
+				{
+					"name": "manon-bouraud.fr",
+					"sourceUrl": "https://github.com/debaze/manon-bouraud.fr",
+					"description": "Soutien sportif",
+					"categoryIds": [2, 5, 4],
+					"technologyIds": [19, 12, 0]
+				},
+				{
+					"name": "leprojetscp.com",
+					"sourceUrl": "https://github.com/debaze/leprojetscp.com",
+					"description": "Projet Garry's Mod",
+					"categoryIds": [2, 3, 4],
+					"technologyIds": [20, 12, 0]
+				}
+			]
+		},
+		{
+			"name": "Frameworks, librairies et APIs",
+			"projects": [
+				{
+					"name": "GraphPDF",
+					"url": "https://debaze.github.io/graphpdf",
+					"sourceUrl": "https://github.com/debaze/graphpdf",
+					"description": "Graphiques pour PDFs et pages statiques",
+					"categoryIds": [9],
+					"technologyIds": [12]
+				},
+				{
+					"name": "math",
+					"sourceUrl": "https://github.com/debaze/math",
+					"description": "Mathématiques vectorielles",
+					"categoryIds": [8],
+					"technologyIds": [12]
+				},
+				{
+					"name": "Raven",
+					"url": "https://github.com/debaze/raven/wiki/Raven-API-Documentation",
+					"sourceUrl": "https://github.com/debaze/raven",
+					"description": "Interfaces utilisateur graphiques 2D",
+					"categoryIds": [9],
+					"technologyIds": [12, 22]
+				},
+				{
+					"name": "Lyah",
+					"sourceUrl": "https://github.com/debaze/lyah",
+					"description": "Mathématiques vectorielles (SIMD)",
+					"categoryIds": [9],
+					"technologyIds": [26]
+				},
+				{
+					"name": "Project A",
+					"description": "Moteur de jeu (en cours de développement)",
+					"categoryIds": [13],
+					"technologyIds": [26, 27, 28]
+				}
+			]
+		},
+		{
+			"name": "Algorithmes",
+			"projects": [
+				{
+					"name": "A*",
+					"url": "https://debaze.github.io/astar",
+					"sourceUrl": "https://github.com/debaze/astar",
+					"categoryIds": [10],
+					"technologyIds": [12]
+				},
+				{
+					"name": "Raytracing",
+					"url": "https://debaze.github.io/webgpu_raytracer",
+					"sourceUrl": "https://github.com/debaze/webgpu_raytracer",
+					"categoryIds": [10],
+					"technologyIds": [12, 29]
+				},
+				{
+					"name": "Enhanced GJK (2D)",
+					"url": "https://debaze.github.io/gjk",
+					"sourceUrl": "https://github.com/debaze/gjk",
+					"categoryIds": [10],
+					"technologyIds": [12]
+				}
+			]
+		},
+		{
+			"name": "Jeux et mods",
+			"projects": [
+				{
+					"name": "Quiver",
+					"url": "https://debaze.github.io/Quiver",
+					"sourceUrl": "https://github.com/debaze/Quiver",
+					"description": "Rogue-like en solo",
+					"categoryIds": [11],
+					"technologyIds": [19, 12]
+				},
+				{
+					"name": "Crocosmaute",
+					"sourceUrl": "https://github.com/debaze/Crocosmaute",
+					"description": "Mod Lethal Company",
+					"categoryIds": [12],
+					"technologyIds": [23]
+				},
+				{
+					"name": "Project B",
+					"description": "Jeu (en cours de développement)",
+					"categoryIds": [11],
+					"technologyIds": [26]
+				}
+			]
+		},
+		{
+			"name": "Animations",
+			"projects": [
+				{
+					"name": "L'attrape-cœurs",
+					"url": "https://debaze.github.io/lattrapecoeurs",
+					"sourceUrl": "https://github.com/debaze/lattrapecoeurs",
+					"description": "Présentation du livre de J.D. Salinger",
+					"categoryIds": [10],
+					"technologyIds": [19, 12]
+				},
+				{
+					"name": "Game of Life",
+					"sourceUrl": "https://github.com/debaze/thegameoflife",
+					"description": "Automate cellulaire imaginé par J.H. Conway",
+					"categoryIds": [10],
+					"technologyIds": [24]
+				}
+			]
+		}
+	]
+}

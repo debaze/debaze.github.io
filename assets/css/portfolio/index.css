@@ -1,0 +1,17 @@
+@import url("experience.css");
+@import url("header.css");
+@import url("skill.css");
+@import url("technology.css");
+@import url("text.css");
+
+:root {
+	--primary: #f9f5e9;
+	--table-secondary: #231f20;
+	--table-tertiary: #00b16a;
+	--text: #d4cdc9;
+	--text-hover: #cbb5ac;
+
+	--header-color: #f9f5e9;
+	--text: #231f20;
+	--text-hover: #8e8a84;
+}

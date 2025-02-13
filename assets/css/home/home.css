@@ -1,0 +1,29 @@
+.home-link-list {
+	display: grid;
+	grid-template-columns: 1fr;
+	gap: 8px;
+	padding-left: 0;
+}
+
+.home-link {
+	display: flex;
+	flex-direction: column;
+	row-gap: 8px;
+	padding: 16px;
+	background-color: var(--secondary);
+}
+
+.home-link-name {
+	font-size: 1rem;
+	font-weight: bold;
+}
+
+.home-link:hover {
+	text-decoration: none;
+}
+
+@media screen and (min-width: 1000px) {
+	.home-link-list {
+		grid-template-columns: 1fr 1fr;
+	}
+}

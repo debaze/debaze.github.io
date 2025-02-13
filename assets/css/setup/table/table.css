@@ -1,4 +1,5 @@
 table {
+	margin: 0 16px;
 	border-collapse: collapse;
 }
 
@@ -18,6 +19,7 @@ table tbody tr.buyed {
 	opacity: .5;
 	transition-duration: .2s;
 }
+
 table tbody tr.buyed:hover {
 	opacity: 1;
 }
