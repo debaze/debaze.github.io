@@ -16,19 +16,22 @@ table .sells .sell {
 	text-decoration: none;
 	transition-duration: .2s;
 }
+
 table .sells .sell.best {
-	background-color: var(--tertiary);
+	background-color: var(--table-tertiary);
 }
+
 table .sells .sell:last-of-type {
 	border-right: none;
 }
+
 table .sells .sell:hover {
 	filter: brightness(80%);
 }
 
 table .sells .sell .total {
 	font-size: 1.25rem;
-	font-weight: 900;
+	font-weight: bold;
 }
 
 table .sells .sell .delivery {

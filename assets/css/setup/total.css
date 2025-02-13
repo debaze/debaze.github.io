@@ -9,7 +9,7 @@
 
 #total .current-amount, #total .best-amount {
 	font-size: 1.5rem;
-	font-weight: 900;
+	font-weight: bold;
 }
 
 #total .current-delivery, #total .best-delivery {
@@ -17,6 +17,6 @@
 }
 
 #total .target-total {
-	color: var(--tertiary);
+	color: var(--table-tertiary);
 	font-size: 1.25rem;
 }

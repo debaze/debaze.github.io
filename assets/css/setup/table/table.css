@@ -6,7 +6,7 @@ table th {
 	padding: .25rem;
 	opacity: .75;
 	font-size: .75rem;
-	font-weight: 400;
+	font-weight: normal;
 }
 
 table td:not(.type) {

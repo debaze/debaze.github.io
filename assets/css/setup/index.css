@@ -1,27 +1,29 @@
-@import url("fonts.css");
 @import url("table/image.css");
 @import url("table/model.css");
 @import url("table/sells.css");
 @import url("table/summary.css");
 @import url("table/table.css");
 @import url("table/type.css");
-@import url("title.css");
 @import url("total.css");
 
 :root {
 	--primary: #f9f5e9;
-	--secondary: #231f20;
-	--tertiary: #00b16a;
-	--black: #000;
-	--white: #fff;
+	--table-secondary: #231f20;
+	--table-tertiary: #00b16a;
+	--text: #d4cdc9;
+	--text-hover: #cbb5ac;
+	--post-link: #82cef9;
+	--post-link-hover: #5cafe7;
+
+	--header-color: #f9f5e9;
+	--text: #231f20;
+	--text-hover: #8e8a84;
 }
 
-body {
-	margin: 1rem;
-	font-family: "Radio Grotesk", sans-serif;
-}
+/* TODO: Selection color */
 
-main {
+article {
 	display: flex;
 	flex-direction: column;
+	margin: 16px;
 }

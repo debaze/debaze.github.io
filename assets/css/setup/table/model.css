@@ -9,7 +9,7 @@ table .model .certainty-badge {
 	width: 10px;
 	margin-right: .25rem;
 	border-radius: 100%;
-	background-color: var(--tertiary);
+	background-color: var(--table-tertiary);
 }
 
 table .model .description {
