@@ -1,0 +1,27 @@
+@import url("fonts.css");
+@import url("table/image.css");
+@import url("table/model.css");
+@import url("table/sells.css");
+@import url("table/summary.css");
+@import url("table/table.css");
+@import url("table/type.css");
+@import url("title.css");
+@import url("total.css");
+
+:root {
+	--primary: #f9f5e9;
+	--secondary: #231f20;
+	--tertiary: #00b16a;
+	--black: #000;
+	--white: #fff;
+}
+
+body {
+	margin: 1rem;
+	font-family: "Radio Grotesk", sans-serif;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+}

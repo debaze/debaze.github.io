@@ -1,0 +1,22 @@
+#total {
+	margin-top: 1rem;
+	text-align: right;
+}
+
+#total p {
+	margin: initial;
+}
+
+#total .current-amount, #total .best-amount {
+	font-size: 1.5rem;
+	font-weight: 900;
+}
+
+#total .current-delivery, #total .best-delivery {
+	margin-bottom: .5rem;
+}
+
+#total .target-total {
+	color: var(--tertiary);
+	font-size: 1.25rem;
+}

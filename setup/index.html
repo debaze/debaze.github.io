@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="icon" href="data:">
+		<link rel="stylesheet" href="assets/css/main.css">
+		<script type="module" src="assets/js/main.js"></script>
+		<title>Setup</title>
+	</head>
+
+	<body>
+		<main>
+			<h1>
+				A setup list
+			</h1>
+
+			<small>
+				Which helped me make my PC
+			</small>
+
+			<table id="table">
+				<thead>
+					<tr>
+						<th></th>
+						<th colspan="2">Model</th>
+						<th>Current sells</th>
+						<th>Best price & target</th>
+					</tr>
+				</thead>
+
+				<tbody></tbody>
+			</table>
+
+			<div id="total">
+				<p class="current-amount"></p>
+				<p class="current-delivery"></p>
+				<p class="best-amount"></p>
+				<p class="best-delivery"></p>
+				<p class="target-total"></p>
+			</div>
+		</main>
+
+		<template id="template">
+			<tr>
+				<td class="type"></td>
+				<td class="image">
+					<div>
+						<img alt="" width="50">
+					</div>
+				</td>
+				<td class="model">
+					<div class="name"></div>
+					<div class="description"></div>
+				</td>
+				<td class="sells">
+					<div></div>
+				</td>
+				<td class="summary">
+					<div class="total"></div>
+					<div class="delivery"></div>
+					<div class="target"></div>
+				</td>
+			</tr>
+
+			<span class="certainty-badge" title="100% sure about this component"></span>
+
+			<a href="#" target="_blank" class="sell">
+				<img src="" alt="" height="20">
+
+				<div class="total"></div>
+				<div class="delivery"></div>
+			</a>
+		</template>
+	</body>
+</html>

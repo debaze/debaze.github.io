@@ -4,7 +4,7 @@
 	<head>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<base href="./" />
+		<base href="../" />
 		<link rel="stylesheet" type="text/css" href="vendor/highlight/styles/github-dark.min.css" />
 		<link rel="stylesheet" type="text/css" href="assets/css/index.css" />
 		<script type="text/x-mathjax-config">
@@ -18,7 +18,8 @@
 		<script src="vendor/MathJax/MathJax.js"></script>
 		<script src="vendor/MathJax/config/TeX-AMS_HTML.js"></script>
 		<script src="vendor/showdown/dist/showdown.js"></script>
-		<title>Home • debaze</title>
+		<script type="module" src="assets/js/index.js"></script>
+		<title>• debaze's blog</title>
 	</head>
 
 	<body>
@@ -26,6 +27,10 @@
 			<nav class="container">
 				<h1>
 					<a href="" title="Home">debaze</a>
+
+					<span>/</span>
+
+					<a href="blog">blog</a>
 				</h1>
 
 				<a href="https://github.com/debaze/debaze.github.io" title="GitHub" class="github-link">
@@ -62,5 +67,45 @@
 				</span>
 			</nav>
 		</footer>
+
+		<template class="home-template">
+			<section class="home">
+				<h1>
+					Recent posts
+				</h1>
+
+				<ul class="post-list"></ul>
+			</section>
+
+			<li class="post-list-item">
+				<small class="date"></small>
+
+				<h3>
+					<a href="" class="title"></a>
+				</h3>
+
+				<span class="description"></span>
+			</li>
+
+			<section class="no-posts-section">
+				No posts yet.
+			</section>
+		</template>
+
+		<template class="post-template">
+			<small class="date"></small>
+
+			<h1 class="title"></h1>
+		</template>
+
+		<template class="not-found-template">
+			<section class="not-found-container">
+				<h1 class="not-found-title">
+					404
+				</h1>
+
+				<a href="/">Back to home</a>
+			</section>
+		</template>
 	</body>
 </html>

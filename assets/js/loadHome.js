@@ -52,7 +52,7 @@ export function loadHome(posts) {
 			const postDescription = postListItem.querySelector(".description");
 
 			postDate.textContent = post.date;
-			postLink.href = `?post=${slug}`;
+			postLink.href = `blog?post=${slug}`;
 			postLink.textContent = post.title;
 			postDescription.textContent = post.description;
 

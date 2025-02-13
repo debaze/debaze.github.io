@@ -1,0 +1,36 @@
+table .sells {
+	padding: initial;
+}
+
+table .sells > div {
+	display: flex;
+}
+
+table .sells .sell {
+	flex: 1;
+	padding: .5rem;
+	border-right: 1px solid var(--black);
+	background-color: var(--primary);
+	color: var(--black);
+	cursor: pointer;
+	text-decoration: none;
+	transition-duration: .2s;
+}
+table .sells .sell.best {
+	background-color: var(--tertiary);
+}
+table .sells .sell:last-of-type {
+	border-right: none;
+}
+table .sells .sell:hover {
+	filter: brightness(80%);
+}
+
+table .sells .sell .total {
+	font-size: 1.25rem;
+	font-weight: 900;
+}
+
+table .sells .sell .delivery {
+	font-size: .75rem;
+}

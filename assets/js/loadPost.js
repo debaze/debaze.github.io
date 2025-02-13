@@ -7,7 +7,7 @@ import hljs from "../../vendor/highlight/highlight.min.js";
 export async function loadPost(slug, post) {
 	document.title = `${post.title} ${document.title}`;
 
-	const postUrl = `posts/${slug}.md`;
+	const postUrl = `blog/posts/${slug}.md`;
 	const postResponse = await fetch(postUrl);
 
 	/**

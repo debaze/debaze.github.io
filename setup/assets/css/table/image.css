@@ -1,0 +1,12 @@
+table .image {
+	padding: .5rem;
+}
+
+table .image div {
+	display: flex;
+	justify-content: center;
+}
+
+table .image img {
+	display: block;
+}
