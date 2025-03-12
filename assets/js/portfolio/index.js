@@ -51,10 +51,14 @@ export {};
  * @property {Number[]} technologyIds
  */
 
+const dataResponse = await fetch("portfolio/data.json", {
+	cache: "no-store",
+});
+
 /**
  * @type {Data}
  */
-const data = await (await fetch("portfolio/data.json")).json();
+const dataJson = await dataResponse.json();
 
 /**
  * @type {HTMLTemplateElement}
@@ -80,7 +84,7 @@ const personalExperiencePlaceholder = document.body.querySelector("#personal-exp
 {
 	const skillCategoryListFragment = document.createDocumentFragment();
 
-	for (const skillCategory of data.skillCategories) {
+	for (const skillCategory of dataJson.skillCategories) {
 		const skillCategoryElement = getSkillCategoryElement(skillCategory);
 
 		skillCategoryListFragment.appendChild(skillCategoryElement);
@@ -93,7 +97,7 @@ const personalExperiencePlaceholder = document.body.querySelector("#personal-exp
 {
 	const professionalExperienceFragment = document.createDocumentFragment();
 
-	for (const experience of data.professionalExperiences) {
+	for (const experience of dataJson.professionalExperiences) {
 		const experienceElement = getExperienceElement(experience);
 
 		professionalExperienceFragment.appendChild(experienceElement);
@@ -106,7 +110,7 @@ const personalExperiencePlaceholder = document.body.querySelector("#personal-exp
 {
 	const personalExperienceFragment = document.createDocumentFragment();
 
-	for (const experience of data.personalExperiences) {
+	for (const experience of dataJson.personalExperiences) {
 		const experienceElement = getExperienceElement(experience);
 
 		personalExperienceFragment.appendChild(experienceElement);
@@ -150,7 +154,7 @@ function getSkillCategoryElement(skillCategory) {
  * @param {Skill} skill
  */
 function getSkillListItemElement(skill) {
-	const technology = data.technologies[skill.technologyId];
+	const technology = dataJson.technologies[skill.technologyId];
 	const skills = skill.skills;
 
 	/**
@@ -265,7 +269,7 @@ function getExperienceElement(experience) {
 		const projectTechnologyListElement = projectListItemElement.querySelector(".project-technology-list");
 
 		for (const categoryId of project.categoryIds) {
-			const projectCategory = data.projectCategories[categoryId];
+			const projectCategory = dataJson.projectCategories[categoryId];
 
 			/**
 			 * @type {HTMLLIElement}
@@ -314,7 +318,7 @@ function getExperienceElement(experience) {
 		projectDescriptionElement.textContent = project.description;
 
 		for (const technologyId of project.technologyIds) {
-			const technology = data.technologies[technologyId];
+			const technology = dataJson.technologies[technologyId];
 
 			/**
 			 * @type {HTMLLIElement}
