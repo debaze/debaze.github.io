@@ -14,8 +14,6 @@ if (searchParamCount === 0) {
 else {
 	const postKey = searchParams.get("post");
 
-	console.log(postKey, posts);
-
 	if (!postKey || !(postKey in posts)) {
 		const module = await import("./loadNotFound.js");
 

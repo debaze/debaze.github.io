@@ -1,4 +1,4 @@
-import hljs from "../../vendor/highlight/highlight.min.js";
+import hljs from "../../../vendor/highlight/highlight.min.js";
 
 /**
  * @param {String} slug
