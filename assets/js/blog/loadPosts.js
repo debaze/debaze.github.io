@@ -7,7 +7,9 @@
  */
 
 export async function loadPosts() {
-	const postResponse = await fetch("blog/posts/index.json");
+	const postResponse = await fetch("blog/posts/index.json", {
+		cache: "no-store",
+	});
 	const posts = await postResponse.json();
 
 	return posts;
