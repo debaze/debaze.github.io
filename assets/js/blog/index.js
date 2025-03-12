@@ -3,6 +3,9 @@ import {loadPosts} from "./loadPosts.js";
 const posts = await loadPosts();
 const searchParams = new URLSearchParams(window.location.search);
 
+// Test
+document.write(searchParams.size);
+
 if (searchParams.size === 0) {
 	const module = await import("./loadBlog.js");
 
