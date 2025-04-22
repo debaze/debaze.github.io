@@ -7,6 +7,11 @@
 	font-size: 1rem;
 }
 
+.experience-description:not(:last-child)::after {
+	content: " •";
+	opacity: 0.5;
+}
+
 .experience-project-list {
 	display: grid;
 	grid-template-columns: 1fr;

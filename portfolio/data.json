@@ -126,11 +126,6 @@
 			"iconSrc": "assets/images/java.svg"
 		},
 		{
-			"id": 25,
-			"name": "Riverpod",
-			"iconSrc": "assets/images/riverpod.svg"
-		},
-		{
 			"id": 26,
 			"name": "C++",
 			"iconSrc": "assets/images/cpp.svg"
@@ -226,135 +221,6 @@
 			"iconSrc": "assets/images/composer.svg"
 		}
 	],
-	"skillCategories": [
-		{
-			"name": "Langages, frameworks et APIs",
-			"skills": [
-				{
-					"technologyId": 20
-				},
-				{
-					"technologyId": 12,
-					"skills": [
-						{
-							"technologyId": 14,
-							"skills": [
-								{
-									"technologyId": 1
-								}
-							]
-						},
-						{
-							"technologyId": 8
-						},
-						{
-							"technologyId": 22
-						},
-						{
-							"technologyId": 29
-						}
-					]
-				},
-				{
-					"technologyId": 13,
-					"skills": [
-						{
-							"technologyId": 0,
-							"skills": [
-								{
-									"technologyId": 44
-								},
-								{
-									"technologyId": 42
-								}
-							]
-						}
-					]
-				},
-				{
-					"technologyId": 30
-				},
-				{
-					"technologyId": 31,
-					"skills": [
-						{
-							"technologyId": 2,
-							"skills": [
-								{
-									"technologyId": 25
-								}
-							]
-						}
-					]
-				},
-				{
-					"technologyId": 24,
-					"skills": [
-						{
-							"technologyId": 7,
-							"skills": [
-								{
-									"technologyId": 43
-								}
-							]
-						}
-					]
-				},
-				{
-					"technologyId": 26
-				}
-			]
-		},
-		{
-			"name": "VCS",
-			"skills": [
-				{
-					"technologyId": 32,
-					"skills": [
-						{
-							"technologyId": 33
-						}
-					]
-				}
-			]
-		},
-		{
-			"name": "IDEs",
-			"skills": [
-				{
-					"technologyId": 34
-				},
-				{
-					"technologyId": 35
-				},
-				{
-					"technologyId": 36
-				},
-				{
-					"technologyId": 37
-				}
-			]
-		},
-		{
-			"name": "Plateformes",
-			"skills": [
-				{
-					"technologyId": 38
-				},
-				{
-					"technologyId": 39
-				},
-				{
-					"technologyId": 40,
-					"skills": [
-						{
-							"technologyId": 41
-						}
-					]
-				}
-			]
-		}
-	],
 	"projectCategories": [
 		{
 			"id": 0,
@@ -407,16 +273,13 @@
 		{
 			"id": 12,
 			"name": "Mod"
-		},
-		{
-			"id": 13,
-			"name": "Framework"
 		}
 	],
 	"professionalExperiences": [
 		{
-			"name": "Studio KG - anciennement Keole (14/09/2021 — 30/09/2024)",
+			"name": "Keole et Gazoline (14/09/2021 — 30/09/2024)",
 			"description": "Agence web à Saint-Jean-de-Védas",
+			"link": "https://studiokg.fr",
 			"projects": [
 				{
 					"name": "Keole Agency",
@@ -458,14 +321,14 @@
 					"url": "https://lamaisondelavision.com/eyematch-choisir-lunettes",
 					"description": "Recherche de montures adaptées grâce à la réalité augmentée",
 					"categoryIds": [1, 2, 4],
-					"technologyIds": [2, 25, 3, 0]
+					"technologyIds": [2, 3, 0]
 				},
 				{
 					"name": "ViaLearn Moto",
 					"url": "https://www.vialearnmoto.fr",
 					"description": "Préparation du code moto",
 					"categoryIds": [0, 1, 2, 6, 4],
-					"technologyIds": [2, 25, 4, 0]
+					"technologyIds": [2, 4, 0]
 				},
 				{
 					"name": "FFSA (refonte)",
@@ -486,6 +349,7 @@
 		{
 			"name": "Diginamic (2023 — 2024)",
 			"description": "Formation <i>Concepteur-Développeur d'Applications</i> (titre RNCP niveau 6, bac +3/4)",
+			"link": "https://www.diginamic.fr/formation-concepteur-developpeur-application-fullstack",
 			"projects": [
 				{
 					"name": "Firebase",
@@ -504,7 +368,7 @@
 				},
 				{
 					"name": "Absencia",
-					"sourceUrl": "https://github.com/Diginamic-M02-Groupe-2",
+					"sourceUrl": "https://github.com/orgs/Diginamic-M02-Groupe-2/repositories",
 					"description": "Gestion des congés et jours fériés",
 					"categoryIds": [2, 7, 3, 4],
 					"technologyIds": [20, 8, 7]
@@ -514,6 +378,7 @@
 		{
 			"name": "Diginamic (2021 — 2023)",
 			"description": "Formation <i>Développeur Intégrateur en Réalisation d'Applications Web</i> (titre RNCP niveau 5, bac +2)",
+			"link": "https://www.diginamic.fr/formation-developpeur-web-et-mobile",
 			"projects": [
 				{
 					"name": "The Ice Cream Map",
@@ -596,18 +461,11 @@
 					"description": "Soutien sportif",
 					"categoryIds": [2, 5, 4],
 					"technologyIds": [19, 12, 0]
-				},
-				{
-					"name": "leprojetscp.com",
-					"sourceUrl": "https://github.com/debaze/leprojetscp.com",
-					"description": "Projet Garry's Mod",
-					"categoryIds": [2, 3, 4],
-					"technologyIds": [20, 12, 0]
 				}
 			]
 		},
 		{
-			"name": "Frameworks, librairies et APIs",
+			"name": "Librairies et APIs",
 			"projects": [
 				{
 					"name": "GraphPDF",
@@ -641,8 +499,8 @@
 				},
 				{
 					"name": "Project A",
-					"description": "Moteur de jeu (en cours de développement)",
-					"categoryIds": [13],
+					"description": "Moteur de jeu en cours de développement",
+					"categoryIds": [8],
 					"technologyIds": [26, 27, 28]
 				}
 			]
@@ -665,9 +523,10 @@
 					"technologyIds": [12, 29]
 				},
 				{
-					"name": "Enhanced GJK (2D)",
+					"name": "GJK/Bilateral Advancement (2D)",
 					"url": "https://debaze.github.io/gjk",
 					"sourceUrl": "https://github.com/debaze/gjk",
+					"description": "Détection de collisions en continu",
 					"categoryIds": [10],
 					"technologyIds": [12]
 				}
@@ -687,13 +546,13 @@
 				{
 					"name": "Crocosmaute",
 					"sourceUrl": "https://github.com/debaze/Crocosmaute",
-					"description": "Mod Lethal Company",
+					"description": "Mod pour Lethal Company",
 					"categoryIds": [12],
 					"technologyIds": [23]
 				},
 				{
 					"name": "Project B",
-					"description": "Jeu (en cours de développement)",
+					"description": "Jeu en cours de développement",
 					"categoryIds": [11],
 					"technologyIds": [26]
 				}

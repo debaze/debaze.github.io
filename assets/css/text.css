@@ -13,6 +13,26 @@ h3 {
 	font-size: 1.25rem;
 }
 
+a {
+	color: var(--text);
+	text-decoration: none;
+	word-wrap: break-word;
+}
+
+a:hover {
+	color: var(--text-hover);
+	text-decoration: underline;
+	text-underline-offset: 3px;
+}
+
+a.external {
+	color: var(--external-link);
+}
+
+a.external:hover {
+	color: var(--external-link-hover);
+}
+
 @media screen and (min-width: 1000px) {
 	h1 {
 		font-size: 1.75rem;

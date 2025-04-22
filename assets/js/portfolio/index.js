@@ -3,7 +3,6 @@ export {};
 /**
  * @typedef {Object} Data
  * @property {Technology[]} technologies
- * @property {SkillCategory[]} skillCategories
  * @property {ProjectCategory[]} projectCategories
  * @property {Experience[]} professionalExperiences
  * @property {Experience[]} personalExperiences
@@ -17,18 +16,6 @@ export {};
  */
 
 /**
- * @typedef {Object} SkillCategory
- * @property {String} name
- * @property {Skill[]} skills
- */
-
-/**
- * @typedef {Object} Skill
- * @property {Number} technologyId
- * @property {Skill[]} [skills]
- */
-
-/**
  * @typedef {Object} ProjectCategory
  * @property {Number} id
  * @property {String} name
@@ -38,6 +25,7 @@ export {};
  * @typedef {Object} Experience
  * @property {String} name
  * @property {String} [description]
+ * @property {String} [link]
  * @property {Project[]} projects
  */
 
@@ -68,30 +56,12 @@ const template = document.body.querySelector("#data-template");
 /**
  * @type {HTMLDivElement}
  */
-const skillCategoryListPlaceholder = document.body.querySelector("#skill-category-list-placeholder");
-
-/**
- * @type {HTMLDivElement}
- */
 const professionalExperiencePlaceholder = document.body.querySelector("#professional-experience-placeholder");
 
 /**
  * @type {HTMLDivElement}
  */
 const personalExperiencePlaceholder = document.body.querySelector("#personal-experience-placeholder");
-
-// Skills
-{
-	const skillCategoryListFragment = document.createDocumentFragment();
-
-	for (const skillCategory of dataJson.skillCategories) {
-		const skillCategoryElement = getSkillCategoryElement(skillCategory);
-
-		skillCategoryListFragment.appendChild(skillCategoryElement);
-	}
-
-	skillCategoryListPlaceholder.replaceWith(skillCategoryListFragment);
-}
 
 // Professional experiences
 {
@@ -117,37 +87,6 @@ const personalExperiencePlaceholder = document.body.querySelector("#personal-exp
 	}
 
 	personalExperiencePlaceholder.replaceWith(personalExperienceFragment);
-}
-
-/**
- * @param {SkillCategory} skillCategory
- */
-function getSkillCategoryElement(skillCategory) {
-	/**
-	 * @type {HTMLElement}
-	 */
-	// @ts-ignore
-	const skillCategoryContainerElement = template.content.querySelector(".skill-category-container").cloneNode(true);
-
-	/**
-	 * @type {HTMLHeadingElement}
-	 */
-	const skillCategoryNameElement = skillCategoryContainerElement.querySelector(".skill-category-name");
-
-	/**
-	 * @type {HTMLUListElement}
-	 */
-	const skillListElement = skillCategoryContainerElement.querySelector(".skill-list");
-
-	skillCategoryNameElement.textContent = skillCategory.name;
-
-	for (const skill of skillCategory.skills) {
-		const skillListItemElement = getSkillListItemElement(skill);
-
-		skillListElement.appendChild(skillListItemElement);
-	}
-
-	return skillCategoryContainerElement;
 }
 
 /**
@@ -223,6 +162,11 @@ function getExperienceElement(experience) {
 	const experienceDescriptionElement = experienceContainerElement.querySelector(".experience-description");
 
 	/**
+	 * @type {HTMLLinkElement}
+	 */
+	const experienceLinkElement = experienceContainerElement.querySelector(".experience-link");
+
+	/**
 	 * @type {HTMLUListElement}
 	 */
 	const experienceProjectListElement = experienceContainerElement.querySelector(".experience-project-list");
@@ -234,6 +178,13 @@ function getExperienceElement(experience) {
 	}
 	else {
 		experienceDescriptionElement.remove();
+	}
+
+	if (experience.link) {
+		experienceLinkElement.href = experience.link;
+	}
+	else {
+		experienceLinkElement.remove();
 	}
 
 	for (const project of experience.projects) {
