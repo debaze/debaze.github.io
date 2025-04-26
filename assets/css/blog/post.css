@@ -40,11 +40,11 @@ article .container .title {
 }
 
 a.external {
-	color: var(--post-link);
+	color: var(--external-link);
 }
 
 a.external:hover {
-	color: var(--post-link-hover);
+	color: var(--external-link-hover);
 }
 
 blockquote {
