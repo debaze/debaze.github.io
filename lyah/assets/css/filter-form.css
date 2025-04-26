@@ -1,0 +1,54 @@
+.filter-form {
+	display: flex;
+	flex-direction: column;
+	row-gap: 4px;
+}
+
+.search-input {
+	display: block;
+	padding: 8px;
+	outline: none;
+	border-width: 1px;
+	border-style: solid;
+	border-color: var(--tertiary);
+	background-color: transparent;
+	color: var(--text);
+	font-family: "PP Radio Grotesk", "Arial", sans-serif;
+	font-size: 16px;
+}
+
+.search-input::placeholder {
+	color: var(--tertiary);
+}
+
+.search-input:focus {
+	border-color: var(--text);
+}
+
+.cpp-version-select, .cpp-version-select::picker(select) {
+	appearance: base-select;
+}
+
+.cpp-version-select {
+	display: block;
+	padding: 8px;
+	outline: none;
+	border-width: 1px;
+	border-style: solid;
+	border-color: var(--tertiary);
+	border-radius: 0;
+	background-color: transparent;
+	font-family: "PP Radio Grotesk", "Arial", sans-serif;
+	font-size: 16px;
+}
+
+.cpp-version-select:open {
+	border-color: var(--text);
+}
+
+@media screen and (min-width: 1000px) {
+	.filter-form {
+		flex-direction: row;
+		column-gap: 4px;
+	}
+}

@@ -1,0 +1,35 @@
+#method-list {
+	padding-left: 0;
+	list-style-type: none;
+}
+
+.method-list-item {
+	padding: 16px;
+	border-width: 1px;
+	border-bottom-width: 0;
+	border-style: solid;
+	border-color: #294c60;
+	transition-property: background-color;
+	transition-duration: 0.2s;
+}
+
+.method-list-item:last-of-type {
+	border-bottom-width: 1px;
+}
+
+.method-list-item:hover {
+	background-color: #294c6075;
+}
+
+.method-list-item p:not(.method-description-container) {
+	margin: 0;
+}
+
+.method-signature {
+	color: #e6edf3;
+	font-family: "Consolas", monospace;
+}
+
+.monospace {
+	font-family: "Consolas", monospace;
+}

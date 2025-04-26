@@ -1,0 +1,15 @@
+.keyword {
+	color: #ff7b72;
+}
+
+.function-name {
+	color: #d2a8ff;
+}
+
+.string {
+	color: #79c0ff;
+}
+
+.namespace {
+	color: var(--text);
+}

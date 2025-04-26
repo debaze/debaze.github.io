@@ -1,0 +1,33 @@
+[
+	{
+		"signature": "LYAH_NODISCARD LYAH_CONSTEXPR T LYAH_CALL lyah::epsilon()",
+		"description": "Returns the machine epsilon for `T`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/main/lyah/constants.hpp#L10",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_CONSTEXPR T LYAH_CALL lyah::infinity()",
+		"description": "Returns the positive infinity for `T`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/main/lyah/constants.hpp#L15",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_CONSTEXPR T LYAH_CALL lyah::nan()",
+		"description": "Returns the quiet *not-a-number* value for `T`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/main/lyah/constants.hpp#L22",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_CONSTEXPR T LYAH_CALL lyah::pi()",
+		"description": "Returns an approximation of the pi constant for `T`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/main/lyah/constants.hpp#L29",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_CONSTEXPR lyah::vec<2, std::float_t> LYAH_CALL lyah::operator +(lyah::vec<2, std::float_t> a)",
+		"description": "Returns a copy of `a`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/main/lyah/vec/vec.inl#L6",
+		"instructionSet": "SSE",
+		"since": "v1.0.0"
+	}
+]

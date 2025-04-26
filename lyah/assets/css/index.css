@@ -1,0 +1,17 @@
+@import url("filter-form.css");
+@import url("highlight.css");
+@import url("method-list.css");
+
+/*
+	ProjectA API theme:
+	- #1f1f1f
+	- #323432
+*/
+
+:root {
+	--primary: #001B2E;
+	--tertiary: #294C60;
+	--header-color: #001B2E;
+	--text: #ADB6C4;
+	--text-hover: #b6f6ff;
+}
