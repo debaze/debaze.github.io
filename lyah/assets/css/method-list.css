@@ -13,23 +13,28 @@
 
 .method-list-item {
 	padding: 16px;
+	margin: 1px 0;
 	border-width: 1px;
-	border-bottom-width: 0;
 	border-style: solid;
 	border-color: #294c60;
 	transition-property: background-color;
 	transition-duration: 0.2s;
 }
 
-.method-list-item:last-of-type {
-	border-bottom-width: 1px;
+.method-list-item:not(:first-of-type) {
+	margin-top: -2px;
 }
 
 .method-list-item:hover {
 	background-color: #294c6075;
 }
 
-.method-list-item p:not(.method-description-container) {
+.method-list-item:focus {
+	position: relative;
+	border-color: var(--text);
+}
+
+.method-signature, .method-instruction-set-container, .method-since-container {
 	margin: 0;
 }
 
