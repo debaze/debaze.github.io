@@ -1,15 +1,15 @@
 .keyword {
-	color: #ff7b72;
+	color: var(--keyword-color);
 }
 
 .function-name {
-	color: #d2a8ff;
+	color: var(--function-name-color);
 }
 
 .string {
-	color: #79c0ff;
+	color: var(--string-color);
 }
 
 .namespace {
-	color: var(--text);
+	color: var(--namespace-color);
 }

@@ -34,15 +34,24 @@
 	border-color: var(--text);
 }
 
-.method-signature, .method-instruction-set-container, .method-since-container {
+.method-signature {
 	margin: 0;
+	overflow-x: auto;
+	color: var(--other-color);
+	font-family: "Consolas", monospace;
+	white-space: nowrap;
 }
 
-.method-signature {
-	color: #e6edf3;
-	font-family: "Consolas", monospace;
+.method-instruction-set-container, .method-since-container {
+	margin: 0;
 }
 
 .monospace {
 	font-family: "Consolas", monospace;
+}
+
+@media screen and (min-width: 1000px) {
+	.method-signature {
+		white-space: normal;
+	}
 }
