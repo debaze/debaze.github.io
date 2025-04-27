@@ -3,6 +3,8 @@
 	flex-direction: column;
 	row-gap: 4px;
 	padding-bottom: 16px;
+	/* CHROME BUG: When setting the top value on a sticky element, it is shifted left by 1px.
+	This seems to only happen at resolutions >= 1032px in width. */
 	top: 51px;
 	position: sticky;
 	box-shadow: 0 8px 16px var(--header-color);
