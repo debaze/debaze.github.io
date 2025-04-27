@@ -269,9 +269,12 @@ function highlightMethodSignature(signature) {
 	// Highlight function names.
 	highlightedSignature = highlightedSignature.replace(/([A-Za-z]+)\(/, `<span class="function-name">$1</span>(`);
 
-	// v keywords.
+	// Highlight keywords.
 	highlightedSignature = highlightedSignature.replace("__vectorcall", `<span class="keyword">__vectorcall</span>`);
 	highlightedSignature = highlightedSignature.replace("constexpr", `<span class="keyword">constexpr</span>`);
+	highlightedSignature = highlightedSignature.replace("const", `<span class="keyword">const</span>`);
+	highlightedSignature = highlightedSignature.replace("explicit", `<span class="keyword">explicit</span>`);
+	highlightedSignature = highlightedSignature.replace("noexcept", `<span class="keyword">noexcept</span>`);
 	highlightedSignature = highlightedSignature.replace("operator", `<span class="keyword">operator</span>`);
 
 	// Highlight namespaces.
