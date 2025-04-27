@@ -1,3 +1,10 @@
+#method-count {
+	margin-top: 16px;
+	margin-bottom: 4px;
+	color: var(--secondary);
+	text-align: right;
+}
+
 #method-list {
 	margin-top: 0;
 	padding-left: 0;

@@ -102,6 +102,13 @@ function getFilteredMethods() {
 
 	const sortedFilterScores = filterScores.sort(compareMethodScores);
 
+	if (sortedFilterScores.length === 1) {
+		methodCount.textContent = "1 method found.";
+	}
+	else {
+		methodCount.textContent = `${sortedFilterScores.length} methods found.`;
+	}
+
 	for (const score of sortedFilterScores) {
 		const method = dataJson[score.methodIndex];
 
@@ -318,6 +325,11 @@ const dataJson = await dataResponse.json();
  * @type {HTMLTemplateElement}
  */
 const template = document.body.querySelector("#data-template");
+
+/**
+ * @type {HTMLParagraphElement}
+ */
+const methodCount = document.body.querySelector("#method-count");
 
 /**
  * @type {HTMLUListElement}
