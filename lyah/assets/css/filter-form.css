@@ -46,6 +46,7 @@
 	border-color: var(--tertiary);
 	border-radius: 0;
 	background-color: transparent;
+	color: var(--text);
 	font-family: "PP Radio Grotesk", "Arial", sans-serif;
 	font-size: 16px;
 }
