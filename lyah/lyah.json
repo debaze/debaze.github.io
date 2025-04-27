@@ -176,5 +176,33 @@
 		"sourceUrl": "https://github.com/debaze/lyah/blob/main/lyah/vec/vec.inl#L36",
 		"instructionSet": "SSE",
 		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD lyah::vec<2, std::float_t> LYAH_CALL lyah::operator /(lyah::vec<2, std::float_t> a, std::float_t b)",
+		"description": "Divides every component of `a` by `b`, then returns the result.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/main/lyah/vec/vec.inl#L56",
+		"instructionSet": "SSE",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD lyah::vec<2, std::float_t> LYAH_CALL lyah::operator /(std::float_t a, lyah::vec<2, std::float_t> b)",
+		"description": "Divides `a` by every component of `b`, then returns the result.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/main/lyah/vec/m128/base.inl#L83",
+		"instructionSet": "SSE",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "lyah::vec<2, std::float_t>& LYAH_CALL lyah::operator /=(lyah::vec<2, std::float_t>& a, std::float_t b)",
+		"description": "Sets `a` to the division of every component of `a` by `b`, then returns `a`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/main/lyah/vec/vec.inl#L61",
+		"instructionSet": "SSE",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD lyah::vec<2, std::float_t> LYAH_CALL lyah::operator /(lyah::vec<2, std::float_t> a, lyah::vec<2, std::float_t> b)",
+		"description": "Divides `a` by `b`, then returns the result.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/main/lyah/vec/vec.inl#L66",
+		"instructionSet": "SSE",
+		"since": "v1.0.0"
 	}
 ]
