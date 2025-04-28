@@ -283,6 +283,48 @@
 		"since": "v1.0.0"
 	},
 	{
+		"signature": "LYAH_NODISCARD lyah::vec<3, std::float_t>::vec()",
+		"description": "Creates a 3-component 32-bit floating-point vector. Values are set to 0.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/main/lyah/vec/vec3_m128.inl#L7",
+		"instructionSet": "SSE",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD lyah::vec<3, std::float_t>::vec(std::float_t x, std::float_t y, std::float_t z)",
+		"description": "Creates a 3-component 32-bit floating-point vector. Values are copied from the `x`, `y` and `z` arguments.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/main/lyah/vec/vec3_m128.inl#L11",
+		"instructionSet": "SSE",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_CONSTEXPR explicit lyah::vec<3, std::float_t>::vec(__m128 m)",
+		"description": "Creates a 3-component 32-bit floating-point vector. Values are copied from the `m` argument.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/main/lyah/vec/vec3_m128.inl#L14",
+		"instructionSet": "SSE",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD explicit lyah::vec<3, std::float_t>::vec(lyah::vec<3, std::float_t> a)",
+		"description": "Creates a 3-component 32-bit floating-point vector from the values of `a`.",
+		"sourceUrl": "http://github.com/debaze/lyah/blob/main/lyah/vec/vec3.hpp#L22",
+		"instructionSet": "SSE",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD explicit lyah::vec<3, std::float_t>::vec(lyah::vec<3, std::double_t> a)",
+		"description": "Creates a 3-component 32-bit floating-point vector converted from the 64-bit floating-point vector `a`.",
+		"sourceUrl": "http://github.com/debaze/lyah/blob/main/lyah/vec/vec3.hpp#L22",
+		"instructionSet": "SSE",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD explicit lyah::vec<3, std::float_t>::vec(lyah::vec<3, std::int64_t> a)",
+		"description": "Creates a 3-component 32-bit floating-point vector converted from the 64-bit integer vector `a`.",
+		"sourceUrl": "http://github.com/debaze/lyah/blob/main/lyah/vec/vec3.hpp#L22",
+		"instructionSet": "SSE",
+		"since": "v1.0.0"
+	},
+	{
 		"signature": "LYAH_NODISCARD std::float_t LYAH_CALL lyah::vec<3, std::float_t>::operator [](std::size_t index) const LYAH_NOEXCEPT",
 		"description": "Returns the component at `index` by value.\n`index` must be less than 3.",
 		"sourceUrl": "https://github.com/debaze/lyah/blob/main/lyah/vec/vec3_m128.inl#L17",
@@ -504,6 +546,48 @@
 		"description": "Computes the tangent of every component of `a`, then returns the result.",
 		"sourceUrl": "https://github.com/debaze/lyah/blob/main/lyah/vec/m128/trigonometric.inl#L31",
 		"instructionSet": "SSE (SVML)",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD lyah::vec<4, std::float_t>::vec()",
+		"description": "Creates a 4-component 32-bit floating-point vector. Values are set to 0.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/main/lyah/vec/vec4_m128.inl#L7",
+		"instructionSet": "SSE",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD lyah::vec<4, std::float_t>::vec(std::float_t x, std::float_t y, std::float_t z)",
+		"description": "Creates a 4-component 32-bit floating-point vector. Values are copied from the `x`, `y` and `z` arguments.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/main/lyah/vec/vec4_m128.inl#L11",
+		"instructionSet": "SSE",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_CONSTEXPR explicit lyah::vec<4, std::float_t>::vec(__m128 m)",
+		"description": "Creates a 4-component 32-bit floating-point vector. Values are copied from the `m` argument.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/main/lyah/vec/vec4_m128.inl#L14",
+		"instructionSet": "SSE",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD explicit lyah::vec<4, std::float_t>::vec(lyah::vec<4, std::float_t> a)",
+		"description": "Creates a 4-component 32-bit floating-point vector from the values of `a`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/main/lyah/vec/vec4.hpp#L22",
+		"instructionSet": "SSE",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD explicit lyah::vec<4, std::float_t>::vec(lyah::vec<4, std::double_t> a)",
+		"description": "Creates a 4-component 32-bit floating-point vector converted from the 64-bit floating-point vector `a`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/main/lyah/vec/vec4.hpp#L22",
+		"instructionSet": "SSE",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD explicit lyah::vec<4, std::float_t>::vec(lyah::vec<4, std::int64_t> a)",
+		"description": "Creates a 4-component 32-bit floating-point vector converted from the 64-bit integer vector `a`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/main/lyah/vec/vec4.hpp#L22",
+		"instructionSet": "SSE",
 		"since": "v1.0.0"
 	},
 	{
