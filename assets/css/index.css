@@ -30,7 +30,7 @@ body {
 	margin: 0;
 	background-color: var(--primary);
 	color: var(--text);
-	font-family: "PPRadioGrotesk", "Arial", sans-serif;
+	font-family: "PP Radio Grotesk", "Arial", sans-serif;
 }
 
 ::selection {
