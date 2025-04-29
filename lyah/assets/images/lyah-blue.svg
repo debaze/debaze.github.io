@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 600 133" width="100">
+	<defs>
+		<path id="glyph-l" d="M19.21875 -81.097656H8.886719V0H59.214844V-9.121094H19.21875Z" />
+		<path id="glyph-y" d="M43.21875 -31.816406L73.65625 -81.097656H61.324219L38.21875 -41.605469L14.441406 -81.097656H1.667969L32.886719 -31.816406V0H43.21875Z" />
+		<path id="glyph-a" d="M52.4375 -24.363281L60.769531 0H72.324219L43.882812 -81.097656H30.550781L1.667969 0H12.664062L21.21875 -24.363281ZM49.550781 -33.039062H23.773438L37.105469 -69.972656Z" />
+		<path id="glyph-h" d="M60.882812 -36.933594V0H71.214844V-81.097656H60.882812V-46.054688H19.21875V-81.097656H8.886719V0H19.21875V-36.933594Z" />
+	</defs>
+
+	<g fill="#adb6c4">
+		<rect width="133" height="133" x="0" y="0" />
+		<rect width="134" height="133" x="155" y="0" />
+		<rect width="133" height="133" x="311" y="0" />
+		<rect width="133" height="133" x="466" y="0" />
+	</g>
+
+	<g fill="#001b2e">
+		<use xlink:href="#glyph-l" x="33" y="108" />
+		<use xlink:href="#glyph-y" x="184" y="108" />
+		<use xlink:href="#glyph-a" x="340" y="108" />
+		<use xlink:href="#glyph-h" x="493" y="108" />
+	</g>
+</svg>
