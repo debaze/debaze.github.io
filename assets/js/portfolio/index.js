@@ -220,7 +220,7 @@ function getExperienceElement(experience) {
 		const projectTechnologyListElement = projectListItemElement.querySelector(".project-technology-list");
 
 		for (const categoryId of project.categoryIds) {
-			const projectCategory = dataJson.projectCategories[categoryId];
+			const projectCategory = dataJson.projectCategories.find(category => category.id === categoryId);
 
 			/**
 			 * @type {HTMLLIElement}
@@ -269,7 +269,7 @@ function getExperienceElement(experience) {
 		projectDescriptionElement.textContent = project.description;
 
 		for (const technologyId of project.technologyIds) {
-			const technology = dataJson.technologies[technologyId];
+			const technology = dataJson.technologies.find(technology => technology.id === technologyId);
 
 			/**
 			 * @type {HTMLLIElement}
