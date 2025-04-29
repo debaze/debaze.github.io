@@ -24,6 +24,150 @@
 		"since": "v1.0.0"
 	},
 	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE std::float_t LYAH_CALL lyah::dot(lyah::vec<2, std::float_t> a, lyah::vec<2, std::float_t> b)",
+		"description": "Returns the dot product of `a` and `b`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/geometric.hpp#L10",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE std::float_t LYAH_CALL lyah::dot(lyah::vec<3, std::float_t> a, lyah::vec<3, std::float_t> b)",
+		"description": "Returns the dot product of `a` and `b`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/geometric.hpp#L10",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE std::float_t LYAH_CALL lyah::dot(lyah::vec<4, std::float_t> a, lyah::vec<4, std::float_t> b)",
+		"description": "Returns the dot product of `a` and `b`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/geometric.hpp#L10",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE std::double_t LYAH_CALL lyah::dot(lyah::vec<2, std::double_t> a, lyah::vec<2, std::double_t> b)",
+		"description": "Returns the dot product of `a` and `b`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/geometric.hpp#L10",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE std::double_t LYAH_CALL lyah::dot(lyah::vec<3, std::double_t> a, lyah::vec<3, std::double_t> b)",
+		"description": "Returns the dot product of `a` and `b`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/geometric.hpp#L10",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE std::double_t LYAH_CALL lyah::dot(lyah::vec<4, std::double_t> a, lyah::vec<4, std::double_t> b)",
+		"description": "Returns the dot product of `a` and `b`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/geometric.hpp#L10",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE std::float_t LYAH_CALL lyah::length(lyah::vec<2, std::float_t> a)",
+		"description": "Returns the length of `a`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/geometric.hpp#L15",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE std::float_t LYAH_CALL lyah::length(lyah::vec<3, std::float_t> a)",
+		"description": "Returns the length of `a`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/geometric.hpp#L15",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE std::float_t LYAH_CALL lyah::length(lyah::vec<4, std::float_t> a)",
+		"description": "Returns the length of `a`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/geometric.hpp#L15",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE std::double_t LYAH_CALL lyah::length(lyah::vec<2, std::double_t> a)",
+		"description": "Returns the length of `a`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/geometric.hpp#L15",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE std::double_t LYAH_CALL lyah::length(lyah::vec<3, std::double_t> a)",
+		"description": "Returns the length of `a`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/geometric.hpp#L15",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE std::double_t LYAH_CALL lyah::length(lyah::vec<4, std::double_t> a)",
+		"description": "Returns the length of `a`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/geometric.hpp#L15",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE std::float_t LYAH_CALL lyah::distance(lyah::vec<2, std::float_t> a, lyah::vec<2, std::float_t> b)",
+		"description": "Returns the distance between `a` and `b`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/geometric.hpp#L20",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE std::float_t LYAH_CALL lyah::distance(lyah::vec<3, std::float_t> a, lyah::vec<3, std::float_t> b)",
+		"description": "Returns the distance between `a` and `b`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/geometric.hpp#L20",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE std::float_t LYAH_CALL lyah::distance(lyah::vec<4, std::float_t> a, lyah::vec<4, std::float_t> b)",
+		"description": "Returns the distance between `a` and `b`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/geometric.hpp#L20",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE std::double_t LYAH_CALL lyah::distance(lyah::vec<2, std::double_t> a, lyah::vec<2, std::double_t> b)",
+		"description": "Returns the distance between `a` and `b`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/geometric.hpp#L20",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE std::double_t LYAH_CALL lyah::distance(lyah::vec<3, std::double_t> a, lyah::vec<3, std::double_t> b)",
+		"description": "Returns the distance between `a` and `b`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/geometric.hpp#L20",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE std::double_t LYAH_CALL lyah::distance(lyah::vec<4, std::double_t> a, lyah::vec<4, std::double_t> b)",
+		"description": "Returns the distance between `a` and `b`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/geometric.hpp#L20",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::vec<2, std::float_t> LYAH_CALL lyah::normalized(lyah::vec<2, std::float_t> a)",
+		"description": "Returns a normalized copy of `a`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/geometric.hpp#L25",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::vec<3, std::float_t> LYAH_CALL lyah::normalized(lyah::vec<3, std::float_t> a)",
+		"description": "Returns a normalized copy of `a`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/geometric.hpp#L25",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::vec<4, std::float_t> LYAH_CALL lyah::normalized(lyah::vec<4, std::float_t> a)",
+		"description": "Returns a normalized copy of `a`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/geometric.hpp#L25",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::vec<2, std::double_t> LYAH_CALL lyah::normalized(lyah::vec<2, std::double_t> a)",
+		"description": "Returns a normalized copy of `a`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/geometric.hpp#L25",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::vec<3, std::double_t> LYAH_CALL lyah::normalized(lyah::vec<3, std::double_t> a)",
+		"description": "Returns a normalized copy of `a`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/geometric.hpp#L25",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::vec<4, std::double_t> LYAH_CALL lyah::normalized(lyah::vec<4, std::double_t> a)",
+		"description": "Returns a normalized copy of `a`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/geometric.hpp#L25",
+		"since": "v1.0.0"
+	},
+	{
 		"signature": "LYAH_NODISCARD LYAH_CONSTEXPR LYAH_INLINE std::float_t LYAH_CALL lyah::degrees(std::float_t a)",
 		"description": "Converts `a` to degrees and returns the result. `a` is given in radians.",
 		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/trigonometric.hpp#L10",
@@ -31,18 +175,6 @@
 	},
 	{
 		"signature": "LYAH_NODISCARD LYAH_CONSTEXPR LYAH_INLINE std::double_t LYAH_CALL lyah::degrees(std::double_t a)",
-		"description": "Converts `a` to degrees and returns the result. `a` is given in radians.",
-		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/trigonometric.hpp#L10",
-		"since": "v1.0.0"
-	},
-	{
-		"signature": "LYAH_NODISCARD LYAH_CONSTEXPR LYAH_INLINE std::int32_t LYAH_CALL lyah::degrees(std::int32_t a)",
-		"description": "Converts `a` to degrees and returns the result. `a` is given in radians.",
-		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/trigonometric.hpp#L10",
-		"since": "v1.0.0"
-	},
-	{
-		"signature": "LYAH_NODISCARD LYAH_CONSTEXPR LYAH_INLINE std::int64_t LYAH_CALL lyah::degrees(std::int64 a)",
 		"description": "Converts `a` to degrees and returns the result. `a` is given in radians.",
 		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/trigonometric.hpp#L10",
 		"since": "v1.0.0"
@@ -84,24 +216,6 @@
 		"since": "v1.0.0"
 	},
 	{
-		"signature": "LYAH_NODISCARD LYAH_CONSTEXPR LYAH_INLINE lyah::vec<4, std::int32_t> LYAH_CALL lyah::degrees(lyah::vec<4, std::int32_t> a)",
-		"description": "Converts `a` to degrees and returns the result. `a` is given in radians.",
-		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/trigonometric.hpp#L15",
-		"since": "v1.1.0"
-	},
-	{
-		"signature": "LYAH_NODISCARD LYAH_CONSTEXPR LYAH_INLINE lyah::vec<2, std::int64_t> LYAH_CALL lyah::degrees(lyah::vec<2, std::int64_t> a)",
-		"description": "Converts `a` to degrees and returns the result. `a` is given in radians.",
-		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/trigonometric.hpp#L15",
-		"since": "v1.1.0"
-	},
-	{
-		"signature": "LYAH_NODISCARD LYAH_CONSTEXPR LYAH_INLINE lyah::vec<4, std::int64_t> LYAH_CALL lyah::degrees(lyah::vec<4, std::int64_t> a)",
-		"description": "Converts `a` to degrees and returns the result. `a` is given in radians.",
-		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/trigonometric.hpp#L15",
-		"since": "v1.1.0"
-	},
-	{
 		"signature": "LYAH_NODISCARD LYAH_CONSTEXPR LYAH_INLINE std::float_t LYAH_CALL lyah::radians(std::float_t a)",
 		"description": "Converts `a` to radians and returns the result. `a` is given in degrees.",
 		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/trigonometric.hpp#L20",
@@ -109,18 +223,6 @@
 	},
 	{
 		"signature": "LYAH_NODISCARD LYAH_CONSTEXPR LYAH_INLINE std::double_t LYAH_CALL lyah::radians(std::double_t a)",
-		"description": "Converts `a` to radians and returns the result. `a` is given in degrees.",
-		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/trigonometric.hpp#L20",
-		"since": "v1.0.0"
-	},
-	{
-		"signature": "LYAH_NODISCARD LYAH_CONSTEXPR LYAH_INLINE std::int32_t LYAH_CALL lyah::radians(std::int32_t a)",
-		"description": "Converts `a` to radians and returns the result. `a` is given in degrees.",
-		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/trigonometric.hpp#L20",
-		"since": "v1.0.0"
-	},
-	{
-		"signature": "LYAH_NODISCARD LYAH_CONSTEXPR LYAH_INLINE std::int64_t LYAH_CALL lyah::radians(std::int64 a)",
 		"description": "Converts `a` to radians and returns the result. `a` is given in degrees.",
 		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/trigonometric.hpp#L20",
 		"since": "v1.0.0"
@@ -160,24 +262,6 @@
 		"description": "Converts `a` to radians and returns the result. `a` is given in degrees.",
 		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/trigonometric.hpp#L25",
 		"since": "v1.0.0"
-	},
-	{
-		"signature": "LYAH_NODISCARD LYAH_CONSTEXPR LYAH_INLINE lyah::vec<4, std::int32_t> LYAH_CALL lyah::radians(lyah::vec<4, std::int32_t> a)",
-		"description": "Converts `a` to radians and returns the result. `a` is given in degrees.",
-		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/trigonometric.hpp#L25",
-		"since": "v1.1.0"
-	},
-	{
-		"signature": "LYAH_NODISCARD LYAH_CONSTEXPR LYAH_INLINE lyah::vec<2, std::int64_t> LYAH_CALL lyah::radians(lyah::vec<2, std::int64_t> a)",
-		"description": "Converts `a` to radians and returns the result. `a` is given in degrees.",
-		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/trigonometric.hpp#L25",
-		"since": "v1.1.0"
-	},
-	{
-		"signature": "LYAH_NODISCARD LYAH_CONSTEXPR LYAH_INLINE lyah::vec<4, std::int64_t> LYAH_CALL lyah::radians(lyah::vec<4, std::int64_t> a)",
-		"description": "Converts `a` to radians and returns the result. `a` is given in degrees.",
-		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/trigonometric.hpp#L25",
-		"since": "v1.1.0"
 	},
 	{
 		"signature": "LYAH_NODISCARD LYAH_CONSTEXPR_CPP26 LYAH_INLINE std::float_t LYAH_CALL lyah::sin(std::float_t a)",
