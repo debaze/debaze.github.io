@@ -5,7 +5,7 @@ import hljs from "../../../vendor/highlight/highlight.min.js";
  * @param {import("./loadPosts.js").Post} post
  */
 export async function loadPost(slug, post) {
-	document.title = `${post.title} ${document.title}`;
+	document.title = post.title;
 
 	const postResponse = await fetch(`blog/posts/${slug}.md`, {
 		cache: "no-store",
