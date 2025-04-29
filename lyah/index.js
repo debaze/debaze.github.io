@@ -6,11 +6,12 @@ export {};
 
 /**
  * @typedef {Object} Method
- * @property {String} signature Method signature
- * @property {String} description Method description
- * @property {String} sourceUrl Link to the method's source
- * @property {String} [instructionSet] Name of the required instruction set to use this method.
- * @property {String} since First version which introduced this method, in the form "vMAJOR.MINOR.PATCH".
+ * @property {String} signature Signature of the method.
+ * @property {String} description Short description of the method.
+ * @property {String} [sourceUrl] Link to the file containing the method's implementation.
+ * @property {String} [sourceFileUrl] Link to the file containing the method's implementation. Deprecated and replaced by `sourceUrl`.
+ * @property {String} [instructionSet] Name of the instruction set required to use this method.
+ * @property {String} since First version in which this method was introduced, in the form "vMAJOR.MINOR.PATCH".
  */
 
 /**
@@ -152,6 +153,11 @@ function getFilteredMethods() {
 		methodDescription.innerHTML = formatMethodDescription(method.description);
 		methodSourceLink.href = method.sourceUrl;
 
+		if (!method.sourceUrl) {
+			methodSourceLink.href = method.sourceFileUrl;
+			methodSourceLink.textContent = "View source file";
+		}
+
 		if (method.instructionSet) {
 			methodInstructionSet.textContent = method.instructionSet;
 		}
@@ -220,6 +226,9 @@ function onKeyDown(event) {
  */
 function formatMethodSignature(signature) {
 	let formattedSignature = signature;
+
+	// Replace LYAH_INLINE.
+	formattedSignature = formattedSignature.replace("LYAH_INLINE ", "");
 
 	// Replace LYAH_CONSTEXPR_CPP26.
 	if (cppVersion >= 2026) {
