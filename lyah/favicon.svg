@@ -1,15 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 133 133">
-	<defs>
-		<g id="glyph-y">
-			<path d="M 43.21875 -31.816406 L 73.65625 -81.097656 L 61.324219 -81.097656 L 38.21875 -41.605469 L 14.441406 -81.097656 L 1.667969 -81.097656 L 32.886719 -31.816406 L 32.886719 0 L 43.21875 0 Z M 43.21875 -31.816406" />
-		</g>
-	</defs>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-10 -10 153 153">
+	<mask id="mask">
+		<rect width="100%" height="100%" fill="#fff" />
 
-	<g fill="#adb6c4">
-		<path d="M 0 0 L 133 0 L 133 133 L 0 133 Z M 0 0" />
-	</g>
+		<path d="M 73.21875 76.183594 L 103.65625 26.902344 L 91.324219 26.902344 L 68.21875 66.394531 L 44.441406 26.902344 L 31.667969 26.902344 L 62.886719 76.183594 L 62.886719 108 L 73.21875 108 Z M 73.21875 76.183594" fill="#000" />
+	</mask>
 
-	<g fill="#001b2e">
-		<use xlink:href="#glyph-y" x="30" y="108" />
-	</g>
+	<rect width="133" height="133" mask="url(#mask)" fill="#c7c7c7" />
 </svg>
