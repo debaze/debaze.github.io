@@ -8,8 +8,7 @@ export {};
  * @typedef {Object} Method
  * @property {String} signature Signature of the method.
  * @property {String} description Short description of the method.
- * @property {String} [sourceUrl] Link to the file containing the method's implementation.
- * @property {String} [sourceFileUrl] Link to the file containing the method's implementation. Deprecated and replaced by `sourceUrl`.
+ * @property {String} sourceUrl Link to the file containing the method's implementation.
  * @property {String} [instructionSet] Name of the instruction set required to use this method.
  * @property {String} since First version in which this method was introduced, in the form "vMAJOR.MINOR.PATCH".
  */
@@ -152,11 +151,6 @@ function getFilteredMethods() {
 		methodSignature.innerHTML = highlightMethodSignature(formatMethodSignature(method.signature));
 		methodDescription.innerHTML = formatMethodDescription(method.description);
 		methodSourceLink.href = method.sourceUrl;
-
-		if (!method.sourceUrl) {
-			methodSourceLink.href = method.sourceFileUrl;
-			methodSourceLink.textContent = "View source file";
-		}
 
 		if (method.instructionSet) {
 			methodInstructionSet.textContent = method.instructionSet;
