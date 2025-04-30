@@ -1431,6 +1431,356 @@
 		"since": "v1.0.0"
 	},
 	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::vec<2, std::float_t> LYAH_CALL lyah::max(lyah::vec<2, std::float_t> a, lyah::vec<2, std::float_t> b)",
+		"description": "Returns the result of an horizontal max comparison between `a` and `b`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/vec/m128/common.ipp#L46",
+		"instructionSet": "SSE",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::vec<3, std::float_t> LYAH_CALL lyah::max(lyah::vec<3, std::float_t> a, lyah::vec<3, std::float_t> b)",
+		"description": "Returns the result of an horizontal max comparison between `a` and `b`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/vec/m128/common.ipp#L46",
+		"instructionSet": "SSE",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::vec<4, std::float_t> LYAH_CALL lyah::max(lyah::vec<4, std::float_t> a, lyah::vec<4, std::float_t> b)",
+		"description": "Returns the result of an horizontal max comparison between `a` and `b`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/vec/m128/common.ipp#L46",
+		"instructionSet": "SSE",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::vec<2, std::double_t> LYAH_CALL lyah::max(lyah::vec<2, std::double_t> a, lyah::vec<2, std::double_t> b)",
+		"description": "Returns the result of an horizontal max comparison between `a` and `b`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/vec/m128d/common.ipp#L22",
+		"instructionSet": "SSE2",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::vec<3, std::double_t> LYAH_CALL lyah::max(lyah::vec<3, std::double_t> a, lyah::vec<3, std::double_t> b)",
+		"description": "Returns the result of an horizontal max comparison between `a` and `b`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/vec/m256d/common.ipp#L7",
+		"instructionSet": "AVX",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::vec<4, std::double_t> LYAH_CALL lyah::max(lyah::vec<4, std::double_t> a, lyah::vec<4, std::double_t> b)",
+		"description": "Returns the result of an horizontal max comparison between `a` and `b`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/vec/m256d/common.ipp#L7",
+		"instructionSet": "AVX",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::vec<2, std::float_t> LYAH_CALL lyah::min(lyah::vec<2, std::float_t> a, lyah::vec<2, std::float_t> b)",
+		"description": "Returns the result of an horizontal min comparison between `a` and `b`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/vec/m128/common.ipp#L54",
+		"instructionSet": "SSE",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::vec<3, std::float_t> LYAH_CALL lyah::min(lyah::vec<3, std::float_t> a, lyah::vec<3, std::float_t> b)",
+		"description": "Returns the result of an horizontal min comparison between `a` and `b`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/vec/m128/common.ipp#L54",
+		"instructionSet": "SSE",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::vec<4, std::float_t> LYAH_CALL lyah::min(lyah::vec<4, std::float_t> a, lyah::vec<4, std::float_t> b)",
+		"description": "Returns the result of an horizontal min comparison between `a` and `b`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/vec/m128/common.ipp#L54",
+		"instructionSet": "SSE",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::vec<2, std::double_t> LYAH_CALL lyah::min(lyah::vec<2, std::double_t> a, lyah::vec<2, std::double_t> b)",
+		"description": "Returns the result of an horizontal min comparison between `a` and `b`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/vec/m128d/common.ipp#L29",
+		"instructionSet": "SSE2",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::vec<3, std::double_t> LYAH_CALL lyah::min(lyah::vec<3, std::double_t> a, lyah::vec<3, std::double_t> b)",
+		"description": "Returns the result of an horizontal min comparison between `a` and `b`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/vec/m256d/common.ipp#L15",
+		"instructionSet": "AVX",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::vec<4, std::double_t> LYAH_CALL lyah::min(lyah::vec<4, std::double_t> a, lyah::vec<4, std::double_t> b)",
+		"description": "Returns the result of an horizontal min comparison between `a` and `b`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/vec/m256d/common.ipp#L15",
+		"instructionSet": "AVX",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE std::float_t LYAH_CALL lyah::sum(lyah::vec<2, std::float_t> a)",
+		"description": "Returns the horizontal sum of `a`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/vec/m128/common.ipp#L61",
+		"instructionSet": "SSE",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE std::float_t LYAH_CALL lyah::sum(lyah::vec<3, std::float_t> a)",
+		"description": "Returns the horizontal sum of `a`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/vec/m128/common.ipp#L70",
+		"instructionSet": "SSE",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE std::float_t LYAH_CALL lyah::sum(lyah::vec<4, std::float_t> a)",
+		"description": "Returns the horizontal sum of `a`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/vec/m128/common.ipp#L70",
+		"instructionSet": "SSE",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE std::double_t LYAH_CALL lyah::sum(lyah::vec<2, std::double_t> a)",
+		"description": "Returns the horizontal sum of `a`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/vec/m128d/common.ipp#L36",
+		"instructionSet": "SSE2",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE std::double_t LYAH_CALL lyah::sum(lyah::vec<3, std::double_t> a)",
+		"description": "Returns the horizontal sum of `a`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/vec/m256d/common.ipp#L25",
+		"instructionSet": "AVX",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE std::double_t LYAH_CALL lyah::sum(lyah::vec<4, std::double_t> a)",
+		"description": "Returns the horizontal sum of `a`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/vec/m256d/common.ipp#L25",
+		"instructionSet": "AVX",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_CONSTEXPR_CPP26 LYAH_INLINE std::float_t lyah::pow(std::float_t a, std::float_t e)",
+		"description": "Returns `a` to the power of `e`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/exponential.hpp#L13",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_CONSTEXPR_CPP26 LYAH_INLINE std::double_t lyah::pow(std::double_t a, std::double_t e)",
+		"description": "Returns `a` to the power of `e`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/exponential.hpp#L9",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::vec<2, std::float_t> LYAH_CALL lyah::pow(lyah::vec<2, std::float_t> a, lyah::vec<2, std::float_t> b)",
+		"description": "Returns `a` to the power of `b`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/vec/m128/exponential.ipp#L7",
+		"instructionSet": "SSE (SVML)",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::vec<3, std::float_t> LYAH_CALL lyah::pow(lyah::vec<3, std::float_t> a, lyah::vec<3, std::float_t> b)",
+		"description": "Returns `a` to the power of `b`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/vec/m128/exponential.ipp#L7",
+		"instructionSet": "SSE (SVML)",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::vec<4, std::float_t> LYAH_CALL lyah::pow(lyah::vec<4, std::float_t> a, lyah::vec<4, std::float_t> b)",
+		"description": "Returns `a` to the power of `b`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/vec/m128/exponential.ipp#L7",
+		"instructionSet": "SSE (SVML)",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::vec<2, std::double_t> LYAH_CALL lyah::pow(lyah::vec<2, std::double_t> a, lyah::vec<2, std::double_t> b)",
+		"description": "Returns `a` to the power of `b`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/vec/m128d/exponential.ipp#L6",
+		"instructionSet": "SSE (SVML)",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::vec<3, std::double_t> LYAH_CALL lyah::pow(lyah::vec<3, std::double_t> a, lyah::vec<3, std::double_t> b)",
+		"description": "Returns `a` to the power of `b`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/vec/m256d/exponential.ipp#L7",
+		"instructionSet": "AVX (SVML)",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::vec<4, std::double_t> LYAH_CALL lyah::pow(lyah::vec<4, std::double_t> a, lyah::vec<4, std::double_t> b)",
+		"description": "Returns `a` to the power of `b`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/vec/m256d/exponential.ipp#L7",
+		"instructionSet": "AVX (SVML)",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_CONSTEXPR LYAH_INLINE std::float_t LYAH_CALL lyah::rcp(std::float_t a)",
+		"description": "Returns the reciprocal of `a`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/exponential.hpp#L18",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_CONSTEXPR LYAH_INLINE std::double_t LYAH_CALL lyah::rcp(std::double_t a)",
+		"description": "Returns the reciprocal of `a`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/exponential.hpp#L18",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::vec<2, std::float_t> LYAH_CALL lyah::rcp(lyah::vec<2, std::float_t> a)",
+		"description": "Returns the reciprocal of `a`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/vec/m128/exponential.ipp#L15",
+		"instructionSet": "SSE",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::vec<3, std::float_t> LYAH_CALL lyah::rcp(lyah::vec<3, std::float_t> a)",
+		"description": "Returns the reciprocal of `a`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/vec/m128/exponential.ipp#L15",
+		"instructionSet": "SSE",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::vec<4, std::float_t> LYAH_CALL lyah::rcp(lyah::vec<4, std::float_t> a)",
+		"description": "Returns the reciprocal of `a`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/vec/m128/exponential.ipp#L15",
+		"instructionSet": "SSE",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::vec<2, std::double_t> LYAH_CALL lyah::rcp(lyah::vec<2, std::double_t> a)",
+		"description": "Returns the reciprocal of `a`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/exponential.hpp#L23",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::vec<3, std::double_t> LYAH_CALL lyah::rcp(lyah::vec<3, std::double_t> a)",
+		"description": "Returns the reciprocal of `a`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/exponential.hpp#L23",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::vec<4, std::double_t> LYAH_CALL lyah::rcp(lyah::vec<4, std::double_t> a)",
+		"description": "Returns the reciprocal of `a`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/exponential.hpp#L23",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_CONSTEXPR_CPP26 LYAH_INLINE std::float_t lyah::sqrt(std::float_t a)",
+		"description": "Returns the square root of `a`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/exponential.hpp#L27",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_CONSTEXPR_CPP26 LYAH_INLINE std::double_t lyah::sqrt(std::double_t a)",
+		"description": "Returns the square root of `a`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/exponential.hpp#L31",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::vec<2, std::float_t> LYAH_CALL lyah::sqrt(lyah::vec<2, std::float_t> a)",
+		"description": "Returns the square root of `a`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/vec/m128/exponential.ipp#L23",
+		"instructionSet": "SSE",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::vec<3, std::float_t> LYAH_CALL lyah::sqrt(lyah::vec<3, std::float_t> a)",
+		"description": "Returns the square root of `a`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/vec/m128/exponential.ipp#L23",
+		"instructionSet": "SSE",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::vec<4, std::float_t> LYAH_CALL lyah::sqrt(lyah::vec<4, std::float_t> a)",
+		"description": "Returns the square root of `a`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/vec/m128/exponential.ipp#L23",
+		"instructionSet": "SSE",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::vec<2, std::double_t> LYAH_CALL lyah::sqrt(lyah::vec<2, std::double_t> a)",
+		"description": "Returns the square root of `a`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/vec/m128d/exponential.ipp#L13",
+		"instructionSet": "SSE2",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::vec<3, std::double_t> LYAH_CALL lyah::sqrt(lyah::vec<3, std::double_t> a)",
+		"description": "Returns the square root of `a`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/vec/m256d/exponential.ipp#L15",
+		"instructionSet": "AVX",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::vec<4, std::double_t> LYAH_CALL lyah::sqrt(lyah::vec<4, std::double_t> a)",
+		"description": "Returns the square root of `a`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/vec/m256d/exponential.ipp#L15",
+		"instructionSet": "AVX",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_CONSTEXPR LYAH_INLINE std::float_t LYAH_CALL lyah::rsqrt(std::float_t a)",
+		"description": "Returns the reciprocal square root of `a`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/exponential.hpp#L36",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_CONSTEXPR LYAH_INLINE std::double_t LYAH_CALL lyah::rsqrt(std::double_t a)",
+		"description": "Returns the reciprocal square root of `a`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/exponential.hpp#L36",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::vec<2, std::float_t> LYAH_CALL lyah::rsqrt(lyah::vec<2, std::float_t> a)",
+		"description": "Returns the reciprocal square root of `a`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/vec/m128/exponential.ipp#L31",
+		"instructionSet": "SSE",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::vec<3, std::float_t> LYAH_CALL lyah::rsqrt(lyah::vec<3, std::float_t> a)",
+		"description": "Returns the reciprocal square root of `a`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/vec/m128/exponential.ipp#L31",
+		"instructionSet": "SSE",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::vec<4, std::float_t> LYAH_CALL lyah::rsqrt(lyah::vec<4, std::float_t> a)",
+		"description": "Returns the reciprocal square root of `a`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/vec/m128/exponential.ipp#L31",
+		"instructionSet": "SSE",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::vec<2, std::double_t> LYAH_CALL lyah::rsqrt(lyah::vec<2, std::double_t> a)",
+		"description": "Returns the reciprocal square root of `a`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/exponential.hpp#L41",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::vec<3, std::double_t> LYAH_CALL lyah::rsqrt(lyah::vec<3, std::double_t> a)",
+		"description": "Returns the reciprocal square root of `a`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/exponential.hpp#L41",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::vec<4, std::double_t> LYAH_CALL lyah::rsqrt(lyah::vec<4, std::double_t> a)",
+		"description": "Returns the reciprocal square root of `a`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/exponential.hpp#L41",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::vec<3, std::float_t> LYAH_CALL lyah::cross(lyah::vec<3, std::float_t> a, lyah::vec<3, std::float_t> b)",
+		"description": "Returns the cross product of `a` and `b`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/vec/m128/geometric.ipp#L8",
+		"instructionSet": "SSE",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::vec<3, std::double_t> LYAH_CALL lyah::cross(lyah::vec<3, std::double_t> a, lyah::vec<3, std::double_t> b)",
+		"description": "Returns the cross product of `a` and `b`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/vec/m256d/geometric.ipp#L9",
+		"instructionSet": "AVX2",
+		"since": "v1.0.0"
+	},
+	{
 		"signature": "LYAH_NODISCARD LYAH_CONSTEXPR_CPP23 LYAH_INLINE std::float_t lyah::abs(std::float_t a)",
 		"description": "Returns the absolute value of `a`.",
 		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/common.hpp#L9",
@@ -1839,6 +2189,48 @@
 		"since": "v1.0.0"
 	},
 	{
+		"signature": "LYAH_INLINE lyah::vec<2, std::float_t> LYAH_CALL lyah::sin(lyah::vec<2, std::float_t> a) ",
+		"description": "Returns the component-wise sine of `a`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/vec/m128/trigonometric.ipp#L7",
+		"instructionSet":"SSE (SVML)",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_INLINE lyah::vec<3, std::float_t> LYAH_CALL lyah::sin(lyah::vec<3, std::float_t> a) ",
+		"description": "Returns the component-wise sine of `a`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/vec/m128/trigonometric.ipp#L7",
+		"instructionSet":"SSE (SVML)",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_INLINE lyah::vec<4, std::float_t> LYAH_CALL lyah::sin(lyah::vec<4, std::float_t> a) ",
+		"description": "Returns the component-wise sine of `a`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/vec/m128/trigonometric.ipp#L7",
+		"instructionSet":"SSE (SVML)",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_INLINE lyah::vec<2, std::double_t> LYAH_CALL lyah::sin(lyah::vec<2, std::double_t> a) ",
+		"description": "Returns the component-wise sine of `a`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/vec/m128d/trigonometric.ipp#L6",
+		"instructionSet":"SSE (SVML)",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_INLINE lyah::vec<3, std::double_t> LYAH_CALL lyah::sin(lyah::vec<3, std::double_t> a) ",
+		"description": "Returns the component-wise sine of `a`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/vec/m256d/trigonometric.ipp#L7",
+		"instructionSet":"AVX (SVML)",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_INLINE lyah::vec<4, std::double_t> LYAH_CALL lyah::sin(lyah::vec<4, std::double_t> a) ",
+		"description": "Returns the component-wise sine of `a`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/vec/m256d/trigonometric.ipp#L7",
+		"instructionSet":"AVX (SVML)",
+		"since": "v1.0.0"
+	},
+	{
 		"signature": "LYAH_NODISCARD LYAH_CONSTEXPR_CPP26 LYAH_INLINE std::float_t LYAH_CALL lyah::cos(std::float_t a)",
 		"description": "Returns the cosine of `a`. `a` is given in radians.",
 		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/trigonometric.hpp#L37",
@@ -1848,6 +2240,48 @@
 		"signature": "LYAH_NODISCARD LYAH_CONSTEXPR_CPP26 LYAH_INLINE std::double_t LYAH_CALL lyah::cos(std::double_t a)",
 		"description": "Returns the cosine of `a`. `a` is given in radians.",
 		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/trigonometric.hpp#L41",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_INLINE lyah::vec<2, std::float_t> LYAH_CALL lyah::cos(lyah::vec<2, std::float_t> a) ",
+		"description": "Returns the component-wise cosine of `a`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/vec/m128/trigonometric.ipp#L15",
+		"instructionSet":"SSE (SVML)",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_INLINE lyah::vec<3, std::float_t> LYAH_CALL lyah::cos(lyah::vec<3, std::float_t> a) ",
+		"description": "Returns the component-wise cosine of `a`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/vec/m128/trigonometric.ipp#L15",
+		"instructionSet":"SSE (SVML)",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_INLINE lyah::vec<4, std::float_t> LYAH_CALL lyah::cos(lyah::vec<4, std::float_t> a) ",
+		"description": "Returns the component-wise cosine of `a`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/vec/m128/trigonometric.ipp#L15",
+		"instructionSet":"SSE (SVML)",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_INLINE lyah::vec<2, std::double_t> LYAH_CALL lyah::cos(lyah::vec<2, std::double_t> a) ",
+		"description": "Returns the component-wise cosine of `a`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/vec/m128d/trigonometric.ipp#L13",
+		"instructionSet":"SSE (SVML)",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_INLINE lyah::vec<3, std::double_t> LYAH_CALL lyah::cos(lyah::vec<3, std::double_t> a) ",
+		"description": "Returns the component-wise cosine of `a`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/vec/m256d/trigonometric.ipp#L15",
+		"instructionSet":"AVX (SVML)",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_INLINE lyah::vec<4, std::double_t> LYAH_CALL lyah::cos(lyah::vec<4, std::double_t> a) ",
+		"description": "Returns the component-wise cosine of `a`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/vec/m256d/trigonometric.ipp#L15",
+		"instructionSet":"AVX (SVML)",
 		"since": "v1.0.0"
 	},
 	{
@@ -1863,346 +2297,45 @@
 		"since": "v1.0.0"
 	},
 	{
-		"signature": "LYAH_NODISCARD lyah::vec<2, std::float_t> LYAH_CALL lyah::max(lyah::vec<2, std::float_t> a, lyah::vec<2, std::float_t> b)",
-		"description": "Returns a 2-component 32-bit floating-point vector storing the result of an horizontal max comparison between `a` and `b`.\nRegister elements that are not part of the vectors are not masked.",
-		"sourceFileUrl": "https://github.com/debaze/lyah/blob/main/lyah/vec/m128/common.inl",
-		"instructionSet": "SSE",
+		"signature": "LYAH_INLINE lyah::vec<2, std::float_t> LYAH_CALL lyah::tan(lyah::vec<2, std::float_t> a) ",
+		"description": "Returns the component-wise tangent of `a`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/vec/m128/trigonometric.ipp#L23",
+		"instructionSet":"SSE (SVML)",
 		"since": "v1.0.0"
 	},
 	{
-		"signature": "LYAH_NODISCARD lyah::vec<2, std::float_t> LYAH_CALL lyah::min(lyah::vec<2, std::float_t> a, lyah::vec<2, std::float_t> b)",
-		"description": "Returns a 2-component 32-bit floating-point vector storing the result of an horizontal min comparison between `a` and `b`.\nRegister elements that are not part of the vectors are not masked.",
-		"sourceFileUrl": "https://github.com/debaze/lyah/blob/main/lyah/vec/m128/common.inl",
-		"instructionSet": "SSE",
+		"signature": "LYAH_INLINE lyah::vec<3, std::float_t> LYAH_CALL lyah::tan(lyah::vec<3, std::float_t> a) ",
+		"description": "Returns the component-wise tangent of `a`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/vec/m128/trigonometric.ipp#L23",
+		"instructionSet":"SSE (SVML)",
 		"since": "v1.0.0"
 	},
 	{
-		"signature": "LYAH_NODISCARD std::float_t LYAH_CALL lyah::sum(lyah::vec<2, std::float_t> a)",
-		"description": "Returns the sum of every component in `a`.",
-		"sourceFileUrl": "https://github.com/debaze/lyah/blob/main/lyah/vec/m128/common.inl",
-		"instructionSet": "SSE3",
+		"signature": "LYAH_INLINE lyah::vec<4, std::float_t> LYAH_CALL lyah::tan(lyah::vec<4, std::float_t> a) ",
+		"description": "Returns the component-wise tangent of `a`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/vec/m128/trigonometric.ipp#L23",
+		"instructionSet":"SSE (SVML)",
 		"since": "v1.0.0"
 	},
 	{
-		"signature": "LYAH_NODISCARD lyah::vec<2, std::float_t> LYAH_CALL lyah::sin(lyah::vec<2, std::float_t> a)",
-		"description": "Computes the sine of every component of `a`, then returns the result.",
-		"sourceFileUrl": "https://github.com/debaze/lyah/blob/main/lyah/vec/m128/trigonometric.inl",
-		"instructionSet": "SSE (SVML)",
+		"signature": "LYAH_INLINE lyah::vec<2, std::double_t> LYAH_CALL lyah::tan(lyah::vec<2, std::double_t> a) ",
+		"description": "Returns the component-wise tangent of `a`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/vec/m128d/trigonometric.ipp#L20",
+		"instructionSet":"SSE (SVML)",
 		"since": "v1.0.0"
 	},
 	{
-		"signature": "LYAH_NODISCARD lyah::vec<2, std::float_t> LYAH_CALL lyah::cos(lyah::vec<2, std::float_t> a)",
-		"description": "Computes the cosine of every component of `a`, then returns the result.",
-		"sourceFileUrl": "https://github.com/debaze/lyah/blob/main/lyah/vec/m128/trigonometric.inl",
-		"instructionSet": "SSE (SVML)",
+		"signature": "LYAH_INLINE lyah::vec<3, std::double_t> LYAH_CALL lyah::tan(lyah::vec<3, std::double_t> a) ",
+		"description": "Returns the component-wise tangent of `a`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/vec/m256d/trigonometric.ipp#L23",
+		"instructionSet":"AVX (SVML)",
 		"since": "v1.0.0"
 	},
 	{
-		"signature": "LYAH_NODISCARD lyah::vec<2, std::float_t> LYAH_CALL lyah::tan(lyah::vec<2, std::float_t> a)",
-		"description": "Computes the tangent of every component of `a`, then returns the result.",
-		"sourceFileUrl": "https://github.com/debaze/lyah/blob/main/lyah/vec/m128/trigonometric.inl",
-		"instructionSet": "SSE (SVML)",
-		"since": "v1.0.0"
-	},
-	{
-		"signature": "LYAH_NODISCARD lyah::vec<3, std::float_t> LYAH_CALL lyah::max(lyah::vec<3, std::float_t> a, lyah::vec<3, std::float_t> b)",
-		"description": "Returns a 3-component 32-bit floating-point vector storing the result of an horizontal max comparison between `a` and `b`.",
-		"sourceFileUrl": "https://github.com/debaze/lyah/blob/main/lyah/vec/m128/common.inl",
-		"instructionSet": "SSE",
-		"since": "v1.0.0"
-	},
-	{
-		"signature": "LYAH_NODISCARD lyah::vec<3, std::float_t> LYAH_CALL lyah::min(lyah::vec<3, std::float_t> a, lyah::vec<3, std::float_t> b)",
-		"description": "Returns a 3-component 32-bit floating-point vector storing the result of an horizontal min comparison between `a` and `b`.",
-		"sourceFileUrl": "https://github.com/debaze/lyah/blob/main/lyah/vec/m128/common.inl",
-		"instructionSet": "SSE",
-		"since": "v1.0.0"
-	},
-	{
-		"signature": "LYAH_NODISCARD std::float_t LYAH_CALL lyah::sum(lyah::vec<3, std::float_t> a)",
-		"description": "Returns the sum of every component in `a`.",
-		"sourceFileUrl": "https://github.com/debaze/lyah/blob/main/lyah/vec/m128/common.inl",
-		"instructionSet": "SSE3",
-		"since": "v1.0.0"
-	},
-	{
-		"signature": "LYAH_NODISCARD lyah::vec<3, std::float_t> LYAH_CALL lyah::cross(lyah::vec<3, std::float_t> a, lyah::vec<3, std::float_t> b)",
-		"description": "Returns the cross product of `a` and `b`.",
-		"sourceFileUrl": "https://github.com/debaze/lyah/blob/main/lyah/vec/m128/geometric.inl",
-		"instructionSet": "SSE",
-		"since": "v1.0.0"
-	},
-	{
-		"signature": "LYAH_NODISCARD lyah::vec<3, std::float_t> LYAH_CALL lyah::sin(lyah::vec<3, std::float_t> a)",
-		"description": "Computes the sine of every component of `a`, then returns the result.",
-		"sourceFileUrl": "https://github.com/debaze/lyah/blob/main/lyah/vec/m128/trigonometric.inl",
-		"instructionSet": "SSE (SVML)",
-		"since": "v1.0.0"
-	},
-	{
-		"signature": "LYAH_NODISCARD lyah::vec<3, std::float_t> LYAH_CALL lyah::cos(lyah::vec<3, std::float_t> a)",
-		"description": "Computes the cosine of every component of `a`, then returns the result.",
-		"sourceFileUrl": "https://github.com/debaze/lyah/blob/main/lyah/vec/m128/trigonometric.inl",
-		"instructionSet": "SSE (SVML)",
-		"since": "v1.0.0"
-	},
-	{
-		"signature": "LYAH_NODISCARD lyah::vec<3, std::float_t> LYAH_CALL lyah::tan(lyah::vec<3, std::float_t> a)",
-		"description": "Computes the tangent of every component of `a`, then returns the result.",
-		"sourceFileUrl": "https://github.com/debaze/lyah/blob/main/lyah/vec/m128/trigonometric.inl",
-		"instructionSet": "SSE (SVML)",
-		"since": "v1.0.0"
-	},
-	{
-		"signature": "LYAH_NODISCARD lyah::vec<4, std::float_t> LYAH_CALL lyah::max(lyah::vec<4, std::float_t> a, lyah::vec<4, std::float_t> b)",
-		"description": "Returns a 4-component 32-bit floating-point vector storing the result of an horizontal max comparison between `a` and `b`.",
-		"sourceFileUrl": "https://github.com/debaze/lyah/blob/main/lyah/vec/m128/common.inl",
-		"instructionSet": "SSE",
-		"since": "v1.0.0"
-	},
-	{
-		"signature": "LYAH_NODISCARD lyah::vec<4, std::float_t> LYAH_CALL lyah::min(lyah::vec<4, std::float_t> a, lyah::vec<4, std::float_t> b)",
-		"description": "Returns a 4-component 32-bit floating-point vector storing the result of an horizontal min comparison between `a` and `b`.",
-		"sourceFileUrl": "https://github.com/debaze/lyah/blob/main/lyah/vec/m128/common.inl",
-		"instructionSet": "SSE",
-		"since": "v1.0.0"
-	},
-	{
-		"signature": "LYAH_NODISCARD std::float_t LYAH_CALL lyah::sum(lyah::vec<4, std::float_t> a)",
-		"description": "Returns the sum of every component in `a`.",
-		"sourceFileUrl": "https://github.com/debaze/lyah/blob/main/lyah/vec/m128/common.inl",
-		"instructionSet": "SSE3",
-		"since": "v1.0.0"
-	},
-	{
-		"signature": "LYAH_NODISCARD lyah::vec<4, std::float_t> LYAH_CALL lyah::sin(lyah::vec<4, std::float_t> a)",
-		"description": "Computes the sine of every component of `a`, then returns the result.",
-		"sourceFileUrl": "https://github.com/debaze/lyah/blob/main/lyah/vec/m128/trigonometric.inl",
-		"instructionSet": "SSE (SVML)",
-		"since": "v1.0.0"
-	},
-	{
-		"signature": "LYAH_NODISCARD lyah::vec<4, std::float_t> LYAH_CALL lyah::cos(lyah::vec<4, std::float_t> a)",
-		"description": "Computes the cosine of every component of `a`, then returns the result.",
-		"sourceFileUrl": "https://github.com/debaze/lyah/blob/main/lyah/vec/m128/trigonometric.inl",
-		"instructionSet": "SSE (SVML)",
-		"since": "v1.0.0"
-	},
-	{
-		"signature": "LYAH_NODISCARD lyah::vec<4, std::float_t> LYAH_CALL lyah::tan(lyah::vec<4, std::float_t> a)",
-		"description": "Computes the tangent of every component of `a`, then returns the result.",
-		"sourceFileUrl": "https://github.com/debaze/lyah/blob/main/lyah/vec/m128/trigonometric.inl",
-		"instructionSet": "SSE (SVML)",
-		"since": "v1.0.0"
-	},
-	{
-		"signature": "LYAH_NODISCARD LYAH_CONSTEXPR_CPP26 LYAH_INLINE std::float_t lyah::pow(std::float_t a, std::float_t e)",
-		"description": "Returns `a` to the power of `e`.",
-		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/exponential.hpp#L13",
-		"since": "v1.0.0"
-	},
-	{
-		"signature": "LYAH_NODISCARD LYAH_CONSTEXPR_CPP26 LYAH_INLINE std::double_t lyah::pow(std::double_t a, std::double_t e)",
-		"description": "Returns `a` to the power of `e`.",
-		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/exponential.hpp#L9",
-		"since": "v1.0.0"
-	},
-	{
-		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::vec<2, std::float_t> LYAH_CALL lyah::pow(lyah::vec<2, std::float_t> a, lyah::vec<2, std::float_t> b)",
-		"description": "Returns `a` to the power of `b`.",
-		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/vec/m128/exponential.ipp#L7",
-		"instructionSet": "SSE (SVML)",
-		"since": "v1.0.0"
-	},
-	{
-		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::vec<3, std::float_t> LYAH_CALL lyah::pow(lyah::vec<3, std::float_t> a, lyah::vec<3, std::float_t> b)",
-		"description": "Returns `a` to the power of `b`.",
-		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/vec/m128/exponential.ipp#L7",
-		"instructionSet": "SSE (SVML)",
-		"since": "v1.0.0"
-	},
-	{
-		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::vec<4, std::float_t> LYAH_CALL lyah::pow(lyah::vec<4, std::float_t> a, lyah::vec<4, std::float_t> b)",
-		"description": "Returns `a` to the power of `b`.",
-		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/vec/m128/exponential.ipp#L7",
-		"instructionSet": "SSE (SVML)",
-		"since": "v1.0.0"
-	},
-	{
-		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::vec<2, std::double_t> LYAH_CALL lyah::pow(lyah::vec<2, std::double_t> a, lyah::vec<2, std::double_t> b)",
-		"description": "Returns `a` to the power of `b`.",
-		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/vec/m128d/exponential.ipp#L6",
-		"instructionSet": "SSE (SVML)",
-		"since": "v1.0.0"
-	},
-	{
-		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::vec<3, std::double_t> LYAH_CALL lyah::pow(lyah::vec<3, std::double_t> a, lyah::vec<3, std::double_t> b)",
-		"description": "Returns `a` to the power of `b`.",
-		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/vec/m256d/exponential.ipp#L7",
-		"instructionSet": "AVX (SVML)",
-		"since": "v1.0.0"
-	},
-	{
-		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::vec<4, std::double_t> LYAH_CALL lyah::pow(lyah::vec<4, std::double_t> a, lyah::vec<4, std::double_t> b)",
-		"description": "Returns `a` to the power of `b`.",
-		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/vec/m256d/exponential.ipp#L7",
-		"instructionSet": "AVX (SVML)",
-		"since": "v1.0.0"
-	},
-	{
-		"signature": "LYAH_NODISCARD LYAH_CONSTEXPR LYAH_INLINE std::float_t LYAH_CALL lyah::rcp(std::float_t a)",
-		"description": "Returns the reciprocal of `a`.",
-		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/exponential.hpp#L18",
-		"since": "v1.0.0"
-	},
-	{
-		"signature": "LYAH_NODISCARD LYAH_CONSTEXPR LYAH_INLINE std::double_t LYAH_CALL lyah::rcp(std::double_t a)",
-		"description": "Returns the reciprocal of `a`.",
-		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/exponential.hpp#L18",
-		"since": "v1.0.0"
-	},
-	{
-		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::vec<2, std::float_t> LYAH_CALL lyah::rcp(lyah::vec<2, std::float_t> a)",
-		"description": "Returns the reciprocal of `a`.",
-		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/vec/m128/exponential.ipp#L15",
-		"instructionSet": "SSE",
-		"since": "v1.0.0"
-	},
-	{
-		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::vec<3, std::float_t> LYAH_CALL lyah::rcp(lyah::vec<3, std::float_t> a)",
-		"description": "Returns the reciprocal of `a`.",
-		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/vec/m128/exponential.ipp#L15",
-		"instructionSet": "SSE",
-		"since": "v1.0.0"
-	},
-	{
-		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::vec<4, std::float_t> LYAH_CALL lyah::rcp(lyah::vec<4, std::float_t> a)",
-		"description": "Returns the reciprocal of `a`.",
-		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/vec/m128/exponential.ipp#L15",
-		"instructionSet": "SSE",
-		"since": "v1.0.0"
-	},
-	{
-		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::vec<2, std::double_t> LYAH_CALL lyah::rcp(lyah::vec<2, std::double_t> a)",
-		"description": "Returns the reciprocal of `a`.",
-		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/exponential.hpp#L23",
-		"since": "v1.0.0"
-	},
-	{
-		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::vec<3, std::double_t> LYAH_CALL lyah::rcp(lyah::vec<3, std::double_t> a)",
-		"description": "Returns the reciprocal of `a`.",
-		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/exponential.hpp#L23",
-		"since": "v1.0.0"
-	},
-	{
-		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::vec<4, std::double_t> LYAH_CALL lyah::rcp(lyah::vec<4, std::double_t> a)",
-		"description": "Returns the reciprocal of `a`.",
-		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/exponential.hpp#L23",
-		"since": "v1.0.0"
-	},
-	{
-		"signature": "LYAH_NODISCARD LYAH_CONSTEXPR_CPP26 LYAH_INLINE std::float_t lyah::sqrt(std::float_t a)",
-		"description": "Returns the square root of `a`.",
-		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/exponential.hpp#L27",
-		"since": "v1.0.0"
-	},
-	{
-		"signature": "LYAH_NODISCARD LYAH_CONSTEXPR_CPP26 LYAH_INLINE std::double_t lyah::sqrt(std::double_t a)",
-		"description": "Returns the square root of `a`.",
-		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/exponential.hpp#L31",
-		"since": "v1.0.0"
-	},
-	{
-		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::vec<2, std::float_t> LYAH_CALL lyah::sqrt(lyah::vec<2, std::float_t> a)",
-		"description": "Returns the square root of `a`.",
-		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/vec/m128/exponential.ipp#L23",
-		"instructionSet": "SSE",
-		"since": "v1.0.0"
-	},
-	{
-		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::vec<3, std::float_t> LYAH_CALL lyah::sqrt(lyah::vec<3, std::float_t> a)",
-		"description": "Returns the square root of `a`.",
-		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/vec/m128/exponential.ipp#L23",
-		"instructionSet": "SSE",
-		"since": "v1.0.0"
-	},
-	{
-		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::vec<4, std::float_t> LYAH_CALL lyah::sqrt(lyah::vec<4, std::float_t> a)",
-		"description": "Returns the square root of `a`.",
-		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/vec/m128/exponential.ipp#L23",
-		"instructionSet": "SSE",
-		"since": "v1.0.0"
-	},
-	{
-		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::vec<2, std::double_t> LYAH_CALL lyah::sqrt(lyah::vec<2, std::double_t> a)",
-		"description": "Returns the square root of `a`.",
-		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/vec/m128d/exponential.ipp#L13",
-		"instructionSet": "SSE2",
-		"since": "v1.0.0"
-	},
-	{
-		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::vec<3, std::double_t> LYAH_CALL lyah::sqrt(lyah::vec<3, std::double_t> a)",
-		"description": "Returns the square root of `a`.",
-		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/vec/m256d/exponential.ipp#L15",
-		"instructionSet": "AVX",
-		"since": "v1.0.0"
-	},
-	{
-		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::vec<4, std::double_t> LYAH_CALL lyah::sqrt(lyah::vec<4, std::double_t> a)",
-		"description": "Returns the square root of `a`.",
-		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/vec/m256d/exponential.ipp#L15",
-		"instructionSet": "AVX",
-		"since": "v1.0.0"
-	},
-	{
-		"signature": "LYAH_NODISCARD LYAH_CONSTEXPR LYAH_INLINE std::float_t LYAH_CALL lyah::rsqrt(std::float_t a)",
-		"description": "Returns the reciprocal square root of `a`.",
-		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/exponential.hpp#L36",
-		"since": "v1.0.0"
-	},
-	{
-		"signature": "LYAH_NODISCARD LYAH_CONSTEXPR LYAH_INLINE std::double_t LYAH_CALL lyah::rsqrt(std::double_t a)",
-		"description": "Returns the reciprocal square root of `a`.",
-		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/exponential.hpp#L36",
-		"since": "v1.0.0"
-	},
-	{
-		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::vec<2, std::float_t> LYAH_CALL lyah::rsqrt(lyah::vec<2, std::float_t> a)",
-		"description": "Returns the reciprocal square root of `a`.",
-		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/vec/m128/exponential.ipp#L31",
-		"instructionSet": "SSE",
-		"since": "v1.0.0"
-	},
-	{
-		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::vec<3, std::float_t> LYAH_CALL lyah::rsqrt(lyah::vec<3, std::float_t> a)",
-		"description": "Returns the reciprocal square root of `a`.",
-		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/vec/m128/exponential.ipp#L31",
-		"instructionSet": "SSE",
-		"since": "v1.0.0"
-	},
-	{
-		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::vec<4, std::float_t> LYAH_CALL lyah::rsqrt(lyah::vec<4, std::float_t> a)",
-		"description": "Returns the reciprocal square root of `a`.",
-		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/vec/m128/exponential.ipp#L31",
-		"instructionSet": "SSE",
-		"since": "v1.0.0"
-	},
-	{
-		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::vec<2, std::double_t> LYAH_CALL lyah::rsqrt(lyah::vec<2, std::double_t> a)",
-		"description": "Returns the reciprocal square root of `a`.",
-		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/exponential.hpp#L41",
-		"since": "v1.0.0"
-	},
-	{
-		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::vec<3, std::double_t> LYAH_CALL lyah::rsqrt(lyah::vec<3, std::double_t> a)",
-		"description": "Returns the reciprocal square root of `a`.",
-		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/exponential.hpp#L41",
-		"since": "v1.0.0"
-	},
-	{
-		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::vec<4, std::double_t> LYAH_CALL lyah::rsqrt(lyah::vec<4, std::double_t> a)",
-		"description": "Returns the reciprocal square root of `a`.",
-		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/exponential.hpp#L41",
+		"signature": "LYAH_INLINE lyah::vec<4, std::double_t> LYAH_CALL lyah::tan(lyah::vec<4, std::double_t> a) ",
+		"description": "Returns the component-wise tangent of `a`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/vec/m256d/trigonometric.ipp#L23",
+		"instructionSet":"AVX (SVML)",
 		"since": "v1.0.0"
 	}
 ]
