@@ -292,6 +292,7 @@ function highlightMethodSignature(signature) {
 	highlightedSignature = highlightedSignature.replace("explicit", `<span class="keyword">explicit</span>`);
 	highlightedSignature = highlightedSignature.replace("noexcept", `<span class="keyword">noexcept</span>`);
 	highlightedSignature = highlightedSignature.replace("operator", `<span class="keyword">operator</span>`);
+	highlightedSignature = highlightedSignature.replace("static", `<span class="keyword">static</span>`);
 
 	// Highlight namespaces.
 	highlightedSignature = highlightedSignature.replaceAll("lyah", `<span class="namespace">lyah</span>`);

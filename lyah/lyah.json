@@ -64,63 +64,63 @@
 	},
 	{
 		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::vec<2, std::float_t>::vec(std::float_t x, std::float_t y)",
-		"description": "Creates a 2-component 32-bit floating-point vector using `x` and `y`.",
+		"description": "Creates a 2-component 32-bit floating-point vector from `x` and `y`.",
 		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/vec/vec2_m128.ipp#L9",
 		"instructionSet": "SSE",
 		"since": "v1.0.0"
 	},
 	{
 		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::vec<3, std::float_t>::vec(std::float_t x, std::float_t y, std::float_t z)",
-		"description": "Creates a 3-component 32-bit floating-point vector using `x`, `y` and `z`.",
+		"description": "Creates a 3-component 32-bit floating-point vector from `x`, `y` and `z`.",
 		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/vec/vec3_m128.ipp#L9",
 		"instructionSet": "SSE",
 		"since": "v1.0.0"
 	},
 	{
 		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::vec<4, std::float_t>::vec(std::float_t x, std::float_t y, std::float_t z, std::float_t w)",
-		"description": "Creates a 4-component 32-bit floating-point vector using `x`, `y`, `z` and `w`.",
+		"description": "Creates a 4-component 32-bit floating-point vector from `x`, `y`, `z` and `w`.",
 		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/vec/vec4_m128.ipp#L9",
 		"instructionSet": "SSE",
 		"since": "v1.0.0"
 	},
 	{
 		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::vec<2, std::double_t>::vec(std::double_t x, std::double_t y)",
-		"description": "Creates a 2-component 64-bit floating-point vector using `x` and `y`.",
+		"description": "Creates a 2-component 64-bit floating-point vector from `x` and `y`.",
 		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/vec/vec2_m128d.ipp#L9",
 		"instructionSet": "SSE2",
 		"since": "v1.0.0"
 	},
 	{
 		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::vec<3, std::double_t>::vec(std::double_t x, std::double_t y, std::double_t z)",
-		"description": "Creates a 3-component 64-bit floating-point vector using `x`, `y` and `z`.",
+		"description": "Creates a 3-component 64-bit floating-point vector from `x`, `y` and `z`.",
 		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/vec/vec3_m256d.ipp#L9",
 		"instructionSet": "AVX",
 		"since": "v1.0.0"
 	},
 	{
 		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::vec<4, std::double_t>::vec(std::double_t x, std::double_t y, std::double_t z, std::double_t w)",
-		"description": "Creates a 4-component 64-bit floating-point vector using `x`, `y`, `z` and `w`.",
+		"description": "Creates a 4-component 64-bit floating-point vector from `x`, `y`, `z` and `w`.",
 		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/vec/vec4_m256d.ipp#L9",
 		"instructionSet": "AVX",
 		"since": "v1.0.0"
 	},
 	{
 		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::vec<4, std::int32_t>::vec(std::int32_t x, std::int32_t y, std::int32_t z, std::int32_t w)",
-		"description": "Creates a 4-component 32-bit integer vector using `x`, `y`, `z` and `w`.",
+		"description": "Creates a 4-component 32-bit integer vector from `x`, `y`, `z` and `w`.",
 		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/vec/vec4_m128i.ipp#L9",
 		"instructionSet": "SSE2",
 		"since": "v1.1.0"
 	},
 	{
 		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::vec<2, std::int64_t>::vec(std::int64_t x, std::int64_t y)",
-		"description": "Creates a 2-component 64-bit integer vector using `x` and `y`.",
+		"description": "Creates a 2-component 64-bit integer vector from `x` and `y`.",
 		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/vec/vec2_m128i.ipp#L9",
 		"instructionSet": "SSE2",
 		"since": "v1.1.0"
 	},
 	{
 		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::vec<4, std::int64_t>::vec(std::int64_t x, std::int64_t y, std::int64_t z, std::int64_t w)",
-		"description": "Creates a 4-component 64-bit integer vector using `x`, `y`, `z` and `w`.",
+		"description": "Creates a 4-component 64-bit integer vector from `x`, `y`, `z` and `w`.",
 		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/vec/vec4_m256i.ipp#L9",
 		"instructionSet": "AVX",
 		"since": "v1.1.0"
@@ -441,6 +441,20 @@
 		"since": "v1.1.0"
 	},
 	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE bool LYAH_CALL lyah::operator ==(lyah::quat<std::float_t> a, lyah::quat<std::float_t> b)",
+		"description": "Returns `true` if `a` and `b` are equal, and `false` otherwise.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/quat/quat_m128.ipp#L33",
+		"instructionSet": "SSE",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE bool LYAH_CALL lyah::operator ==(lyah::quat<std::double_t> a, lyah::quat<std::double_t> b)",
+		"description": "Returns `true` if `a` and `b` are equal, and `false` otherwise.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/quat/quat_m256d.ipp#L33",
+		"instructionSet": "AVX",
+		"since": "v1.0.0"
+	},
+	{
 		"signature": "LYAH_NODISCARD LYAH_INLINE bool LYAH_CALL lyah::operator !=(lyah::vec<2, std::float_t> a, lyah::vec<2, std::float_t> b)",
 		"description": "Returns `true` if `a` and `b` aren't equal, and `false` otherwise.",
 		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/vec/m128/base.ipp#L20",
@@ -504,6 +518,20 @@
 		"since": "v1.1.0"
 	},
 	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE bool LYAH_CALL lyah::operator !=(lyah::quat<std::float_t> a, lyah::quat<std::float_t> b)",
+		"description": "Returns `true` if `a` and `b` aren't equal, and `false` otherwise.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/quat/quat_m128.ipp#L40",
+		"instructionSet": "SSE",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE bool LYAH_CALL lyah::operator !=(lyah::quat<std::double_t> a, lyah::quat<std::double_t> b)",
+		"description": "Returns `true` if `a` and `b` aren't equal, and `false` otherwise.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/quat/quat_m256d.ipp#L40",
+		"instructionSet": "AVX",
+		"since": "v1.0.0"
+	},
+	{
 		"signature": "LYAH_NODISCARD LYAH_CONSTEXPR LYAH_INLINE lyah::vec<2, std::float_t> LYAH_CALL lyah::operator +(lyah::vec<2, std::float_t> a)",
 		"description": "Returns a copy of `a`.",
 		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/vec/vec.ipp#L6",
@@ -558,6 +586,18 @@
 		"since": "v1.1.0"
 	},
 	{
+		"signature": "LYAH_NODISCARD LYAH_CONSTEXPR LYAH_INLINE lyah::quat<std::float_t> LYAH_CALL lyah::operator +(lyah::quat<std::float_t> a)",
+		"description": "Returns a copy of `a`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/quat/quat.ipp#L31",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_CONSTEXPR LYAH_INLINE lyah::quat<std::double_t> LYAH_CALL lyah::operator +(lyah::quat<std::double_t> a)",
+		"description": "Returns a copy of `a`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/quat/quat.ipp#L31",
+		"since": "v1.0.0"
+	},
+	{
 		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::vec<2, std::float_t> LYAH_CALL lyah::operator +(lyah::vec<2, std::float_t> a, lyah::vec<2, std::float_t> b)",
 		"description": "Returns the sum of `a` and `b`.",
 		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/vec/vec.ipp#L11",
@@ -610,6 +650,18 @@
 		"description": "Returns the sum of `a` and `b`.",
 		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/vec/vec.ipp#L11",
 		"since": "v1.1.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::quat<std::float_t> LYAH_CALL lyah::operator +(lyah::quat<std::float_t> a, lyah::quat<std::float_t> b)",
+		"description": "Returns a the sum of `a` and `b`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/quat/quat.ipp#L31",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::quat<std::double_t> LYAH_CALL lyah::operator +(lyah::quat<std::double_t> a, lyah::quat<std::double_t> b)",
+		"description": "Returns a the sum of `a` and `b`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/quat/quat.ipp#L31",
+		"since": "v1.0.0"
 	},
 	{
 		"signature": "LYAH_INLINE lyah::vec<2, std::float_t>& LYAH_CALL lyah::operator +=(lyah::vec<2, std::float_t>& a, lyah::vec<2, std::float_t> b)",
@@ -675,6 +727,20 @@
 		"since": "v1.1.0"
 	},
 	{
+		"signature": "LYAH_INLINE lyah::quat<std::float_t>& LYAH_CALL lyah::operator +=(lyah::quat<std::float_t>& a, lyah::quat<std::float_t> b)",
+		"description": "Sets `a` to the sum of `a` and `b`, then returns `a`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/quat/quat_m128.ipp#L55",
+		"instructionSet": "SSE",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_INLINE lyah::quat<std::double_t>& LYAH_CALL lyah::operator +=(lyah::quat<std::double_t>& a, lyah::quat<std::double_t> b)",
+		"description": "Sets `a` to the sum of `a` and `b`, then returns `a`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/quat/quat_m256d.ipp#L55",
+		"instructionSet": "AVX",
+		"since": "v1.0.0"
+	},
+	{
 		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::vec<2, std::float_t> LYAH_CALL lyah::operator -(lyah::vec<2, std::float_t> a)",
 		"description": "Returns a negated copy of `a`.",
 		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/vec/m128/base.ipp#L32",
@@ -738,67 +804,84 @@
 		"since": "v1.1.0"
 	},
 	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::quat<std::float_t> LYAH_CALL lyah::operator -(lyah::quat<std::float_t> a)",
+		"description": "Returns a negated copy of `a`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/quat/quat_m128.ipp#L48",
+		"instructionSet": "SSE",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::quat<std::double_t> LYAH_CALL lyah::operator -(lyah::quat<std::double_t> a)",
+		"description": "Returns a negated copy of `a`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/quat/quat_m256d.ipp#L48",
+		"instructionSet": "AVX",
+		"since": "v1.0.0"
+	},
+	{
 		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::vec<2, std::float_t> LYAH_CALL lyah::operator -(lyah::vec<2, std::float_t> a, lyah::vec<2, std::float_t> b)",
 		"description": "Returns the difference between `a` and `b`.",
 		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/vec/vec.ipp#L16",
-		"instructionSet": "SSE",
 		"since": "v1.0.0"
 	},
 	{
 		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::vec<3, std::float_t> LYAH_CALL lyah::operator -(lyah::vec<3, std::float_t> a, lyah::vec<3, std::float_t> b)",
 		"description": "Returns the difference between `a` and `b`.",
 		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/vec/vec.ipp#L16",
-		"instructionSet": "SSE",
 		"since": "v1.0.0"
 	},
 	{
 		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::vec<4, std::float_t> LYAH_CALL lyah::operator -(lyah::vec<4, std::float_t> a, lyah::vec<4, std::float_t> b)",
 		"description": "Returns the difference between `a` and `b`.",
 		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/vec/vec.ipp#L16",
-		"instructionSet": "SSE",
 		"since": "v1.0.0"
 	},
 	{
 		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::vec<2, std::double_t> LYAH_CALL lyah::operator -(lyah::vec<2, std::double_t> a, lyah::vec<2, std::double_t> b)",
 		"description": "Returns the difference between `a` and `b`.",
 		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/vec/vec.ipp#L16",
-		"instructionSet": "SSE2",
 		"since": "v1.0.0"
 	},
 	{
 		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::vec<3, std::double_t> LYAH_CALL lyah::operator -(lyah::vec<3, std::double_t> a, lyah::vec<3, std::double_t> b)",
 		"description": "Returns the difference between `a` and `b`.",
 		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/vec/vec.ipp#L16",
-		"instructionSet": "AVX",
 		"since": "v1.0.0"
 	},
 	{
 		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::vec<4, std::double_t> LYAH_CALL lyah::operator -(lyah::vec<4, std::double_t> a, lyah::vec<4, std::double_t> b)",
 		"description": "Returns the difference between `a` and `b`.",
 		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/vec/vec.ipp#L16",
-		"instructionSet": "AVX",
 		"since": "v1.0.0"
 	},
 	{
 		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::vec<4, std::int32_t> LYAH_CALL lyah::operator -(lyah::vec<4, std::int32_t> a, lyah::vec<4, std::int32_t> b)",
 		"description": "Returns the difference between `a` and `b`.",
 		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/vec/vec.ipp#L16",
-		"instructionSet": "SSE2",
 		"since": "v1.1.0"
 	},
 	{
 		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::vec<2, std::int64_t> LYAH_CALL lyah::operator -(lyah::vec<2, std::int64_t> a, lyah::vec<2, std::int64_t> b)",
 		"description": "Returns the difference between `a` and `b`.",
 		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/vec/vec.ipp#L16",
-		"instructionSet": "SSE2",
 		"since": "v1.1.0"
 	},
 	{
 		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::vec<4, std::int64_t> LYAH_CALL lyah::operator -(lyah::vec<4, std::int64_t> a, lyah::vec<4, std::int64_t> b)",
 		"description": "Returns the difference between `a` and `b`.",
 		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/vec/vec.ipp#L16",
-		"instructionSet": "AVX2",
 		"since": "v1.1.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::quat<std::float_t> LYAH_CALL lyah::operator -(lyah::quat<std::float_t> a, lyah::quat<std::float_t> b)",
+		"description": "Returns the difference between `a` and `b`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/quat/quat.ipp#L41",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::quat<std::double_t> LYAH_CALL lyah::operator -(lyah::quat<std::double_t> a, lyah::quat<std::double_t> b)",
+		"description": "Returns the difference between `a` and `b`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/quat/quat.ipp#L41",
+		"since": "v1.0.0"
 	},
 	{
 		"signature": "LYAH_INLINE lyah::vec<2, std::float_t>& LYAH_CALL lyah::operator -=(lyah::vec<2, std::float_t>& a, lyah::vec<2, std::float_t> b)",
@@ -864,6 +947,20 @@
 		"since": "v1.1.0"
 	},
 	{
+		"signature": "LYAH_INLINE lyah::quat<std::float_t>& LYAH_CALL lyah::operator -=(lyah::quat<std::float_t>& a, lyah::quat<std::float_t> b)",
+		"description": "Sets `a` to the difference between `a` and `b`, then returns `a`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/quat/quat_m128.ipp#L62",
+		"instructionSet": "SSE",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_INLINE lyah::quat<std::double_t>& LYAH_CALL lyah::operator -=(lyah::quat<std::double_t>& a, lyah::quat<std::double_t> b)",
+		"description": "Sets `a` to the difference between `a` and `b`, then returns `a`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/quat/quat_m256d.ipp#L62",
+		"instructionSet": "AVX",
+		"since": "v1.0.0"
+	},
+	{
 		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::vec<2, std::float_t> LYAH_CALL lyah::operator *(lyah::vec<2, std::float_t> a, std::float_t b)",
 		"description": "Returns the product of `a` and `b`.",
 		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/vec/vec.ipp#L21",
@@ -916,6 +1013,18 @@
 		"description": "Returns the product of `a` and `b`.",
 		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/vec/vec.ipp#L21",
 		"since": "v1.1.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::quat<std::float_t> LYAH_CALL lyah::operator *(lyah::quat<std::float_t> a, std::float_t b)",
+		"description": "Returns the product of `a` and `b`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/quat/quat.ipp#L46",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::quat<std::double_t> LYAH_CALL lyah::operator *(lyah::quat<std::double_t> a, std::double_t b)",
+		"description": "Returns the product of `a` and `b`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/quat/quat.ipp#L46",
+		"since": "v1.0.0"
 	},
 	{
 		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::vec<2, std::float_t> LYAH_CALL lyah::operator *(std::float_t a, lyah::vec<2, std::float_t> b)",
@@ -972,6 +1081,18 @@
 		"since": "v1.1.0"
 	},
 	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::quat<std::float_t> LYAH_CALL lyah::operator *(std::float_t a, lyah::quat<std::float_t> b)",
+		"description": "Returns the product of `a` and `b`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/quat/quat.ipp#L51",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::quat<std::double_t> LYAH_CALL lyah::operator *(std::double_t a, lyah::quat<std::double_t> b)",
+		"description": "Returns the product of `a` and `b`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/quat/quat.ipp#L51",
+		"since": "v1.0.0"
+	},
+	{
 		"signature": "LYAH_INLINE lyah::vec<2, std::float_t>& LYAH_CALL lyah::operator *=(lyah::vec<2, std::float_t>& a, std::float_t b)",
 		"description": "Sets `a` to the product of `a` and `b`, then returns `a`.",
 		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/vec/vec.ipp#L31",
@@ -1026,6 +1147,20 @@
 		"since": "v1.1.0"
 	},
 	{
+		"signature": "LYAH_INLINE lyah::quat<std::float_t>& LYAH_CALL lyah::operator *=(lyah::quat<std::float_t>& a, std::float_t b)",
+		"description": "Sets `a` to the product of `a` and `b`, then returns `a`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/quat/quat_m128.ipp#L69",
+		"instructionSet": "SSE",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_INLINE lyah::quat<std::double_t>& LYAH_CALL lyah::operator *=(lyah::quat<std::double_t>& a, std::double_t b)",
+		"description": "Sets `a` to the product of `a` and `b`, then returns `a`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/quat/quat_m256d.ipp#L69",
+		"instructionSet": "AVX",
+		"since": "v1.0.0"
+	},
+	{
 		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::vec<2, std::float_t> LYAH_CALL lyah::operator *(lyah::vec<2, std::float_t> a, lyah::vec<2, std::float_t> b)",
 		"description": "Returns the product of `a` and `b`.",
 		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/vec/vec.ipp#L38",
@@ -1078,6 +1213,72 @@
 		"description": "Returns the product of `a` and `b`.",
 		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/vec/vec.ipp#L38",
 		"since": "v1.1.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::vec<2, std::float_t> LYAH_CALL lyah::operator *(lyah::vec<2, std::float_t> a, lyah::mat<2, 2, std::float_t> b)",
+		"description": "Returns the product of `a` and `b`.\n`b` is stored in row-major order.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/vec/m128/base.ipp#L64",
+		"instructionSet": "SSE",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::vec<3, std::float_t> LYAH_CALL lyah::operator *(lyah::vec<3, std::float_t> a, lyah::mat<3, 3, std::float_t> b)",
+		"description": "Returns the product of `a` and `b`.\n`b` is stored in row-major order.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/vec/m128/base.ipp#L64",
+		"instructionSet": "SSE",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::vec<4, std::float_t> LYAH_CALL lyah::operator *(lyah::vec<4, std::float_t> a, lyah::mat<4, 4, std::float_t> b)",
+		"description": "Returns the product of `a` and `b`.\n`b` is stored in row-major order.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/vec/m128/base.ipp#L64",
+		"instructionSet": "SSE",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::vec<2, std::double_t> LYAH_CALL lyah::operator *(lyah::vec<2, std::double_t> a, lyah::mat<2, 2, std::double_t> b)",
+		"description": "Returns the product of `a` and `b`.\n`b` is stored in row-major order.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/vec/m128d/base.ipp#L49",
+		"instructionSet": "SSE2",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::vec<3, std::double_t> LYAH_CALL lyah::operator *(lyah::vec<3, std::double_t> a, lyah::mat<3, 3, std::double_t> b)",
+		"description": "Returns the product of `a` and `b`.\n`b` is stored in row-major order.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/vec/m256d/base.ipp#L62",
+		"instructionSet": "AVX",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::vec<4, std::double_t> LYAH_CALL lyah::operator *(lyah::vec<4, std::double_t> a, lyah::mat<4, 4, std::double_t> b)",
+		"description": "Returns the product of `a` and `b`.\n`b` is stored in row-major order.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/vec/m256d/base.ipp#L62",
+		"instructionSet": "AVX",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::vec<3, std::float_t> LYAH_CALL lyah::operator *(lyah::vec<3, std::float_t> a, lyah::quat<std::float_t> b)",
+		"description": "Returns the product of `a` by `b`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/vec/vec.ipp#L52",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::vec<3, std::double_t> LYAH_CALL lyah::operator *(lyah::vec<3, std::double_t> a, lyah::quat<std::double_t> b)",
+		"description": "Returns the product of `a` by `b`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/vec/vec.ipp#L52",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::quat<std::float_t> LYAH_CALL lyah::operator *(lyah::quat<std::float_t> a, lyah::quat<std::float_t> b)",
+		"description": "Returns the product of `a` and `b`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/quat/quat.ipp#L56",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::quat<std::double_t> LYAH_CALL lyah::operator *(lyah::quat<std::double_t> a, lyah::quat<std::double_t> b)",
+		"description": "Returns the product of `a` and `b`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/quat/quat.ipp#L56",
+		"since": "v1.0.0"
 	},
 	{
 		"signature": "LYAH_INLINE lyah::vec<2, std::float_t>& LYAH_CALL lyah::operator *=(lyah::vec<2, std::float_t>& a, lyah::vec<2, std::float_t> b)",
@@ -1143,48 +1344,6 @@
 		"since": "v1.1.0"
 	},
 	{
-		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::vec<2, std::float_t> LYAH_CALL lyah::operator *(lyah::vec<2, std::float_t> a, lyah::mat<2, 2, std::float_t> b)",
-		"description": "Returns the product of `a` and `b`.\n`b` is stored in row-major order.",
-		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/vec/m128/base.ipp#L64",
-		"instructionSet": "SSE",
-		"since": "v1.0.0"
-	},
-	{
-		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::vec<3, std::float_t> LYAH_CALL lyah::operator *(lyah::vec<3, std::float_t> a, lyah::mat<3, 3, std::float_t> b)",
-		"description": "Returns the product of `a` and `b`.\n`b` is stored in row-major order.",
-		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/vec/m128/base.ipp#L64",
-		"instructionSet": "SSE",
-		"since": "v1.0.0"
-	},
-	{
-		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::vec<4, std::float_t> LYAH_CALL lyah::operator *(lyah::vec<4, std::float_t> a, lyah::mat<4, 4, std::float_t> b)",
-		"description": "Returns the product of `a` and `b`.\n`b` is stored in row-major order.",
-		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/vec/m128/base.ipp#L64",
-		"instructionSet": "SSE",
-		"since": "v1.0.0"
-	},
-	{
-		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::vec<2, std::double_t> LYAH_CALL lyah::operator *(lyah::vec<2, std::double_t> a, lyah::mat<2, 2, std::double_t> b)",
-		"description": "Returns the product of `a` and `b`.\n`b` is stored in row-major order.",
-		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/vec/m128d/base.ipp#L49",
-		"instructionSet": "SSE2",
-		"since": "v1.0.0"
-	},
-	{
-		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::vec<3, std::double_t> LYAH_CALL lyah::operator *(lyah::vec<3, std::double_t> a, lyah::mat<3, 3, std::double_t> b)",
-		"description": "Returns the product of `a` and `b`.\n`b` is stored in row-major order.",
-		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/vec/m256d/base.ipp#L62",
-		"instructionSet": "AVX",
-		"since": "v1.0.0"
-	},
-	{
-		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::vec<4, std::double_t> LYAH_CALL lyah::operator *(lyah::vec<4, std::double_t> a, lyah::mat<4, 4, std::double_t> b)",
-		"description": "Returns the product of `a` and `b`.\n`b` is stored in row-major order.",
-		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/vec/m256d/base.ipp#L62",
-		"instructionSet": "AVX",
-		"since": "v1.0.0"
-	},
-	{
 		"signature": "LYAH_INLINE lyah::vec<2, std::float_t>& LYAH_CALL lyah::operator *=(lyah::vec<2, std::float_t>& a, lyah::mat<2, 2, std::float_t> b)",
 		"description": "Sets `a` to the product of `a` and `b`, then returns `a`.\n`b` is stored in row-major order.",
 		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/vec/vec.ipp#L43",
@@ -1221,18 +1380,6 @@
 		"since": "v1.0.0"
 	},
 	{
-		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::vec<3, std::float_t> LYAH_CALL lyah::operator *(lyah::vec<3, std::float_t> a, lyah::quat<std::float_t> b)",
-		"description": "Returns the product of `a` by `b`.",
-		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/vec/vec.ipp#L52",
-		"since": "v1.0.0"
-	},
-	{
-		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::vec<3, std::double_t> LYAH_CALL lyah::operator *(lyah::vec<3, std::double_t> a, lyah::quat<std::double_t> b)",
-		"description": "Returns the product of `a` by `b`.",
-		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/vec/vec.ipp#L52",
-		"since": "v1.0.0"
-	},
-	{
 		"signature": "LYAH_INLINE lyah::vec<3, std::float_t>& LYAH_CALL lyah::operator *=(lyah::vec<3, std::float_t>& a, lyah::quat<std::float_t> b)",
 		"description": "Sets `a` to the product of `a` and `b`, then returns `a`.",
 		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/vec/vec.ipp#L60",
@@ -1242,6 +1389,20 @@
 		"signature": "LYAH_INLINE lyah::vec<3, std::double_t>& LYAH_CALL lyah::operator *=(lyah::vec<3, std::double_t>& a, lyah::quat<std::double_t> b)",
 		"description": "Sets `a` to the product of `a` and `b`, then returns `a`.",
 		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/vec/vec.ipp#L60",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_INLINE lyah::quat<std::float_t>& LYAH_CALL lyah::operator *=(lyah::quat<std::float_t>& a, lyah::quat<std::float_t> b)",
+		"description": "Sets `a` to the product of `a` and `b`, then returns `a`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/quat/quat_m128.ipp#L76",
+		"instructionSet": "SSE",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_INLINE lyah::quat<std::double_t>& LYAH_CALL lyah::operator *=(lyah::quat<std::double_t>& a, lyah::quat<std::double_t> b)",
+		"description": "Sets `a` to the product of `a` and `b`, then returns `a`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/quat/quat_m256d.ipp#L76",
+		"instructionSet": "AVX2",
 		"since": "v1.0.0"
 	},
 	{
@@ -1281,6 +1442,18 @@
 		"since": "v1.0.0"
 	},
 	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::quat<std::float_t> LYAH_CALL lyah::operator /(lyah::quat<std::float_t> a, std::float_t b)",
+		"description": "Returns the product of `a` and the inverse of `b`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/quat/quat.ipp#L61",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::quat<std::double_t> LYAH_CALL lyah::operator /(lyah::quat<std::double_t> a, std::double_t b)",
+		"description": "Returns the product of `a` and the inverse of `b`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/quat/quat.ipp#L61",
+		"since": "v1.0.0"
+	},
+	{
 		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::vec<2, std::float_t> LYAH_CALL lyah::operator /(std::float_t a, lyah::vec<2, std::float_t> b)",
 		"description": "Returns the division of `a` by `b`.",
 		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/vec/vec.ipp#L70",
@@ -1314,6 +1487,18 @@
 		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::vec<4, std::double_t> LYAH_CALL lyah::operator /(std::double_t a, lyah::vec<4, std::double_t> b)",
 		"description": "Returns the division of `a` by `b`.",
 		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/vec/vec.ipp#L70",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::quat<std::float_t> LYAH_CALL lyah::operator /(std::float_t a, lyah::quat<std::float_t> b)",
+		"description": "Returns the product of `a` and the inverse of `b`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/quat/quat.ipp#L66",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::quat<std::double_t> LYAH_CALL lyah::operator /(std::double_t a, lyah::quat<std::double_t> b)",
+		"description": "Returns the product of `a` and the inverse of `b`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/quat/quat.ipp#L66",
 		"since": "v1.0.0"
 	},
 	{
@@ -1353,6 +1538,18 @@
 		"since": "v1.0.0"
 	},
 	{
+		"signature": "LYAH_INLINE lyah::quat<std::float_t>& LYAH_CALL lyah::operator /=(lyah::quat<std::float_t>& a, std::float_t b)",
+		"description": "Sets `a` to the product of `a` and the inverse of `b`, then returns `a`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/quat/quat.ipp#L71",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_INLINE lyah::quat<std::double_t>& LYAH_CALL lyah::operator /=(lyah::quat<std::double_t>& a, std::double_t b)",
+		"description": "Sets `a` to the product of `a` and the inverse of `b`, then returns `a`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/quat/quat.ipp#L71",
+		"since": "v1.0.0"
+	},
+	{
 		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::vec<2, std::float_t> LYAH_CALL lyah::operator /(lyah::vec<2, std::float_t> a, lyah::vec<2, std::float_t> b)",
 		"description": "Returns the division of `a` by `b`.",
 		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/vec/vec.ipp#L82",
@@ -1386,6 +1583,18 @@
 		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::vec<4, std::double_t> LYAH_CALL lyah::operator /(lyah::vec<4, std::double_t> a, lyah::vec<4, std::double_t> b)",
 		"description": "Returns the division of `a` by `b`.",
 		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/vec/vec.ipp#L82",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::quat<std::float_t> LYAH_CALL lyah::operator /(lyah::quat<std::float_t> a, lyah::quat<std::float_t> b)",
+		"description": "Returns the product of `a` and the inverse of `b`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/quat/quat.ipp#L76",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::quat<std::double_t> LYAH_CALL lyah::operator /(lyah::quat<std::double_t> a, lyah::quat<std::double_t> b)",
+		"description": "Returns the product of `a` and the inverse of `b`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/quat/quat.ipp#L76",
 		"since": "v1.0.0"
 	},
 	{
@@ -1428,6 +1637,18 @@
 		"description": "Sets `a` to the division of `a` by `b`, then returns `a`.",
 		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/vec/m256d/base.ipp#L79",
 		"instructionSet": "AVX",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_INLINE lyah::quat<std::float_t>& LYAH_CALL lyah::operator /=(lyah::quat<std::float_t>& a, lyah::quat<std::float_t> b)",
+		"description": "Sets `a` to the product of `a` and the inverse of `b`, then returns `a`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/quat/quat.ipp#L81",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_INLINE lyah::quat<std::double_t>& LYAH_CALL lyah::operator /=(lyah::quat<std::double_t>& a, lyah::quat<std::double_t> b)",
+		"description": "Sets `a` to the product of `a` and the inverse of `b`, then returns `a`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/quat/quat.ipp#L81",
 		"since": "v1.0.0"
 	},
 	{
@@ -1973,6 +2194,20 @@
 		"since": "v1.0.0"
 	},
 	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE std::float_t LYAH_CALL lyah::dot(lyah::quat<std::float_t> a, lyah::quat<std::float_t> b)",
+		"description": "Returns the dot product of `a` and `b`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/quat/quat_m128.ipp#L109",
+		"instructionSet": "SSE",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE std::double_t LYAH_CALL lyah::dot(lyah::quat<std::double_t> a, lyah::quat<std::double_t> b)",
+		"description": "Returns the dot product of `a` and `b`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/quat/quat_m256d.ipp#L109",
+		"instructionSet": "AVX",
+		"since": "v1.0.0"
+	},
+	{
 		"signature": "LYAH_NODISCARD LYAH_INLINE std::float_t LYAH_CALL lyah::length(lyah::vec<2, std::float_t> a)",
 		"description": "Returns the length of `a`.",
 		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/geometric.hpp#L15",
@@ -2006,6 +2241,18 @@
 		"signature": "LYAH_NODISCARD LYAH_INLINE std::double_t LYAH_CALL lyah::length(lyah::vec<4, std::double_t> a)",
 		"description": "Returns the length of `a`.",
 		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/geometric.hpp#L15",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE std::float_t LYAH_CALL lyah::length(lyah::quat<std::float_t> a)",
+		"description": "Returns the length of `a`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/quat/quat.ipp#L91",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE std::double_t LYAH_CALL lyah::length(lyah::quat<std::double_t> a",
+		"description": "Returns the length of `a`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/quat/quat.ipp#L91",
 		"since": "v1.0.0"
 	},
 	{
@@ -2078,6 +2325,18 @@
 		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::vec<4, std::double_t> LYAH_CALL lyah::normalized(lyah::vec<4, std::double_t> a)",
 		"description": "Returns a normalized copy of `a`.",
 		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/geometric.hpp#L25",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::quat<std::float_t> LYAH_CALL lyah::normalized(lyah::quat<std::float_t> a)",
+		"description": "Returns a normalized copy of `a`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/quat/quat.ipp#L96",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::quat<std::double_t> LYAH_CALL lyah::normalized(lyah::quat<std::double_t> a",
+		"description": "Returns a normalized copy of `a`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/quat/quat.ipp#L96",
 		"since": "v1.0.0"
 	},
 	{
@@ -2336,6 +2595,152 @@
 		"description": "Returns the component-wise tangent of `a`.",
 		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/vec/m256d/trigonometric.ipp#L23",
 		"instructionSet":"AVX (SVML)",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE static lyah::quat<std::float_t> lyah::quat<std::float_t>::identity()",
+		"description": "Returns a 32-bit floating-point identity quaternion.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/quat/quat.ipp#L6",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE static lyah::quat<std::double_t> lyah::quat<std::double_t>::identity()",
+		"description": "Returns a 64-bit floating-point identity quaternion.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/quat/quat.ipp#L6",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE static lyah::quat<std::float_t> lyah::quat<std::float_t>::axisAngle(lyah::vec<3, std::float_t> axis, std::float_t angle)",
+		"description": "Returns a 32-bit floating-point quaternion from `axis` and `angle`.\n`angle` is given in radians.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/quat/quat.ipp#L11",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE static lyah::quat<std::double_t> lyah::quat<std::double_t>::axisAngle(lyah::vec<3, std::double_t> axis, std::double_t angle)",
+		"description": "Returns a 64-bit floating-point quaternion from `axis` and `angle`.\n`angle` is given in radians.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/quat/quat.ipp#L11",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::quat<std::float_t>::quat()",
+		"description": "Creates a 32-bit floating-point quaternion. Values are initialized to 0.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/quat/quat_m128.ipp#L8",
+		"instructionSet": "SSE",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::quat<std::double_t>::quat()",
+		"description": "Creates a 64-bit floating-point quaternion. Values are initialized to 0.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/quat/quat_m256d.ipp#L8",
+		"instructionSet": "AVX",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::quat<std::float_t>::quat(std::float_t w, std::float_t x, std::float_t y, std::float_t z)",
+		"description": "Creates a 32-bit floating-point quaternion from `w`, `x`, `y` and `z`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/quat/quat_m128.ipp#L12",
+		"instructionSet": "SSE",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::quat<std::double_t>::quat(std::double_t w, std::double_t x, std::double_t y, std::double_t z)",
+		"description": "Creates a 64-bit floating-point quaternion from `w`, `x`, `y` and `z`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/quat/quat_m256d.ipp#L12",
+		"instructionSet": "AVX",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_CONSTEXPR LYAH_INLINE explicit lyah::quat<std::float_t>::quat(__m128 m)",
+		"description": "Creates a 32-bit floating-point quaternion from `m`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/quat/quat.ipp#L19",
+		"instructionSet": "SSE",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_CONSTEXPR LYAH_INLINE explicit lyah::quat<std::double_t>::quat(__m256d m)",
+		"description": "Creates a 64-bit floating-point quaternion from `m`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/quat/quat.ipp#L19",
+		"instructionSet": "AVX",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::quat<std::float_t>::quat(lyah::quat<std::double_t> a)",
+		"description": "Creates a 32-bit floating-point quaternion converted from `a`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/quat/quat.ipp#L23",
+		"instructionSet": "AVX",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::quat<std::double_t>::quat(lyah::quat<std::float_t> a)",
+		"description": "Creates a 64-bit floating-point quaternion converted from `a`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/quat/quat.ipp#L23",
+		"instructionSet": "AVX",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE std::float_t LYAH_CALL lyah::quat<std::float_t>::operator [](std::size_t index) const LYAH_NOEXCEPT",
+		"description": "Returns the component at `index`.\n`index` must be less than 4.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/quat/quat_m128.ipp#L15",
+		"instructionSet": "SSE",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE std::double_t LYAH_CALL lyah::quat<std::double_t>::operator [](std::size_t index) const LYAH_NOEXCEPT",
+		"description": "Returns the component at `index`.\n`index` must be less than 4.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/quat/quat_m256d.ipp#L15",
+		"instructionSet": "AVX",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE std::float_t LYAH_CALL lyah::quat<std::float_t>::w() const",
+		"description": "Returns the scalar part.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/quat/quat.ipp#L26",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE std::double_t LYAH_CALL lyah::quat<std::double_t>::w() const",
+		"description": "Returns the scalar part.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/quat/quat.ipp#L26",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::vec<3, std::float_t> LYAH_CALL lyah::quat<std::float_t>::xyz() const",
+		"description": "Returns the vector part.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/quat/quat_m128.ipp#L28",
+		"instructionSet": "SSE",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::vec<3, std::double_t> LYAH_CALL lyah::quat<std::double_t>::xyz() const",
+		"description": "Returns the vector part.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/quat/quat_m256d.ipp#L28",
+		"instructionSet": "AVX",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::quat<std::float_t> LYAH_CALL lyah::conjugate(lyah::quat<std::float_t> a)",
+		"description": "Returns the conjugate of `a`, that is, a copy of `a` with the vector part negated.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/quat/quat_m128.ipp#L102",
+		"instructionSet": "SSE",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::quat<std::double_t> LYAH_CALL lyah::conjugate(lyah::quat<std::double_t> a)",
+		"description": "Returns the conjugate of `a`, that is, a copy of `a` with the vector part negated.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/quat/quat_m256d.ipp#L102",
+		"instructionSet": "AVX",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::quat<std::float_t> LYAH_CALL lyah::inverse(lyah::quat<std::float_t> a)",
+		"description": "Returns the inverse of `a`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/quat/quat.ipp#L86",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::quat<std::double_t> LYAH_CALL lyah::inverse(lyah::quat<std::double_t> a",
+		"description": "Returns the inverse of `a`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/quat/quat.ipp#L86",
 		"since": "v1.0.0"
 	}
 ]
