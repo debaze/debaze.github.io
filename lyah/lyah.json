@@ -737,6 +737,92 @@
 		"since": "v1.1.0"
 	},
 	{
+		"signature": "LYAH_NODISCARD LYAH_CONSTEXPR LYAH_INLINE const lyah::vec<2, std::float_t>& LYAH_CALL lyah::mat<2, 2, std::float_t>::operator [](std::size_t index) const LYAH_NOEXCEPT",
+		"description": "Returns the row at `index`.\n`index` must be less than 2.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/mat/mat2x2.hpp#L35",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_CONSTEXPR LYAH_INLINE const lyah::vec<2, std::double_t>& LYAH_CALL lyah::mat<2, 2, std::double_t>::operator [](std::size_t index) const LYAH_NOEXCEPT",
+		"description": "Returns the row at `index`.\n`index` must be less than 2.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/mat/mat2x2.hpp#L35",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_CONSTEXPR LYAH_INLINE const lyah::vec<3, std::float_t>& LYAH_CALL lyah::mat<3, 3, std::float_t>::operator [](std::size_t index) const LYAH_NOEXCEPT",
+		"description": "Returns the row at `index`.\n`index` must be less than 3.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/mat/mat3x3.hpp#L77",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_CONSTEXPR LYAH_INLINE const lyah::vec<3, std::double_t>& LYAH_CALL lyah::mat<3, 3, std::double_t>::operator [](std::size_t index) const LYAH_NOEXCEPT",
+		"description": "Returns the row at `index`.\n`index` must be less than 3.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/mat/mat3x3.hpp#L77",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_CONSTEXPR LYAH_INLINE const lyah::vec<4, std::float_t>& LYAH_CALL lyah::mat<4, 4, std::float_t>::operator [](std::size_t index) const LYAH_NOEXCEPT",
+		"description": "Returns the row at `index`.\n`index` must be less than 4.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/mat/mat4x4.hpp#L102",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_CONSTEXPR LYAH_INLINE const lyah::vec<4, std::double_t>& LYAH_CALL lyah::mat<4, 4, std::double_t>::operator [](std::size_t index) const LYAH_NOEXCEPT",
+		"description": "Returns the row at `index`.\n`index` must be less than 4.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/mat/mat4x4.hpp#L102",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_CONSTEXPR LYAH_INLINE lyah::vec<2, std::float_t>& LYAH_CALL lyah::mat<2, 2, std::float_t>::operator [](std::size_t index) LYAH_NOEXCEPT",
+		"description": "Returns the row at `index`.\n`index` must be less than 2.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/mat/mat2x2.hpp#L41",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_CONSTEXPR LYAH_INLINE lyah::vec<2, std::double_t>& LYAH_CALL lyah::mat<2, 2, std::double_t>::operator [](std::size_t index) LYAH_NOEXCEPT",
+		"description": "Returns the row at `index`.\n`index` must be less than 2.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/mat/mat2x2.hpp#L41",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_CONSTEXPR LYAH_INLINE lyah::vec<3, std::float_t>& LYAH_CALL lyah::mat<3, 3, std::float_t>::operator [](std::size_t index) LYAH_NOEXCEPT",
+		"description": "Returns the row at `index`.\n`index` must be less than 3.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/mat/mat3x3.hpp#L83",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_CONSTEXPR LYAH_INLINE lyah::vec<3, std::double_t>& LYAH_CALL lyah::mat<3, 3, std::double_t>::operator [](std::size_t index) LYAH_NOEXCEPT",
+		"description": "Returns the row at `index`.\n`index` must be less than 3.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/mat/mat3x3.hpp#L83",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_CONSTEXPR LYAH_INLINE lyah::vec<4, std::float_t>& LYAH_CALL lyah::mat<4, 4, std::float_t>::operator [](std::size_t index) LYAH_NOEXCEPT",
+		"description": "Returns the row at `index`.\n`index` must be less than 4.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/mat/mat4x4.hpp#L108",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_CONSTEXPR LYAH_INLINE lyah::vec<4, std::double_t>& LYAH_CALL lyah::mat<4, 4, std::double_t>::operator [](std::size_t index) LYAH_NOEXCEPT",
+		"description": "Returns the row at `index`.\n`index` must be less than 4.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/mat/mat4x4.hpp#L108",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE std::float_t LYAH_CALL lyah::quat<std::float_t>::operator [](std::size_t index) const LYAH_NOEXCEPT",
+		"description": "Returns the component at `index`.\n`index` must be less than 4.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/quat/quat_m128.ipp#L15",
+		"instructionSet": "SSE",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE std::double_t LYAH_CALL lyah::quat<std::double_t>::operator [](std::size_t index) const LYAH_NOEXCEPT",
+		"description": "Returns the component at `index`.\n`index` must be less than 4.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/quat/quat_m256d.ipp#L15",
+		"instructionSet": "AVX",
+		"since": "v1.0.0"
+	},
+	{
 		"signature": "LYAH_NODISCARD LYAH_INLINE bool LYAH_CALL lyah::operator ==(lyah::vec<2, std::float_t> a, lyah::vec<2, std::float_t> b)",
 		"description": "Returns `true` if `a` and `b` are equal, and `false` otherwise.",
 		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/vec/m128/base.ipp#L8",
@@ -798,6 +884,42 @@
 		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/vec/m256i/base.ipp#L8",
 		"instructionSet": "AVX2",
 		"since": "v1.1.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE bool LYAH_CALL lyah::operator ==(lyah::mat<2, 2, std::float_t> a, lyah::mat<2, 2, std::float_t> b)",
+		"description": "Returns `true` if `a` and `b` are equal, and `false` otherwise.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/mat/mat.ipp#L6",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE bool LYAH_CALL lyah::operator ==(lyah::mat<2, 2, std::double_t> a, lyah::mat<2, 2, std::double_t> b)",
+		"description": "Returns `true` if `a` and `b` are equal, and `false` otherwise.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/mat/mat.ipp#L6",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE bool LYAH_CALL lyah::operator ==(lyah::mat<3, 3, std::float_t> a, lyah::mat<3, 3, std::float_t> b)",
+		"description": "Returns `true` if `a` and `b` are equal, and `false` otherwise.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/mat/mat.ipp#L6",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE bool LYAH_CALL lyah::operator ==(lyah::mat<3, 3, std::double_t> a, lyah::mat<3, 3, std::double_t> b)",
+		"description": "Returns `true` if `a` nd `b` are equal, and `false` otherwise.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/mat/mat.ipp#L6",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE bool LYAH_CALL lyah::operator ==(lyah::mat<4, 4, std::float_t> a, lyah::mat<4, 4, std::float_t> b)",
+		"description": "Returns `true` if `a` and `b` are equal, and `false` otherwise.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/mat/mat.ipp#L6",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE bool LYAH_CALL lyah::operator ==(lyah::mat<4, 4, std::double_t> a, lyah::mat<4, 4, std::double_t> b)",
+		"description": "Returns `true` if `a` and `b` are equal, and `false` otherwise.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/mat/mat.ipp#L6",
+		"since": "v1.0.0"
 	},
 	{
 		"signature": "LYAH_NODISCARD LYAH_INLINE bool LYAH_CALL lyah::operator ==(lyah::quat<std::float_t> a, lyah::quat<std::float_t> b)",
@@ -877,6 +999,42 @@
 		"since": "v1.1.0"
 	},
 	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE bool LYAH_CALL lyah::operator !=(lyah::mat<2, 2, std::float_t> a, lyah::mat<2, 2, std::float_t> b)",
+		"description": "Returns `true` if `a` and `b` aren't equal, and `false` otherwise.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/mat/mat.ipp#L17",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE bool LYAH_CALL lyah::operator !=(lyah::mat<2, 2, std::double_t> a, lyah::mat<2, 2, std::double_t> b)",
+		"description": "Returns `true` if `a` and `b` aren't equal, and `false` otherwise.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/mat/mat.ipp#L17",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE bool LYAH_CALL lyah::operator !=(lyah::mat<3, 3, std::float_t> a, lyah::mat<3, 3, std::float_t> b)",
+		"description": "Returns `true` if `a` and `b` aren't equal, and `false` otherwise.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/mat/mat.ipp#L17",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE bool LYAH_CALL lyah::operator !=(lyah::mat<3, 3, std::double_t> a, lyah::mat<3, 3, std::double_t> b)",
+		"description": "Returns `true` if `a` nd `b` aren't equal, and `false` otherwise.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/mat/mat.ipp#L17",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE bool LYAH_CALL lyah::operator !=(lyah::mat<4, 4, std::float_t> a, lyah::mat<4, 4, std::float_t> b)",
+		"description": "Returns `true` if `a` and `b` aren't equal, and `false` otherwise.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/mat/mat.ipp#L17",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE bool LYAH_CALL lyah::operator !=(lyah::mat<4, 4, std::double_t> a, lyah::mat<4, 4, std::double_t> b)",
+		"description": "Returns `true` if `a` and `b` aren't equal, and `false` otherwise.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/mat/mat.ipp#L17",
+		"since": "v1.0.0"
+	},
+	{
 		"signature": "LYAH_NODISCARD LYAH_INLINE bool LYAH_CALL lyah::operator !=(lyah::quat<std::float_t> a, lyah::quat<std::float_t> b)",
 		"description": "Returns `true` if `a` and `b` aren't equal, and `false` otherwise.",
 		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/quat/quat_m128.ipp#L40",
@@ -945,6 +1103,42 @@
 		"since": "v1.1.0"
 	},
 	{
+		"signature": "LYAH_NODISCARD LYAH_CONSTEXPR LYAH_INLINE lyah::mat<2, 2, std::float_t> LYAH_CALL lyah::operator +(lyah::mat<2, 2, std::float_t> a)",
+		"description": "Returns a copy of `a`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/mat/mat.ipp#L28",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_CONSTEXPR LYAH_INLINE lyah::mat<2, 2, std::double_t> LYAH_CALL lyah::operator +(lyah::mat<2, 2, std::double_t> a)",
+		"description": "Returns a copy of `a`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/mat/mat.ipp#L28",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_CONSTEXPR LYAH_INLINE lyah::mat<3, 3, std::float_t> LYAH_CALL lyah::operator +(lyah::mat<3, 3, std::float_t> a)",
+		"description": "Returns a copy of `a`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/mat/mat.ipp#L28",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_CONSTEXPR LYAH_INLINE lyah::mat<3, 3, std::double_t> LYAH_CALL lyah::operator +(lyah::mat<3, 3, std::double_t> a)",
+		"description": "Returns a copy of `a`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/mat/mat.ipp#L28",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_CONSTEXPR LYAH_INLINE lyah::mat<4, 4, std::float_t> LYAH_CALL lyah::operator +(lyah::mat<4, 4, std::float_t> a)",
+		"description": "Returns a copy of `a`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/mat/mat.ipp#L28",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_CONSTEXPR LYAH_INLINE lyah::mat<4, 4, std::double_t> LYAH_CALL lyah::operator +(lyah::mat<4, 4, std::double_t> a)",
+		"description": "Returns a copy of `a`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/mat/mat.ipp#L28",
+		"since": "v1.0.0"
+	},
+	{
 		"signature": "LYAH_NODISCARD LYAH_CONSTEXPR LYAH_INLINE lyah::quat<std::float_t> LYAH_CALL lyah::operator +(lyah::quat<std::float_t> a)",
 		"description": "Returns a copy of `a`.",
 		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/quat/quat.ipp#L31",
@@ -1011,14 +1205,50 @@
 		"since": "v1.1.0"
 	},
 	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::mat<2, 2, std::float_t> LYAH_CALL lyah::operator +(lyah::mat<2, 2, std::float_t> a, lyah::mat<2, 2, std::float_t> b)",
+		"description": "Returns the sum of `a` and `b`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/mat/mat.ipp#L42",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::mat<2, 2, std::double_t> LYAH_CALL lyah::operator +(lyah::mat<2, 2, std::double_t> a, lyah::mat<2, 2, std::double_t> b)",
+		"description": "Returns the sum of `a` and `b`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/mat/mat.ipp#L42",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::mat<3, 3, std::float_t> LYAH_CALL lyah::operator +(lyah::mat<3, 3, std::float_t> a, lyah::mat<3, 3, std::float_t> b)",
+		"description": "Returns the sum of `a` and `b`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/mat/mat.ipp#L42",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::mat<3, 3, std::double_t> LYAH_CALL lyah::operator +(lyah::mat<3, 3, std::double_t> a, lyah::mat<3, 3, std::double_t> b)",
+		"description": "Returns the sum of `a` and `b`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/mat/mat.ipp#L42",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::mat<4, 4, std::float_t> LYAH_CALL lyah::operator +(lyah::mat<4, 4, std::float_t> a, lyah::mat<4, 4, std::float_t> b)",
+		"description": "Returns the sum of `a` and `b`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/mat/mat.ipp#L42",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::mat<4, 4, std::double_t> LYAH_CALL lyah::operator +(lyah::mat<4, 4, std::double_t> a, lyah::mat<4, 4, std::double_t> b)",
+		"description": "Returns the sum of `a` and `b`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/mat/mat.ipp#L42",
+		"since": "v1.0.0"
+	},
+	{
 		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::quat<std::float_t> LYAH_CALL lyah::operator +(lyah::quat<std::float_t> a, lyah::quat<std::float_t> b)",
-		"description": "Returns a the sum of `a` and `b`.",
+		"description": "Returns the sum of `a` and `b`.",
 		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/quat/quat.ipp#L31",
 		"since": "v1.0.0"
 	},
 	{
 		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::quat<std::double_t> LYAH_CALL lyah::operator +(lyah::quat<std::double_t> a, lyah::quat<std::double_t> b)",
-		"description": "Returns a the sum of `a` and `b`.",
+		"description": "Return the sum of `a` and `b`.",
 		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/quat/quat.ipp#L31",
 		"since": "v1.0.0"
 	},
@@ -1084,6 +1314,42 @@
 		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/vec/m256i/base.ipp#L35",
 		"instructionSet": "AVX2",
 		"since": "v1.1.0"
+	},
+	{
+		"signature": "LYAH_INLINE lyah::mat<2, 2, std::float_t>& LYAH_CALL lyah::operator +=(lyah::mat<2, 2, std::float_t>& a, lyah::mat<2, 2, std::float_t> b)",
+		"description": "Sets `a` to the sum of `a` and `b`, then returns `a`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/mat/mat.ipp#L47",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_INLINE lyah::mat<2, 2, std::double_t>& LYAH_CALL lyah::operator +=(lyah::mat<2, 2, std::double_t>& a, lyah::mat<2, 2, std::double_t> b)",
+		"description": "Sets `a` to the sum of `a` and `b`, then returns `a`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/mat/mat.ipp#L47",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_INLINE lyah::mat<3, 3, std::float_t>& LYAH_CALL lyah::operator +=(lyah::mat<3, 3, std::float_t>& a, lyah::mat<3, 3, std::float_t> b)",
+		"description": "Sets `a` to the sum of `a` and `b`, then returns `a`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/mat/mat.ipp#L47",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_INLINE lyah::mat<3, 3, std::double_t>& LYAH_CALL lyah::operator +=(lyah::mat<3, 3, std::double_t>& a, lyah::mat<3, 3, std::double_t> b)",
+		"description": "Sets `a` to the sum of `a` and `b`, then returns `a`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/mat/mat.ipp#L47",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_INLINE lyah::mat<4, 4, std::float_t>& LYAH_CALL lyah::operator +=(lyah::mat<4, 4, std::float_t>& a, lyah::mat<4, 4, std::float_t> b)",
+		"description": "Sets `a` to the sum of `a` and `b`, then returns `a`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/mat/mat.ipp#L47",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_INLINE lyah::mat<4, 4, std::double_t>& LYAH_CALL lyah::operator +=(lyah::mat<4, 4, std::double_t>& a, lyah::mat<4, 4, std::double_t> b)",
+		"description": "Sets `a` to the sum of `a` and `b`, then returns `a`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/mat/mat.ipp#L47",
+		"since": "v1.0.0"
 	},
 	{
 		"signature": "LYAH_INLINE lyah::quat<std::float_t>& LYAH_CALL lyah::operator +=(lyah::quat<std::float_t>& a, lyah::quat<std::float_t> b)",
@@ -1163,6 +1429,42 @@
 		"since": "v1.1.0"
 	},
 	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::mat<2, 2, std::float_t> LYAH_CALL lyah::operator -(lyah::mat<2, 2, std::float_t> a)",
+		"description": "Returns a negated copy of `a`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/mat/mat.ipp#L33",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::mat<2, 2, std::double_t> LYAH_CALL lyah::operator -(lyah::mat<2, 2, std::double_t> a)",
+		"description": "Returns a negated copy of `a`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/mat/mat.ipp#L33",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::mat<3, 3, std::float_t> LYAH_CALL lyah::operator -(lyah::mat<3, 3, std::float_t> a)",
+		"description": "Returns a negated copy of `a`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/mat/mat.ipp#L33",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::mat<3, 3, std::double_t> LYAH_CALL lyah::operator -(lyah::mat<3, 3, std::double_t> a)",
+		"description": "Returns a negated copy of `a`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/mat/mat.ipp#L33",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::mat<4, 4, std::float_t> LYAH_CALL lyah::operator -(lyah::mat<4, 4, std::float_t> a)",
+		"description": "Returns a negated copy of `a`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/mat/mat.ipp#L33",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::mat<4, 4, std::double_t> LYAH_CALL lyah::operator -(lyah::mat<4, 4, std::double_t> a)",
+		"description": "Returns a negated copy of `a`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/mat/mat.ipp#L33",
+		"since": "v1.0.0"
+	},
+	{
 		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::quat<std::float_t> LYAH_CALL lyah::operator -(lyah::quat<std::float_t> a)",
 		"description": "Returns a negated copy of `a`.",
 		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/quat/quat_m128.ipp#L48",
@@ -1229,6 +1531,42 @@
 		"description": "Returns the difference between `a` and `b`.",
 		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/vec/vec.ipp#L16",
 		"since": "v1.1.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::mat<2, 2, std::float_t> LYAH_CALL lyah::operator -(lyah::mat<2, 2, std::float_t> a, lyah::mat<2, 2, std::float_t> b)",
+		"description": "Returns the difference between `a` and `b`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/mat/mat.ipp#L56",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::mat<2, 2, std::double_t> LYAH_CALL lyah::operator -(lyah::mat<2, 2, std::double_t> a, lyah::mat<2, 2, std::double_t> b)",
+		"description": "Returns the difference between `a` and `b`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/mat/mat.ipp#L56",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::mat<3, 3, std::float_t> LYAH_CALL lyah::operator -(lyah::mat<3, 3, std::float_t> a, lyah::mat<3, 3, std::float_t> b)",
+		"description": "Returns the difference between `a` and `b`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/mat/mat.ipp#L56",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::mat<3, 3, std::double_t> LYAH_CALL lyah::operator -(lyah::mat<3, 3, std::double_t> a, lyah::mat<3, 3, std::double_t> b)",
+		"description": "Returns the difference between `a` and `b`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/mat/mat.ipp#L56",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::mat<4, 4, std::float_t> LYAH_CALL lyah::operator -(lyah::mat<4, 4, std::float_t> a, lyah::mat<4, 4, std::float_t> b)",
+		"description": "Returns the difference between `a` and `b`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/mat/mat.ipp#L56",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::mat<4, 4, std::double_t> LYAH_CALL lyah::operator -(lyah::mat<4, 4, std::double_t> a, lyah::mat<4, 4, std::double_t> b)",
+		"description": "Returns the difference between `a` and `b`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/mat/mat.ipp#L56",
+		"since": "v1.0.0"
 	},
 	{
 		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::quat<std::float_t> LYAH_CALL lyah::operator -(lyah::quat<std::float_t> a, lyah::quat<std::float_t> b)",
@@ -1306,6 +1644,42 @@
 		"since": "v1.1.0"
 	},
 	{
+		"signature": "LYAH_INLINE lyah::mat<2, 2, std::float_t>& LYAH_CALL lyah::operator -=(lyah::mat<2, 2, std::float_t>& a, lyah::mat<2, 2, std::float_t> b)",
+		"description": "Sets `a` to the difference between `a` and `b`, then returns `a`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/mat/mat.ipp#L61",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_INLINE lyah::mat<2, 2, std::double_t>& LYAH_CALL lyah::operator -=(lyah::mat<2, 2, std::double_t>& a, lyah::mat<2, 2, std::double_t> b)",
+		"description": "Sets `a` to the difference between `a` and `b`, then returns `a`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/mat/mat.ipp#L61",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_INLINE lyah::mat<3, 3, std::float_t>& LYAH_CALL lyah::operator -=(lyah::mat<3, 3, std::float_t>& a, lyah::mat<3, 3, std::float_t> b)",
+		"description": "Sets `a` to the difference between `a` and `b`, then returns `a`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/mat/mat.ipp#L61",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_INLINE lyah::mat<3, 3, std::double_t>& LYAH_CALL lyah::operator -=(lyah::mat<3, 3, std::double_t>& a, lyah::mat<3, 3, std::double_t> b)",
+		"description": "Sets `a` to the difference between `a` and `b`, then returns `a`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/mat/mat.ipp#L61",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_INLINE lyah::mat<4, 4, std::float_t>& LYAH_CALL lyah::operator -=(lyah::mat<4, 4, std::float_t>& a, lyah::mat<4, 4, std::float_t> b)",
+		"description": "Sets `a` to the difference between `a` and `b`, then returns `a`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/mat/mat.ipp#L61",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_INLINE lyah::mat<4, 4, std::double_t>& LYAH_CALL lyah::operator -=(lyah::mat<4, 4, std::double_t>& a, lyah::mat<4, 4, std::double_t> b)",
+		"description": "Sets `a` to the difference between `a` and `b`, then returns `a`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/mat/mat.ipp#L61",
+		"since": "v1.0.0"
+	},
+	{
 		"signature": "LYAH_INLINE lyah::quat<std::float_t>& LYAH_CALL lyah::operator -=(lyah::quat<std::float_t>& a, lyah::quat<std::float_t> b)",
 		"description": "Sets `a` to the difference between `a` and `b`, then returns `a`.",
 		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/quat/quat_m128.ipp#L62",
@@ -1374,6 +1748,42 @@
 		"since": "v1.1.0"
 	},
 	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::mat<2, 2, std::float_t> LYAH_CALL lyah::operator *(lyah::mat<2, 2, std::float_t> a, std::float_t b)",
+		"description": "Returns the product of `a` and `b`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/mat/mat.ipp#L70",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::mat<2, 2, std::double_t> LYAH_CALL lyah::operator *(lyah::mat<2, 2, std::double_t> a, std::double_t b)",
+		"description": "Returns the product of `a` and `b`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/mat/mat.ipp#L70",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::mat<3, 3, std::float_t> LYAH_CALL lyah::operator *(lyah::mat<3, 3, std::float_t> a, std::float_t b)",
+		"description": "Returns the product of `a` and `b`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/mat/mat.ipp#L70",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::mat<3, 3, std::double_t> LYAH_CALL lyah::operator *(lyah::mat<3, 3, std::double_t> a, std::double_t b)",
+		"description": "Returns the product of `a` and `b`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/mat/mat.ipp#L70",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::mat<4, 4, std::float_t> LYAH_CALL lyah::operator *(lyah::mat<4, 4, std::float_t> a, std::float_t b)",
+		"description": "Returns the product of `a` and `b`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/mat/mat.ipp#L70",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::mat<4, 4, std::double_t> LYAH_CALL lyah::operator *(lyah::mat<4, 4, std::double_t> a, std::double_t b)",
+		"description": "Returns the product of `a` and `b`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/mat/mat.ipp#L70",
+		"since": "v1.0.0"
+	},
+	{
 		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::quat<std::float_t> LYAH_CALL lyah::operator *(lyah::quat<std::float_t> a, std::float_t b)",
 		"description": "Returns the product of `a` and `b`.",
 		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/quat/quat.ipp#L46",
@@ -1440,6 +1850,42 @@
 		"since": "v1.1.0"
 	},
 	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::mat<2, 2, std::float_t> LYAH_CALL lyah::operator *(std::float_t a, lyah::mat<2, 2, std::float_t> b)",
+		"description": "Returns the product of `a` and `b`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/mat/mat.ipp#L75",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::mat<2, 2, std::double_t> LYAH_CALL lyah::operator *(std::double_t a, lyah::mat<2, 2, std::double_t> b)",
+		"description": "Returns the product of `a` and `b`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/mat/mat.ipp#L75",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::mat<3, 3, std::float_t> LYAH_CALL lyah::operator *(std::float_t a, lyah::mat<3, 3, std::float_t> b)",
+		"description": "Returns the product of `a` and `b`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/mat/mat.ipp#L75",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::mat<3, 3, std::double_t> LYAH_CALL lyah::operator *(std::double_t a, lyah::mat<3, 3, std::double_t> b)",
+		"description": "Returns the product of `a` and `b`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/mat/mat.ipp#L75",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::mat<4, 4, std::float_t> LYAH_CALL lyah::operator *(std::float_t a, lyah::mat<4, 4, std::float_t> b)",
+		"description": "Returns the product of `a` and `b`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/mat/mat.ipp#L75",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::mat<4, 4, std::double_t> LYAH_CALL lyah::operator *(std::double_t a, lyah::mat<4, 4, std::double_t> b)",
+		"description": "Returns the product of `a` and `b`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/mat/mat.ipp#L75",
+		"since": "v1.0.0"
+	},
+	{
 		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::quat<std::float_t> LYAH_CALL lyah::operator *(std::float_t a, lyah::quat<std::float_t> b)",
 		"description": "Returns the product of `a` and `b`.",
 		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/quat/quat.ipp#L51",
@@ -1504,6 +1950,42 @@
 		"description": "Sets `a` to the product of `a` and `b`, then returns `a`.",
 		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/vec/vec.ipp#L31",
 		"since": "v1.1.0"
+	},
+	{
+		"signature": "LYAH_INLINE lyah::mat<2, 2, std::float_t>& LYAH_CALL lyah::operator *=(lyah::mat<2, 2, std::float_t>& a, std::float_t b)",
+		"description": "Sets `a` to the product of `a` and `b`, then returns `a`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/mat/mat.ipp#L80",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_INLINE lyah::mat<2, 2, std::double_t>& LYAH_CALL lyah::operator *=(lyah::mat<2, 2, std::double_t>& a, std::double_t b)",
+		"description": "Sets `a` to the product of `a` and `b`, then returns `a`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/mat/mat.ipp#L80",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_INLINE lyah::mat<3, 3, std::float_t>& LYAH_CALL lyah::operator *=(lyah::mat<3, 3, std::float_t>& a, std::float_t b)",
+		"description": "Sets `a` to the product of `a` and `b`, then returns `a`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/mat/mat.ipp#L80",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_INLINE lyah::mat<3, 3, std::double_t>& LYAH_CALL lyah::operator *=(lyah::mat<3, 3, std::double_t>& a, std::double_t b)",
+		"description": "Sets `a` to the product of `a` and `b`, then returns `a`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/mat/mat.ipp#L80",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_INLINE lyah::mat<4, 4, std::float_t>& LYAH_CALL lyah::operator *=(lyah::mat<4, 4, std::float_t>& a, std::float_t b)",
+		"description": "Sets `a` to the product of `a` and `b`, then returns `a`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/mat/mat.ipp#L80",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_INLINE lyah::mat<4, 4, std::double_t>& LYAH_CALL lyah::operator *=(lyah::mat<4, 4, std::double_t>& a, std::double_t b)",
+		"description": "Sets `a` to the product of `a` and `b`, then returns `a`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/mat/mat.ipp#L80",
+		"since": "v1.0.0"
 	},
 	{
 		"signature": "LYAH_INLINE lyah::quat<std::float_t>& LYAH_CALL lyah::operator *=(lyah::quat<std::float_t>& a, std::float_t b)",
@@ -1617,14 +2099,56 @@
 	},
 	{
 		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::vec<3, std::float_t> LYAH_CALL lyah::operator *(lyah::vec<3, std::float_t> a, lyah::quat<std::float_t> b)",
-		"description": "Returns the product of `a` by `b`.",
+		"description": "Returns the product of `a` and `b`.",
 		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/vec/vec.ipp#L52",
 		"since": "v1.0.0"
 	},
 	{
 		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::vec<3, std::double_t> LYAH_CALL lyah::operator *(lyah::vec<3, std::double_t> a, lyah::quat<std::double_t> b)",
-		"description": "Returns the product of `a` by `b`.",
+		"description": "Returns the product of `a` and `b`.",
 		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/vec/vec.ipp#L52",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::mat<2, 2, std::float_t> LYAH_CALL lyah::operator *(lyah::mat<2, 2, std::float_t> a, lyah::mat<2, 2, std::float_t> b)",
+		"description": "Returns the product of `a` and `b`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/mat/mat_m128.ipp#L67",
+		"instructionSet": "SSE",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::mat<2, 2, std::double_t> LYAH_CALL lyah::operator *(lyah::mat<2, 2, std::double_t> a, lyah::mat<2, 2, std::double_t> b)",
+		"description": "Returns the product of `a` and `b`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/mat/mat_m128d.ipp#L7",
+		"instructionSet": "SSE2",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::mat<3, 3, std::float_t> LYAH_CALL lyah::operator *(lyah::mat<3, 3, std::float_t> a, lyah::mat<3, 3, std::float_t> b)",
+		"description": "Returns the product of `a` and `b`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/mat/mat_m128.ipp#L67",
+		"instructionSet": "SSE",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::mat<3, 3, std::double_t> LYAH_CALL lyah::operator *(lyah::mat<3, 3, std::double_t> a, lyah::mat<3, 3, std::double_t> b)",
+		"description": "Returns the product of `a` and `b`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/mat/mat_m256d.ipp#L67",
+		"instructionSet": "AVX",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::mat<4, 4, std::float_t> LYAH_CALL lyah::operator *(lyah::mat<4, 4, std::float_t> a, lyah::mat<4, 4, std::float_t> b)",
+		"description": "Returns the product of `a` and `b`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/mat/mat_m128.ipp#L67",
+		"instructionSet": "SSE",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::mat<4, 4, std::double_t> LYAH_CALL lyah::operator *(lyah::mat<4, 4, std::double_t> a, lyah::mat<4, 4, std::double_t> b)",
+		"description": "Returns the product of `a` and `b`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/mat/mat_m256d.ipp#L67",
+		"instructionSet": "AVX",
 		"since": "v1.0.0"
 	},
 	{
@@ -1748,6 +2272,42 @@
 		"signature": "LYAH_INLINE lyah::vec<3, std::double_t>& LYAH_CALL lyah::operator *=(lyah::vec<3, std::double_t>& a, lyah::quat<std::double_t> b)",
 		"description": "Sets `a` to the product of `a` and `b`, then returns `a`.",
 		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/vec/vec.ipp#L60",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_INLINE lyah::mat<2, 2, std::float_t>& LYAH_CALL lyah::operator *=(lyah::mat<2, 2, std::float_t>& a, lyah::mat<2, 2, std::float_t> b)",
+		"description": "Sets `a` to the product of `a` and `b`, then returns `a`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/mat/mat.ipp#L89",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_INLINE lyah::mat<2, 2, std::double_t>& LYAH_CALL lyah::operator *=(lyah::mat<2, 2, std::double_t>& a, lyah::mat<2, 2, std::double_t> b)",
+		"description": "Sets `a` to the product of `a` and `b`, then returns `a`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/mat/mat.ipp#L89",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_INLINE lyah::mat<3, 3, std::float_t>& LYAH_CALL lyah::operator *=(lyah::mat<3, 3, std::float_t>& a, lyah::mat<3, 3, std::float_t> b)",
+		"description": "Sets `a` to the product of `a` and `b`, then returns `a`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/mat/mat.ipp#L89",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_INLINE lyah::mat<3, 3, std::double_t>& LYAH_CALL lyah::operator *=(lyah::mat<3, 3, std::double_t>& a, lyah::mat<3, 3, std::double_t> b)",
+		"description": "Sets `a` to the product of `a` and `b`, then returns `a`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/mat/mat.ipp#L89",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_INLINE lyah::mat<4, 4, std::float_t>& LYAH_CALL lyah::operator *=(lyah::mat<4, 4, std::float_t>& a, lyah::mat<4, 4, std::float_t> b)",
+		"description": "Sets `a` to the product of `a` and `b`, then returns `a`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/mat/mat.ipp#L89",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_INLINE lyah::mat<4, 4, std::double_t>& LYAH_CALL lyah::operator *=(lyah::mat<4, 4, std::double_t>& a, lyah::mat<4, 4, std::double_t> b)",
+		"description": "Sets `a` to the product of `a` and `b`, then returns `a`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/mat/mat.ipp#L89",
 		"since": "v1.0.0"
 	},
 	{
@@ -2609,7 +3169,7 @@
 		"since": "v1.0.0"
 	},
 	{
-		"signature": "LYAH_NODISCARD LYAH_INLINE std::double_t LYAH_CALL lyah::length(lyah::quat<std::double_t> a",
+		"signature": "LYAH_NODISCARD LYAH_INLINE std::double_t LYAH_CALL lyah::length(lyah::quat<std::double_t> a)",
 		"description": "Returns the length of `a`.",
 		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/quat/quat.ipp#L91",
 		"since": "v1.0.0"
@@ -2693,7 +3253,7 @@
 		"since": "v1.0.0"
 	},
 	{
-		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::quat<std::double_t> LYAH_CALL lyah::normalized(lyah::quat<std::double_t> a",
+		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::quat<std::double_t> LYAH_CALL lyah::normalized(lyah::quat<std::double_t> a)",
 		"description": "Returns a normalized copy of `a`.",
 		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/quat/quat.ipp#L96",
 		"since": "v1.0.0"
@@ -2957,20 +3517,6 @@
 		"since": "v1.0.0"
 	},
 	{
-		"signature": "LYAH_NODISCARD LYAH_INLINE std::float_t LYAH_CALL lyah::quat<std::float_t>::operator [](std::size_t index) const LYAH_NOEXCEPT",
-		"description": "Returns the component at `index`.\n`index` must be less than 4.",
-		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/quat/quat_m128.ipp#L15",
-		"instructionSet": "SSE",
-		"since": "v1.0.0"
-	},
-	{
-		"signature": "LYAH_NODISCARD LYAH_INLINE std::double_t LYAH_CALL lyah::quat<std::double_t>::operator [](std::size_t index) const LYAH_NOEXCEPT",
-		"description": "Returns the component at `index`.\n`index` must be less than 4.",
-		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/quat/quat_m256d.ipp#L15",
-		"instructionSet": "AVX",
-		"since": "v1.0.0"
-	},
-	{
 		"signature": "LYAH_NODISCARD LYAH_INLINE std::float_t LYAH_CALL lyah::quat<std::float_t>::w() const",
 		"description": "Returns the scalar part.",
 		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/quat/quat.ipp#L26",
@@ -2980,6 +3526,134 @@
 		"signature": "LYAH_NODISCARD LYAH_INLINE std::double_t LYAH_CALL lyah::quat<std::double_t>::w() const",
 		"description": "Returns the scalar part.",
 		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/quat/quat.ipp#L26",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_CONSTEXPR LYAH_INLINE std::float_t> LYAH_CALL lyah::determinant(lyah::mat<2, 2, std::float_t>)",
+		"description": "Returns the determinant of `a`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/mat/mat.ipp#L94",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_CONSTEXPR LYAH_INLINE std::double_t> LYAH_CALL lyah::determinant(lyah::mat<2, 2, std::double_t>)",
+		"description": "Returns the determinant of `a`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/mat/mat.ipp#L94",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE std::float_t> LYAH_CALL lyah::determinant(lyah::mat<3, 3, std::float_t>)",
+		"description": "Returns the determinant of `a`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/mat/mat.ipp#L99",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE std::double_t> LYAH_CALL lyah::determinant(lyah::mat<3, 3, std::double_t>)",
+		"description": "Returns the determinant of `a`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/mat/mat.ipp#L99",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE std::float_t> LYAH_CALL lyah::determinant(lyah::mat<4, 4, std::float_t>)",
+		"description": "Returns the determinant of `a`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/mat/mat.ipp#L105",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE std::double_t> LYAH_CALL lyah::determinant(lyah::mat<4, 4, std::double_t>)",
+		"description": "Returns the determinant of `a`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/mat/mat.ipp#L105",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE std::float_t> LYAH_CALL lyah::inverse(lyah::mat<2, 2, std::float_t>)",
+		"description": "Returns the inverse of `a`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/mat/mat.ipp#L128",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE std::double_t> LYAH_CALL lyah::inverse(lyah::mat<2, 2, std::double_t>)",
+		"description": "Returns the inverse of `a`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/mat/mat.ipp#L128",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE std::float_t> LYAH_CALL lyah::inverse(lyah::mat<3, 3, std::float_t>)",
+		"description": "Returns the inverse of `a`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/mat/mat_m128.ipp#L173",
+		"instructionSet": "SSE",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE std::double_t> LYAH_CALL lyah::inverse(lyah::mat<3, 3, std::double_t>)",
+		"description": "Returns the inverse of `a`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/mat/mat_m256d.ipp#L118",
+		"instructionSet": "AVX2",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE std::float_t> LYAH_CALL lyah::inverse(lyah::mat<4, 4, std::float_t>)",
+		"description": "Returns the inverse of `a`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/mat/mat.ipp#L141",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE std::double_t> LYAH_CALL lyah::inverse(lyah::mat<4, 4, std::double_t>)",
+		"description": "Returns the inverse of `a`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/mat/mat.ipp#L141",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::quat<std::float_t> LYAH_CALL lyah::inverse(lyah::quat<std::float_t> a)",
+		"description": "Returns the inverse of `a`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/quat/quat.ipp#L86",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::quat<std::double_t> LYAH_CALL lyah::inverse(lyah::quat<std::double_t> a)",
+		"description": "Returns the inverse of `a`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/quat/quat.ipp#L86",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE std::float_t> LYAH_CALL lyah::transpose(lyah::mat<2, 2, std::float_t>)",
+		"description": "Returns the transpose of `a`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/mat/mat_m128.ipp#L86",
+		"instructionSet": "SSE",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE std::double_t> LYAH_CALL lyah::transpose(lyah::mat<2, 2, std::double_t>)",
+		"description": "Returns the transpose of `a`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/mat/mat_m128d.ipp#L25",
+		"instructionSet": "SSE2",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE std::float_t> LYAH_CALL lyah::transpose(lyah::mat<3, 3, std::float_t>)",
+		"description": "Returns the transpose of `a`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/mat/mat_m128.ipp#L144",
+		"instructionSet": "SSE",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE std::double_t> LYAH_CALL lyah::transpose(lyah::mat<3, 3, std::double_t>)",
+		"description": "Returns the transpose of `a`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/mat/mat_m256d.ipp#L86",
+		"instructionSet": "AVX",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE std::float_t> LYAH_CALL lyah::transpose(lyah::mat<4, 4, std::float_t>)",
+		"description": "Returns the transpose of `a`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/mat/mat_m128.ipp#L157",
+		"instructionSet": "SSE",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE std::double_t> LYAH_CALL lyah::transpose(lyah::mat<4, 4, std::double_t>)",
+		"description": "Returns the transpose of `a`.",
+		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/mat/mat_m256d.ipp#L102",
+		"instructionSet": "AVX",
 		"since": "v1.0.0"
 	},
 	{
@@ -3008,18 +3682,6 @@
 		"description": "Returns the conjugate of `a`, that is, a copy of `a` with the vector part negated.",
 		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/quat/quat_m256d.ipp#L102",
 		"instructionSet": "AVX",
-		"since": "v1.0.0"
-	},
-	{
-		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::quat<std::float_t> LYAH_CALL lyah::inverse(lyah::quat<std::float_t> a)",
-		"description": "Returns the inverse of `a`.",
-		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/quat/quat.ipp#L86",
-		"since": "v1.0.0"
-	},
-	{
-		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::quat<std::double_t> LYAH_CALL lyah::inverse(lyah::quat<std::double_t> a",
-		"description": "Returns the inverse of `a`.",
-		"sourceUrl": "https://github.com/debaze/lyah/blob/7d2692c9172e12f4387172e0167df385f607e082/lyah/quat/quat.ipp#L86",
 		"since": "v1.0.0"
 	}
 ]
