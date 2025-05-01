@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-10 -10 153 153">
-	<mask id="mask">
-		<rect width="100%" height="100%" fill="#fff" />
-
-		<path d="M 73.21875 76.183594 L 103.65625 26.902344 L 91.324219 26.902344 L 68.21875 66.394531 L 44.441406 26.902344 L 31.667969 26.902344 L 62.886719 76.183594 L 62.886719 108 L 73.21875 108 Z M 73.21875 76.183594" fill="#000" />
-	</mask>
-
-	<rect width="133" height="133" mask="url(#mask)" fill="#c7c7c7" />
-</svg>
