@@ -50,7 +50,7 @@ a.external:hover {
 blockquote {
 	margin-left: 0;
 	padding-left: 8px;
-	border-left: 2px solid var(--text);
+	border-left: 4px solid var(--tertiary);
 }
 
 hr {
