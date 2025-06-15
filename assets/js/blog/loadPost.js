@@ -36,20 +36,20 @@ export async function loadPost(slug, post) {
 
 	let postHtml = await postResponse.text();
 
-	// Replace _ by ~
+	// Replace '_' by '~'.
 	postHtml = postHtml.replaceAll("_", "~");
 
 	// @ts-ignore
 	postHtml = new showdown.Converter().makeHtml(postHtml);
 
-	// Replace ~ by _
+	// Replace '~' by '_'.
 	postHtml = postHtml.replaceAll("~", "_");
 
-	// Tabs
+	// Replace spaces by tabs.
 	postHtml = postHtml.replaceAll("    ", "\t");
 
-	// External link
-	postHtml = postHtml.replaceAll(/<a href="(.*)">(.*)<\/a>/g, `<a href="$1" target="_blank" class="external">$2</a>`);
+	// Add .external class to links.
+	postHtml = postHtml.replaceAll(/<a href="(.*?)">(.*?)<\/a>/g, `<a href="$1" target="_blank" class="external">$2</a>`);
 
 	/**
 	 * @type {HTMLDivElement}
