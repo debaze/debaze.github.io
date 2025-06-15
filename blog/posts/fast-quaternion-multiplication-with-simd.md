@@ -9,9 +9,9 @@ However, unlike matrix multiplication, I did not found many examples. With some 
 A quaternion is typically represented as a scalar part $w$ and an vector part $(x, y, z)$. The vector part is composed of [*imaginary numbers*](https://en.wikipedia.org/wiki/Imaginary_number), that is, numbers whose square is $-1$.  
 When a quaternion has a vector part of $0$, it behaves exactly like a real number. This quaternion is called an *identity quaternion*.
 
-## The `quat` struct
+## The quaternion class
 
-The struct is just a wrapper around a SIMD data type. In our case we'll use a `__m128` for a 32-bit floating-point quaternion.
+The class is just a wrapper around a SIMD data type. In our case we'll use a `__m128` for a 32-bit floating-point quaternion.
 
 <span class="post-filename">quat.hpp</span>
 

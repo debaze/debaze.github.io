@@ -1,6 +1,7 @@
 {
 	"fast-quaternion-multiplication-with-simd": {
 		"title": "Fast Quaternion Multiplication with SIMD",
-		"publishedAt": "2025/02/13"
+		"publishedAt": "2025/02/13",
+		"lastUpdatedAt": "2025/06/15"
 	}
 }
