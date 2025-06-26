@@ -3,5 +3,9 @@
 		"title": "Fast Quaternion Multiplication with SIMD",
 		"publishedAt": "2025/02/13",
 		"lastUpdatedAt": "2025/06/15"
+	},
+	"rounded-rectangles-on-the-gpu": {
+		"title": "Rounded rectangles on the GPU",
+		"publishedAt": "2025/06/26"
 	}
 }
