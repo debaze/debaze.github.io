@@ -77,16 +77,22 @@ p:has(.post-filename) {
 
 img {
 	display: block;
-	width: 50%;
+	width: 100%;
 	margin: 0 auto;
 }
 
 figcaption {
-	width: 50%;
+	width: 100%;
 	margin: 0 auto;
 	margin-top: -12px;
 	color: var(--text-hover);
 	text-align: right;
 	font-style: italic;
 	font-size: 0.825rem;
+}
+
+@media screen and (min-width: 1000px) {
+	img, figcaption {
+		width: 50%;
+	}
 }
