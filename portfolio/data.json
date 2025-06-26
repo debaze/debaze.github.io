@@ -417,7 +417,7 @@
 				},
 				{
 					"name": "Lyah",
-					"sourceUrl": "https://github.com/debaze/lyah",
+					"sourceUrl": "https://github.com/atalantestudio/lyah",
 					"description": "Mathématiques vectorielles (SIMD)",
 					"categoryIds": [9],
 					"technologyIds": [26]

@@ -1,4 +1,4 @@
-It's been a few months now since I started working on my <s>upcoming</s> project, [Lyah](https://github.com/debaze/lyah) - a C++ maths library for graphics programming.  
+It's been a few months now since I started working on my <s>upcoming</s> project, [Lyah](https://github.com/atalantestudio/lyah) - a C++ maths library for graphics programming.  
 While Lyah is exclusively written with SIMD, I tried to target fully supported instruction sets. Since the [Steam Hardware & Software Survey](https://store.steampowered.com/hwsurvey) reports 100% support for both SSE2 and SSE3, I've set them as my upper limit for 32-bit implementations.
 
 Recently, I've been searching a method to do fast quaternion multiplication with SIMD.
@@ -192,7 +192,7 @@ The reference respectively took $\approx$ 197ms and $\approx$ 280ms on the same 
 
 ## Conclusion
 
-Thank you for reading. You can find the full code in Appendix 1 (along with the `quat` struct we made earlier). For other quaternion operations, you can check out [Lyah](https://github.com/debaze/lyah), which also provides vector and matrix implementations.
+Thank you for reading. You can find the full code in Appendix 1 (along with the `quat` struct we made earlier). For other quaternion operations, you can check out [Lyah](https://github.com/atalantestudio/lyah), which also provides vector and matrix implementations.
 
 ## Sources
 
