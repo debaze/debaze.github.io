@@ -2,7 +2,7 @@
  * @param {Record<String, import("./loadPosts.js").Post>} posts
  */
 export function loadBlog(posts) {
-	const postEntries = Object.entries(posts);
+	const postEntries = Object.entries(posts).reverse();
 
 	/**
 	 * @type {HTMLTemplateElement}
