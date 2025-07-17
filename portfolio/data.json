@@ -18,7 +18,7 @@
 		{
 			"id": 3,
 			"name": "ARKit",
-			"iconSrc": "assets/images/arkit.jpg"
+			"iconSrc": "assets/images/arkit.webp"
 		},
 		{
 			"id": 4,
@@ -53,7 +53,7 @@
 		{
 			"id": 10,
 			"name": "WordPress",
-			"iconSrc": "assets/images/wordpress.svg"
+			"iconSrc": "assets/images/wordpress.png"
 		},
 		{
 			"id": 11,
@@ -77,8 +77,8 @@
 		},
 		{
 			"id": 15,
-			"name": "Vite",
-			"iconSrc": "assets/images/vite.svg"
+			"name": "Hibernate",
+			"iconSrc": "assets/images/hibernate.svg"
 		},
 		{
 			"id": 16,
@@ -102,8 +102,8 @@
 		},
 		{
 			"id": 20,
-			"name": "Sass",
-			"iconSrc": "assets/images/sass.svg"
+			"name": "Grapes.js",
+			"iconSrc": "assets/images/grapesjs.ico"
 		},
 		{
 			"id": 21,
@@ -116,14 +116,14 @@
 			"iconSrc": "assets/images/webgl.svg"
 		},
 		{
-			"id": 23,
-			"name": "C#",
-			"iconSrc": "assets/images/csharp.svg"
-		},
-		{
 			"id": 24,
 			"name": "Java",
 			"iconSrc": "assets/images/java.svg"
+		},
+		{
+			"id": 25,
+			"name": "Windows",
+			"iconSrc": "assets/images/windows.svg"
 		},
 		{
 			"id": 26,
@@ -144,60 +144,11 @@
 			"id": 29,
 			"name": "WebGPU",
 			"iconSrc": "assets/images/webgpu.svg"
-		}
-	],
-	"projectCategories": [
-		{
-			"id": 0,
-			"name": "Android"
 		},
 		{
-			"id": 1,
-			"name": "iOS"
-		},
-		{
-			"id": 2,
-			"name": "Web"
-		},
-		{
-			"id": 3,
-			"name": "Front-office"
-		},
-		{
-			"id": 4,
-			"name": "Back-office"
-		},
-		{
-			"id": 5,
-			"name": "Site vitrine"
-		},
-		{
-			"id": 6,
-			"name": "E-commerce"
-		},
-		{
-			"id": 7,
-			"name": "SPA"
-		},
-		{
-			"id": 8,
-			"name": "API"
-		},
-		{
-			"id": 9,
-			"name": "Librairie"
-		},
-		{
-			"id": 10,
-			"name": "Démo"
-		},
-		{
-			"id": 11,
-			"name": "Jeu"
-		},
-		{
-			"id": 12,
-			"name": "Mod"
+			"id": 30,
+			"name": "Google Charts",
+			"iconSrc": "assets/images/googlecharts.png"
 		}
 	],
 	"professionalExperiences": [
@@ -208,65 +159,115 @@
 			"projects": [
 				{
 					"name": "Keole Agency",
-					"url": "https://app.keole.agency",
-					"description": "Application interne de gestion de projet",
-					"categoryIds": [2, 4],
+					"siteUrl": "https://app.keole.agency",
+					"description": "Application interne de gestion de projet. J'ai travaillé sur le front-office et le back-office.",
+					"missions": [
+						"Développement d'un système de tickets avec messagerie en ligne entre le(s) client(s) et l'équipe",
+						"Développement d'un système de documentations internes",
+						"Design d'un nouveau template pour les emails support",
+						"Conception de la base de données",
+						"Intégration de maquettes",
+						"Maintenance du code",
+						"Revue de code"
+					],
 					"technologyIds": [0]
 				},
 				{
 					"name": "Qualy Avocats",
-					"url": "https://app.qualy-avocats.fr",
-					"description": "Cabinet d'avocats",
-					"categoryIds": [2, 3, 4],
-					"technologyIds": [20, 1, 0]
+					"siteUrl": "https://app.qualy-avocats.fr",
+					"description": "Cabinet d'avocats situé à Lattes. J'ai travaillé sur le front-office et le back-office.",
+					"missions": [
+						"Développement d'un système de transmission de documents entre client et avocat avec explorateur de fichiers",
+						"Intégration de maquettes",
+						"Gestion du responsive"
+					],
+					"technologyIds": [1, 0]
 				},
 				{
 					"name": "Catam's",
-					"url": "https://www.catams.com",
-					"description": "Spécialiste multicoques",
-					"categoryIds": [2, 3, 4],
+					"siteUrl": "https://www.catams.com",
+					"description": "Vente de catamarans d'exception. J'ai travaillé sur le front-office et le back-office.",
+					"missions": [
+						"Développement d'un système de synchronisation entre un fichier Decisoft fourni par le client et la base de données du back-office",
+						"Implémentation des filtres de recherche",
+						"Gestion du responsive"
+					],
 					"technologyIds": [0]
 				},
 				{
 					"name": "VTT 2 ALPES",
-					"url": "https://www.vtt-2alpes.com",
-					"description": "Location de VTTs",
-					"categoryIds": [2, 3, 4],
-					"technologyIds": [0]
+					"siteUrl": "https://www.vtt-2alpes.com",
+					"description": "Location de VTT et autres accessoires à la station Les 2 Alpes. J'ai travaillé sur le back-office.",
+					"missions": [
+						"Développement d'un planning de réservation interactif dans le back-office",
+						"Conception de la base de données"
+					],
+					"technologyIds": [10, 0]
 				},
 				{
 					"name": "Oxygène Répit",
-					"url": "https://repit-aidants-grandest.fr/oxygene-repit-54",
-					"description": "Plateforme d'accompagnement aux aidants de personnes en situation de handicap",
-					"categoryIds": [2, 3, 4],
-					"technologyIds": [0]
+					"siteUrl": "https://repit-aidants-grandest.fr/oxygene-repit-54",
+					"description": "Plateforme d'accompagnement aux aidants de personnes en situation de handicap. J'ai travaillé sur le back-office.",
+					"missions": [
+						"Développement d'une librairie de génération de graphiques pour exports PDF",
+						"Développement d'une messagerie entre aidants et coordinateurs"
+					],
+					"technologyIds": [10, 0, 30]
 				},
 				{
-					"name": "Eyematch",
-					"url": "https://lamaisondelavision.com/eyematch-choisir-lunettes",
-					"description": "Recherche de montures adaptées grâce à la réalité augmentée",
-					"categoryIds": [1, 2, 4],
+					"name": "Eyematch (La Maison de la Vision)",
+					"siteUrl": "https://lamaisondelavision.com/eyematch-choisir-lunettes",
+					"description": "Recherche de montures adaptées grâce à la réalité augmentée. J'ai travaillé sur l'application iOS et le back-office.",
+					"missions": [
+						"Calcul de la largeur du visage et de l'écart pupillaire avec Apple ARKit",
+						"Conception de la base de données",
+						"Intégration de maquettes",
+						"Maintenance du code",
+						"Revue de code"
+					],
 					"technologyIds": [2, 3, 0]
 				},
 				{
 					"name": "ViaLearn Moto",
-					"url": "https://www.vialearnmoto.fr",
-					"description": "Préparation du code moto",
-					"categoryIds": [0, 1, 2, 6, 4],
-					"technologyIds": [2, 4, 0]
+					"siteUrl": "https://www.vialearnmoto.fr",
+					"description": "Préparation du code moto via des cours interactifs, des tests et des examens blancs. J'ai travaillé sur l'application web, Android et iOS, ainsi que le back-office.",
+					"missions": [
+						"Développement d'une messagerie entre les utilisateurs et les formateurs",
+						"Développement d'un lecteur vidéo pour les séries de tests",
+						"Développement d'un système d'abonnement avec Stripe",
+						"Conception de la base de données",
+						"Intégration de maquettes",
+						"Gestion du responsive",
+						"Maintenance du code",
+						"Revue de code"
+					],
+					"technologyIds": [10, 2, 4, 0]
 				},
 				{
-					"name": "FFSA (refonte)",
-					"url": "https://www.ffsa.org",
-					"description": "Fédération Française du Sport Automobile",
-					"categoryIds": [2, 3, 4],
-					"technologyIds": [20, 1, 5, 0, 6]
+					"name": "FFSA",
+					"siteUrl": "https://www.ffsa.org",
+					"description": "Refonte du site de la Fédération Française du Sport Automobile. J'ai travaillé sur le front-office et le back-office.",
+					"missions": [
+						"Développement des tableaux de bords licencié/passionné/journaliste avec graphiques",
+						"Développement d'un système de création et d'administration de pages avec Grapes.js",
+						"Développement du calendrier des épreuves et du tableau des résultats",
+						"Développement de la section des disciplines automobiles",
+						"Conception de la base de données",
+						"Design de composants UI",
+						"Intégration de maquettes",
+						"Gestion du responsive",
+						"Maintenance du code",
+						"Revue de code"
+					],
+					"technologyIds": [1, 5, 0, 20, 6]
 				},
 				{
-					"name": "Groupement ACP (refonte)",
-					"url": "https://acpartenaire.fr",
-					"description": "Cabinet de courtiers d'assurance",
-					"categoryIds": [2, 4],
+					"name": "Groupement ACP",
+					"siteUrl": "https://acpartenaire.fr",
+					"description": "Refonte du site d'un cabinet de courtiers d'assurance indépendants, de Symfony 2 à Symfony 6. J'ai travaillé sur le back-office.",
+					"missions": [
+						"Maintenance du code"
+					],
 					"technologyIds": [0]
 				}
 			]
@@ -277,26 +278,16 @@
 			"link": "https://www.diginamic.fr/formation-concepteur-developpeur-application-fullstack",
 			"projects": [
 				{
-					"name": "Firebase",
-					"description": "Restauration",
-					"url": "https://fir-restaurant-44a50.web.app",
-					"sourceUrl": "https://github.com/debaze/firebase_restaurant",
-					"categoryIds": [2, 7, 3, 4],
-					"technologyIds": [20, 14, 15, 16]
-				},
-				{
-					"name": "Fedexpress",
-					"description": "Restauration",
-					"sourceUrl": "https://github.com/debaze/fedexpress",
-					"categoryIds": [8],
-					"technologyIds": [17, 18]
-				},
-				{
-					"name": "Absencia",
-					"sourceUrl": "https://github.com/orgs/Diginamic-M02-Groupe-2/repositories",
-					"description": "Gestion des congés et jours fériés",
-					"categoryIds": [2, 7, 3, 4],
-					"technologyIds": [20, 8, 7]
+					"name": "Absencia (projet fil rouge)",
+					"repositoryUrl": "https://github.com/orgs/Diginamic-M02-Groupe-2/repositories",
+					"description": "Application web de gestion des congés et jours fériés pour une entreprise fictive.",
+					"missions": [
+						"Conception de la base de données",
+						"Planification des tâches",
+						"Maintenance du code",
+						"Revue de code"
+					],
+					"technologyIds": [8, 7, 15]
 				}
 			]
 		},
@@ -306,57 +297,35 @@
 			"link": "https://www.diginamic.fr/formation-developpeur-web-et-mobile",
 			"projects": [
 				{
-					"name": "The Ice Cream Map",
-					"url": "https://debaze.github.io/TheIceCreamMap",
-					"sourceUrl": "https://github.com/debaze/TheIceCreamMap",
-					"description": "Glacier artisanal",
-					"categoryIds": [2, 5],
-					"technologyIds": [9]
-				},
-				{
-					"name": "Centaury",
-					"url": "https://debaze.github.io/Centaury",
-					"sourceUrl": "https://github.com/debaze/Centaury",
-					"description": "Agence spatiale",
-					"categoryIds": [2, 5],
-					"technologyIds": [9]
-				},
-				{
 					"name": "Sunpower",
-					"url": "https://debaze.github.io/Sunpower",
-					"sourceUrl": "https://github.com/debaze/Sunpower",
-					"description": "Vente d'ombrières solaires",
-					"categoryIds": [2, 5],
-					"technologyIds": [9]
+					"siteUrl": "https://debaze.github.io/Sunpower",
+					"repositoryUrl": "https://github.com/debaze/Sunpower",
+					"description": "Site vitrine pour un constructeur fictif d'ombrières solaires.",
+					"technologyIds": [19, 12]
 				},
 				{
 					"name": "hangit.io",
-					"url": "https://moulayli.github.io/hangit.io",
-					"sourceUrl": "https://github.com/Moulayli/hangit.io",
-					"description": "Pendu en ligne",
-					"categoryIds": [2, 3],
+					"repositoryUrl": "https://github.com/Moulayli/hangit.io",
+					"description": "Jeu du pendu en ligne.",
 					"technologyIds": [19, 12, 13]
 				},
 				{
 					"name": "Atlas",
-					"sourceUrl": "https://github.com/debaze/Atlas",
-					"description": "Agence web",
-					"categoryIds": [2, 5],
-					"technologyIds": [10, 5]
+					"repositoryUrl": "https://github.com/debaze/Atlas",
+					"description": "Agence web fictive.",
+					"technologyIds": [10]
 				},
 				{
 					"name": "Yellow",
-					"sourceUrl": "https://github.com/debaze/Yellow",
-					"description": "Boutique de mangas",
-					"categoryIds": [2, 3, 4],
-					"technologyIds": [0, 21]
+					"repositoryUrl": "https://github.com/debaze/Yellow",
+					"description": "Boutique de mangas en ligne.",
+					"technologyIds": [19, 12, 0, 21]
 				},
 				{
 					"name": "Meno",
-					"sourceUrl": "https://github.com/debaze/Meno",
-					"description": "Prise de notes",
-					"categoryIds": [1, 2, 3],
-					"technologyIds": [20, 8, 11]
+					"repositoryUrl": "https://github.com/debaze/Meno",
+					"description": "Application web et mobile de prise de notes.",
+					"technologyIds": [11, 8]
 				}
 			]
 		}
@@ -367,139 +336,85 @@
 			"projects": [
 				{
 					"name": "Fichet Propreté",
-					"url": "https://debaze.github.io/FichetProprete",
-					"sourceUrl": "https://github.com/debaze/FichetProprete",
-					"description": "Nettoyage de vitres et bureaux",
-					"categoryIds": [2, 7, 5],
+					"siteUrl": "https://debaze.github.io/FichetProprete",
+					"repositoryUrl": "https://github.com/debaze/FichetProprete",
+					"description": "Nettoyage de vitres et bureaux.",
 					"technologyIds": [19, 12]
 				},
 				{
-					"name": "La Brasserie des Evêques (refonte)",
-					"sourceUrl": "https://github.com/debaze/LaBrasserieDesEveques",
-					"description": "Brasserie à Villeneuve-lès-Maguelone",
-					"categoryIds": [2, 5],
-					"technologyIds": [19, 13, 21]
+					"name": "La Brasserie des Evêques",
+					"repositoryUrl": "https://github.com/debaze/LaBrasserieDesEveques",
+					"description": "Refonte du site vitrine de la Brasserie à Villeneuve-lès-Maguelone.",
+					"technologyIds": [19, 12, 13, 21]
 				},
 				{
 					"name": "manon-bouraud.fr",
-					"sourceUrl": "https://github.com/debaze/manon-bouraud.fr",
-					"description": "Soutien sportif",
-					"categoryIds": [2, 5, 4],
-					"technologyIds": [19, 12, 0]
+					"repositoryUrl": "https://github.com/debaze/manon-bouraud.fr",
+					"description": "Site vitrine et espace administratif pour un coach en soutien sportif.",
+					"technologyIds": [0]
 				}
 			]
 		},
 		{
-			"name": "Librairies et APIs",
+			"name": "Librairies et API",
 			"projects": [
 				{
 					"name": "GraphPDF",
-					"url": "https://debaze.github.io/graphpdf",
-					"sourceUrl": "https://github.com/debaze/graphpdf",
-					"description": "Graphiques pour PDFs et pages statiques",
-					"categoryIds": [9],
-					"technologyIds": [12]
-				},
-				{
-					"name": "math",
-					"sourceUrl": "https://github.com/debaze/math",
-					"description": "Mathématiques vectorielles",
-					"categoryIds": [8],
+					"siteUrl": "https://debaze.github.io/graphpdf",
+					"repositoryUrl": "https://github.com/debaze/graphpdf",
+					"description": "Génération de graphiques pour PDF et pages statiques.",
 					"technologyIds": [12]
 				},
 				{
 					"name": "Raven",
-					"url": "https://github.com/debaze/raven/wiki/Raven-API-Documentation",
-					"sourceUrl": "https://github.com/debaze/raven",
-					"description": "Interfaces utilisateur graphiques 2D",
-					"categoryIds": [9],
-					"technologyIds": [12, 22]
+					"siteUrl": "https://github.com/debaze/raven/wiki/Raven-API-Documentation",
+					"repositoryUrl": "https://github.com/debaze/raven",
+					"description": "Interfaces utilisateur graphiques 2D avec WebGL.",
+					"technologyIds": [22]
 				},
 				{
-					"name": "Lyah",
-					"sourceUrl": "https://github.com/atalantestudio/lyah",
-					"description": "Mathématiques vectorielles (SIMD)",
-					"categoryIds": [9],
+					"name": "Lyah (1.1.1)",
+					"repositoryUrl": "https://github.com/atalantestudio/lyah",
+					"description": "Librairie de mathématiques vectorielles accélérées avec les jeux d'instruction SIMD. Lyah met à disposition des vecteurs 2D/3D/4D, des matrices carrées 2x2/3x3/4x4 et des quaternions, en plus de fonctions mathématiques communes. Elle est header-only, entièrement testée et documentée, et est facilement intégrable dans des projets existants.",
 					"technologyIds": [26]
 				},
 				{
 					"name": "Project A",
-					"description": "Moteur de jeu en cours de développement",
-					"categoryIds": [8],
-					"technologyIds": [26, 27, 28]
+					"description": "Moteur de jeu 3D en cours de développement avec composants graphique, physique et audio.",
+					"technologyIds": [26, 25, 27, 28]
 				}
 			]
 		},
 		{
-			"name": "Algorithmes",
+			"name": "Divers",
 			"projects": [
 				{
-					"name": "A*",
-					"url": "https://debaze.github.io/astar",
-					"sourceUrl": "https://github.com/debaze/astar",
-					"categoryIds": [10],
-					"technologyIds": [12]
+					"name": "Raytracer",
+					"siteUrl": "https://debaze.github.io/webgpu_raytracer",
+					"repositoryUrl": "https://github.com/debaze/webgpu_raytracer",
+					"description": "Démo de raytracing en ligne.",
+					"technologyIds": [29]
 				},
 				{
-					"name": "Raytracing",
-					"url": "https://debaze.github.io/webgpu_raytracer",
-					"sourceUrl": "https://github.com/debaze/webgpu_raytracer",
-					"categoryIds": [10],
-					"technologyIds": [12, 29]
-				},
-				{
-					"name": "GJK/Bilateral Advancement (2D)",
-					"url": "https://debaze.github.io/gjk",
-					"sourceUrl": "https://github.com/debaze/gjk",
-					"description": "Détection de collisions en continu",
-					"categoryIds": [10],
+					"name": "GJK",
+					"siteUrl": "https://debaze.github.io/gjk",
+					"repositoryUrl": "https://github.com/debaze/gjk",
+					"description": "Visualisation de collisions 2D en continu avec les algorithmes Gilbert-Johnson-Keerthi et Bilateral Advancement.",
 					"technologyIds": [12]
-				}
-			]
-		},
-		{
-			"name": "Jeux et mods",
-			"projects": [
+				},
 				{
 					"name": "Quiver",
-					"url": "https://debaze.github.io/Quiver",
-					"sourceUrl": "https://github.com/debaze/Quiver",
-					"description": "Rogue-like en solo",
-					"categoryIds": [11],
+					"siteUrl": "https://debaze.github.io/Quiver",
+					"repositoryUrl": "https://github.com/debaze/Quiver",
+					"description": "Court rogue-like en solo.",
 					"technologyIds": [19, 12]
 				},
-				{
-					"name": "Crocosmaute",
-					"sourceUrl": "https://github.com/debaze/Crocosmaute",
-					"description": "Mod pour Lethal Company",
-					"categoryIds": [12],
-					"technologyIds": [23]
-				},
-				{
-					"name": "Project B",
-					"description": "Jeu en cours de développement",
-					"categoryIds": [11],
-					"technologyIds": [26]
-				}
-			]
-		},
-		{
-			"name": "Animations",
-			"projects": [
 				{
 					"name": "L'attrape-cœurs",
-					"url": "https://debaze.github.io/lattrapecoeurs",
-					"sourceUrl": "https://github.com/debaze/lattrapecoeurs",
-					"description": "Présentation du livre de J.D. Salinger",
-					"categoryIds": [10],
+					"siteUrl": "https://debaze.github.io/lattrapecoeurs",
+					"repositoryUrl": "https://github.com/debaze/lattrapecoeurs",
+					"description": "Présentation en 3D du livre de J.D. Salinger.",
 					"technologyIds": [19, 12]
-				},
-				{
-					"name": "Game of Life",
-					"sourceUrl": "https://github.com/debaze/thegameoflife",
-					"description": "Automate cellulaire imaginé par J.H. Conway",
-					"categoryIds": [10],
-					"technologyIds": [24]
 				}
 			]
 		}

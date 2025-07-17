@@ -3,7 +3,6 @@ export {};
 /**
  * @typedef {Object} Data
  * @property {Technology[]} technologies
- * @property {ProjectCategory[]} projectCategories
  * @property {Experience[]} professionalExperiences
  * @property {Experience[]} personalExperiences
  */
@@ -13,12 +12,6 @@ export {};
  * @property {Number} id
  * @property {String} name
  * @property {String} iconSrc
- */
-
-/**
- * @typedef {Object} ProjectCategory
- * @property {Number} id
- * @property {String} name
  */
 
 /**
@@ -32,10 +25,10 @@ export {};
 /**
  * @typedef {Object} Project
  * @property {String} name
- * @property {String} [url]
- * @property {String} [sourceUrl]
+ * @property {String} [siteUrl]
+ * @property {String} [repositoryUrl]
  * @property {String} description
- * @property {Number[]} categoryIds
+ * @property {String[]} [missions]
  * @property {Number[]} technologyIds
  */
 
@@ -87,58 +80,6 @@ const personalExperiencePlaceholder = document.body.querySelector("#personal-exp
 	}
 
 	personalExperiencePlaceholder.replaceWith(personalExperienceFragment);
-}
-
-/**
- * @param {Skill} skill
- */
-function getSkillListItemElement(skill) {
-	const technology = dataJson.technologies[skill.technologyId];
-	const skills = skill.skills;
-
-	/**
-	 * @type {HTMLLIElement}
-	 */
-	// @ts-ignore
-	const skillListItemElement = template.content.querySelector(".skill-list-item").cloneNode(true);
-
-	/**
-	 * @type {HTMLDivElement}
-	 */
-	const skillTechnologyContainerElement = skillListItemElement.querySelector(".skill-technology-container");
-
-	/**
-	 * @type {HTMLImageElement}
-	 */
-	const technologyIconElement = skillTechnologyContainerElement.querySelector(".technology-icon");
-
-	/**
-	 * @type {HTMLSpanElement}
-	 */
-	const technologyNameElement = skillTechnologyContainerElement.querySelector(".technology-name");
-
-	/**
-	 * @type {HTMLUListElement}
-	 */
-	const skillListElement = skillListItemElement.querySelector(".skill-list");
-
-	technologyIconElement.src = technology.iconSrc;
-	technologyIconElement.alt = technology.name;
-
-	technologyNameElement.textContent = technology.name;
-
-	if (skills) {
-		for (const skill of skills) {
-			const skillListItemElement = getSkillListItemElement(skill);
-
-			skillListElement.appendChild(skillListItemElement);
-		}
-	}
-	else {
-		skillListElement.remove();
-	}
-
-	return skillListItemElement;
 }
 
 /**
@@ -195,19 +136,19 @@ function getExperienceElement(experience) {
 		const projectListItemElement = template.content.querySelector(".project-list-item").cloneNode(true);
 
 		/**
-		 * @type {HTMLUListElement}
-		 */
-		const projectCategoryListItemElement = projectListItemElement.querySelector(".project-category-list");
-
-		/**
 		 * @type {HTMLDivElement}
 		 */
-		const projectUrlContainerElement = projectListItemElement.querySelector(".project-url-container");
+		const projectHeaderElement = projectListItemElement.querySelector(".project-header");
 
 		/**
 		 * @type {HTMLLinkElement}
 		 */
-		const projectUrlElement = projectUrlContainerElement.querySelector(".project-url");
+		const projectNameElement = projectHeaderElement.querySelector(".project-name");
+
+		/**
+		 * @type {HTMLUListElement}
+		 */
+		const projectLinkListElement = projectListItemElement.querySelector(".project-link-list");
 
 		/**
 		 * @type {HTMLSpanElement}
@@ -217,53 +158,60 @@ function getExperienceElement(experience) {
 		/**
 		 * @type {HTMLUListElement}
 		 */
-		const projectTechnologyListElement = projectListItemElement.querySelector(".project-technology-list");
+		const projectMissionListElement = projectListItemElement.querySelector(".project-mission-list");
 
-		for (const categoryId of project.categoryIds) {
-			const projectCategory = dataJson.projectCategories.find(category => category.id === categoryId);
+		if (project.missions) {
+			for (const mission of project.missions) {
+				const missionListItemElement = document.createElement("li");
 
-			/**
-			 * @type {HTMLLIElement}
-			 */
-			// @ts-ignore
-			const projectCategoryListItem = template.content.querySelector(".project-category-list-item").cloneNode(true);
+				missionListItemElement.textContent = mission;
 
-			/**
-			 * @type {HTMLSpanElement}
-			 */
-			const projectCategoryNameElement = projectCategoryListItem.querySelector(".project-category-name");
-
-			projectCategoryNameElement.textContent = projectCategory.name;
-
-			projectCategoryListItemElement.appendChild(projectCategoryListItem);
-		}
-
-		if (project.url) {
-			projectUrlElement.href = project.url;
-			projectUrlElement.textContent = project.name;
+				projectMissionListElement.appendChild(missionListItemElement);
+			}
 		}
 		else {
-			/**
-			 * @type {HTMLSpanElement}
-			 */
-			// @ts-ignore
-			const projectNameElement = template.content.querySelector(".project-name").cloneNode(true);
-
-			projectNameElement.textContent = project.name;
-
-			projectUrlElement.replaceWith(projectNameElement);
+			projectMissionListElement.remove();
 		}
 
-		if (project.sourceUrl) {
+		/**
+		 * @type {HTMLUListElement}
+		 */
+		const projectTechnologyListElement = projectListItemElement.querySelector(".project-technology-list");
+
+		projectNameElement.textContent = project.name;
+
+		if (project.siteUrl) {
 			/**
 			 * @type {HTMLLinkElement}
 			 */
 			// @ts-ignore
-			const projectSourceUrlElement = template.content.querySelector(".project-source-url").cloneNode(true);
+			const projectLinkListItemElement = template.content.querySelector(".project-site-link-list-item").cloneNode(true);
 
-			projectSourceUrlElement.href = project.sourceUrl;
+			/**
+			 * @type {HTMLAnchorElement}
+			 */
+			const projectLinkElement = projectLinkListItemElement.querySelector(".project-link");
 
-			projectUrlContainerElement.appendChild(projectSourceUrlElement);
+			projectLinkElement.href = project.siteUrl;
+
+			projectLinkListElement.appendChild(projectLinkListItemElement);
+		}
+
+		if (project.repositoryUrl) {
+			/**
+			 * @type {HTMLLinkElement}
+			 */
+			// @ts-ignore
+			const projectLinkListItemElement = template.content.querySelector(".project-repository-link-list-item").cloneNode(true);
+
+			/**
+			 * @type {HTMLAnchorElement}
+			 */
+			const projectLinkElement = projectLinkListItemElement.querySelector(".project-link");
+
+			projectLinkElement.href = project.repositoryUrl;
+
+			projectLinkListElement.appendChild(projectLinkListItemElement);
 		}
 
 		projectDescriptionElement.textContent = project.description;
