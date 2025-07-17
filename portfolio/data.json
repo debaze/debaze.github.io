@@ -46,11 +46,6 @@
 			"iconSrc": "assets/images/angular.svg"
 		},
 		{
-			"id": 9,
-			"name": "Bootstrap",
-			"iconSrc": "assets/images/bootstrap.svg"
-		},
-		{
 			"id": 10,
 			"name": "WordPress",
 			"iconSrc": "assets/images/wordpress.png"
@@ -79,21 +74,6 @@
 			"id": 15,
 			"name": "Hibernate",
 			"iconSrc": "assets/images/hibernate.svg"
-		},
-		{
-			"id": 16,
-			"name": "Firebase",
-			"iconSrc": "assets/images/firebase.svg"
-		},
-		{
-			"id": 17,
-			"name": "Node.js",
-			"iconSrc": "assets/images/nodejs.svg"
-		},
-		{
-			"id": 18,
-			"name": "Express",
-			"iconSrc": "assets/images/express.svg"
 		},
 		{
 			"id": 19,
