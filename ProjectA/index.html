@@ -11,7 +11,7 @@
 		<meta property="og:title" content="ProjectA">
 		<base href="../" />
 		<link rel="stylesheet" type="text/css" href="assets/css/index.css" />
-		<link rel="stylesheet" type="text/css" href="assets/css/ProjectA/index.css">
+		<link rel="stylesheet" type="text/css" href="ProjectA/assets/css/index.css" />
 		<title>ProjectA</title>
 	</head>
 
@@ -49,36 +49,55 @@
 				<button class="dark">
 					Build Assets
 				</button>
-			</div>
-		</article>
 
-		<footer>
-			<nav class="container">
-				<ul class="link-list">
-					<li>
-						<a href="">
-							Home
-						</a>
+				<ul class="component-list">
+					<li class="component-list-item" tabindex="0">
+						<div class="component-header">
+							<span class="component-label">
+								Transform
+							</span>
+						</div>
+
+						<div class="component-body">
+							<div class="control-grid">
+								<span class="input-group-label">
+									Translation
+								</span>
+
+								<div class="input-group">
+									<input type="text" placeholder="0.00" />
+									<input type="text" placeholder="0.00" />
+									<input type="text" placeholder="0.00" />
+								</div>
+
+								<span class="input-group-label">
+									Rotation
+								</span>
+
+								<div class="input-group">
+									<input type="text" placeholder="0.00" />
+									<input type="text" placeholder="0.00" />
+									<input type="text" placeholder="0.00" />
+								</div>
+
+								<span class="input-group-label">
+									Scale
+								</span>
+
+								<div class="input-group">
+									<input type="text" placeholder="0.00" />
+									<input type="text" placeholder="0.00" />
+									<input type="text" placeholder="0.00" />
+								</div>
+							</div>
+						</div>
 					</li>
 
-					<li>
-						<a href="blog">
-							Blog
-						</a>
-					</li>
-
-					<li>
-						<a href="portfolio">
-							Portfolio
-						</a>
+					<li class="component-list-item" tabindex="0">
+						Item
 					</li>
 				</ul>
-
-				<span class="copyright">
-					Copyright 2025 Mattéo Legagneux.<br />
-					Licensed under the <a href="https://github.com/debaze/debaze.github.io/blob/cc7b2d66a0f0ab73561b56eb3e3a21dc656dea62/LICENSE">MIT License</a>.
-				</span>
-			</nav>
-		</footer>
+			</div>
+		</article>
 	</body>
 </html>

@@ -1,8 +1,11 @@
 @import url("button.css");
+@import url("component.css");
 
 :root {
 	/* --primary: #4b0a23; */
 	--primary: #ffffff;
+	--secondary: #ffffff;
+	--tertiary: #ffffff;
 	/* --text: #2de2e6; */
 	--text: #000000;
 	--text-hover: #757575;
