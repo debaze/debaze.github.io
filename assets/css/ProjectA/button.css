@@ -1,0 +1,51 @@
+article .container {
+	display: flex;
+	flex-direction: column;
+	row-gap: 4px;
+}
+
+button.light {
+	width: fit-content;
+	margin: 0px;
+	padding: 4px 8px;
+	border: none;
+	border-radius: 4px;
+	box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 2px 0px, rgba(0, 0, 0, 0.12) 0px 0px 0px 1px;
+	background-color: #fff;
+	color: rgb(44, 51, 56);
+	cursor: pointer;
+	font-family: sans-serif;
+	font-size: 1rem;
+	transition-duration: 0.2s;
+}
+
+button.light:hover {
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.22), 0 0 0 1px rgba(0, 0, 0, 0.22);
+}
+
+button.light:active {
+	box-shadow: inset 0 1px 0 rgba(0, 0, 0, .16);
+}
+
+button.dark {
+	width: fit-content;
+	margin: 0px;
+	padding: 4px 8px;
+	border: none;
+	border-radius: 4px;
+	box-shadow: #ff4629 0px 1px 2px 0px, #ff4629 0px 0px 0px 1px;
+	background-color: transparent;
+	color: var(--text);
+	cursor: pointer;
+	font-family: sans-serif;
+	font-size: 1rem;
+	transition-duration: 0.2s;
+}
+
+button.dark:hover {
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.22), 0 0 0 1px rgba(0, 0, 0, 0.22);
+}
+
+button.dark:active {
+	box-shadow: inset 0 1px 0 rgba(0, 0, 0, .16);
+}

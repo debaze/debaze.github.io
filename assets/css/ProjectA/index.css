@@ -1,0 +1,13 @@
+@import url("button.css");
+
+:root {
+	/* --primary: #4b0a23; */
+	--primary: #ffffff;
+	/* --text: #2de2e6; */
+	--text: #000000;
+	--text-hover: #757575;
+	/* #ff4629 */
+
+	/* --header-color: #4b0a23; */
+	--header-color: #ffffff;
+}
