@@ -48,97 +48,109 @@
 		"since": "v1.0.0"
 	},
 	{
-		"signature": "LYAH_NODISCARD LYAH_INLINE static lyah::mat<3, 3, std::float_t> LYAH_CALL lyah::translation(lyah::vec<2, std::float_t> a)",
+		"signature": "LYAH_NODISCARD LYAH_INLINE static lyah::mat<3, 3, std::float_t> LYAH_CALL lyah::mat<3, 3, std::float_t>::translation(lyah::vec<2, std::float_t> a)",
 		"description": "Returns a 3x3 32-bit floating-point row-major matrix translated by `a`.",
 		"sourceUrl": "https://github.com/atalantestudio/lyah/blob/2159ff6b70d80f8d903196311bd62f6b599b9298/lyah/mat/mat3x3.hpp#L19",
 		"since": "v1.0.0"
 	},
 	{
-		"signature": "LYAH_NODISCARD LYAH_INLINE static lyah::mat<3, 3, std::double_t> LYAH_CALL lyah::translation(lyah::vec<2, std::double_t> a)",
+		"signature": "LYAH_NODISCARD LYAH_INLINE static lyah::mat<3, 3, std::double_t> LYAH_CALL lyah::mat<3, 3, std::double_t>::translation(lyah::vec<2, std::double_t> a)",
 		"description": "Returns a 3x3 64-bit floating-point row-major matrix translated by `a`.",
 		"sourceUrl": "https://github.com/atalantestudio/lyah/blob/2159ff6b70d80f8d903196311bd62f6b599b9298/lyah/mat/mat3x3.hpp#L19",
 		"since": "v1.0.0"
 	},
 	{
-		"signature": "LYAH_NODISCARD LYAH_INLINE static lyah::mat<4, 4, std::float_t> LYAH_CALL lyah::translation(lyah::vec<3, std::float_t> a)",
+		"signature": "LYAH_NODISCARD LYAH_INLINE static lyah::mat<4, 4, std::float_t> LYAH_CALL lyah::mat<4, 4, std::float_t>::translation(lyah::vec<3, std::float_t> a)",
 		"description": "Returns a 4x4 32-bit floating-point row-major matrix translated by `a`.",
 		"sourceUrl": "https://github.com/atalantestudio/lyah/blob/2159ff6b70d80f8d903196311bd62f6b599b9298/lyah/mat/mat4x4.hpp#L20",
 		"since": "v1.0.0"
 	},
 	{
-		"signature": "LYAH_NODISCARD LYAH_INLINE static lyah::mat<4, 4, std::double_t> LYAH_CALL lyah::translation(lyah::vec<3, std::double_t> a)",
+		"signature": "LYAH_NODISCARD LYAH_INLINE static lyah::mat<4, 4, std::double_t> LYAH_CALL lyah::mat<4, 4, std::double_t>::translation(lyah::vec<3, std::double_t> a)",
 		"description": "Returns a 4x4 64-bit floating-point row-major matrix translated by `a`.",
 		"sourceUrl": "https://github.com/atalantestudio/lyah/blob/2159ff6b70d80f8d903196311bd62f6b599b9298/lyah/mat/mat4x4.hpp#L20",
 		"since": "v1.0.0"
 	},
 	{
-		"signature": "LYAH_NODISCARD LYAH_INLINE static lyah::mat<3, 3, std::float_t> LYAH_CALL lyah::rotation(std::float_t a)",
-		"description": "Returns a 3x3 32-bit floating-point row-major matrix rotated by `a`.\n`a` is given in radians.",
+		"signature": "LYAH_NODISCARD LYAH_INLINE static lyah::mat<2, 2, std::float_t> LYAH_CALL lyah::mat<2, 2, std::float_t>::rotation(std::float_t a)",
+		"description": "Returns a 2x2 32-bit floating-point row-major matrix rotated by `a`.\n`a` is given in radians.",
+		"sourceUrl": "",
+		"since": "v1.2.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE static lyah::mat<2, 2, std::double_t> LYAH_CALL lyah::mat<2, 2, std::double_t>::rotation(std::double_t a)",
+		"description": "Returns a 2x2 64-bit floating-point row-major matrix rotated by `a`.\n`a` is given in radians.",
+		"sourceUrl": "",
+		"since": "v1.2.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE static lyah::mat<3, 3, std::float_t> LYAH_CALL lyah::mat<3, 3, std::float_t>::rotation(std::float_t a)",
+		"description": "Returns a 3x3 32-bit floating-point row-major matrix rotated by `a` on the Z axis.\n`a` is given in radians.",
 		"sourceUrl": "https://github.com/atalantestudio/lyah/blob/2159ff6b70d80f8d903196311bd62f6b599b9298/lyah/mat/mat3x3.hpp#L27",
 		"since": "v1.0.0"
 	},
 	{
-		"signature": "LYAH_NODISCARD LYAH_INLINE static lyah::mat<3, 3, std::double_t> LYAH_CALL lyah::rotation(std::double_t a)",
-		"description": "Returns a 3x3 64-bit floating-point row-major matrix rotated by `a`.\n`a` is given in radians.",
+		"signature": "LYAH_NODISCARD LYAH_INLINE static lyah::mat<3, 3, std::double_t> LYAH_CALL lyah::mat<3, 3, std::double_t>::rotation(std::double_t a)",
+		"description": "Returns a 3x3 64-bit floating-point row-major matrix rotated by `a` on the Z axis.\n`a` is given in radians.",
 		"sourceUrl": "https://github.com/atalantestudio/lyah/blob/2159ff6b70d80f8d903196311bd62f6b599b9298/lyah/mat/mat3x3.hpp#L27",
 		"since": "v1.0.0"
 	},
 	{
-		"signature": "LYAH_NODISCARD LYAH_INLINE static lyah::mat<4, 4, std::float_t> LYAH_CALL lyah::rotation(lyah::vec<3, std::float_t> axis, std::float_t angle)",
+		"signature": "LYAH_NODISCARD LYAH_INLINE static lyah::mat<4, 4, std::float_t> LYAH_CALL lyah::mat<4, 4, std::float_t>::rotation(lyah::vec<3, std::float_t> axis, std::float_t angle)",
 		"description": "Returns a 4x4 32-bit floating-point row-major matrix rotated around `axis` by `angle`.\n`axis` is assumed to be normalized.\n`angle` is given in radians.",
 		"sourceUrl": "https://github.com/atalantestudio/lyah/blob/2159ff6b70d80f8d903196311bd62f6b599b9298/lyah/mat/mat4x4.hpp#L31",
 		"since": "v1.0.0"
 	},
 	{
-		"signature": "LYAH_NODISCARD LYAH_INLINE static lyah::mat<4, 4, std::double_t> LYAH_CALL lyah::rotation(lyah::vec<3, std::double_t> axis, std::double_t angle)",
+		"signature": "LYAH_NODISCARD LYAH_INLINE static lyah::mat<4, 4, std::double_t> LYAH_CALL lyah::mat<4, 4, std::double_t>::rotation(lyah::vec<3, std::double_t> axis, std::double_t angle)",
 		"description": "Returns a 4x4 64-bit floating-point row-major matrix rotated around `axis` by `angle`.\n`axis` is assumed to be normalized.\n`angle` is given in radians.",
 		"sourceUrl": "https://github.com/atalantestudio/lyah/blob/2159ff6b70d80f8d903196311bd62f6b599b9298/lyah/mat/mat4x4.hpp#L31",
 		"since": "v1.0.0"
 	},
 	{
-		"signature": "LYAH_NODISCARD LYAH_INLINE static lyah::mat<3, 3, std::float_t> LYAH_CALL lyah::scaling(lyah::vec<2, std::float_t> a)",
+		"signature": "LYAH_NODISCARD LYAH_INLINE static lyah::mat<3, 3, std::float_t> LYAH_CALL lyah::mat<3, 3, std::float_t>::scaling(lyah::vec<2, std::float_t> a)",
 		"description": "Returns a 3x3 32-bit floating-point row-major matrix scaled by `a`.",
 		"sourceUrl": "https://github.com/atalantestudio/lyah/blob/2159ff6b70d80f8d903196311bd62f6b599b9298/lyah/mat/mat3x3.hpp#L38",
 		"since": "v1.0.0"
 	},
 	{
-		"signature": "LYAH_NODISCARD LYAH_INLINE static lyah::mat<3, 3, std::double_t> LYAH_CALL lyah::scaling(lyah::vec<2, std::double_t> a)",
+		"signature": "LYAH_NODISCARD LYAH_INLINE static lyah::mat<3, 3, std::double_t> LYAH_CALL lyah::mat<3, 3, std::double_t>::scaling(lyah::vec<2, std::double_t> a)",
 		"description": "Returns a 3x3 64-bit floating-point row-major matrix scaled by `a`.",
 		"sourceUrl": "https://github.com/atalantestudio/lyah/blob/2159ff6b70d80f8d903196311bd62f6b599b9298/lyah/mat/mat3x3.hpp#L38",
 		"since": "v1.0.0"
 	},
 	{
-		"signature": "LYAH_NODISCARD LYAH_INLINE static lyah::mat<4, 4, std::float_t> LYAH_CALL lyah::scaling(lyah::vec<3, std::float_t> a)",
+		"signature": "LYAH_NODISCARD LYAH_INLINE static lyah::mat<4, 4, std::float_t> LYAH_CALL lyah::mat<4, 4, std::float_t>::scaling(lyah::vec<3, std::float_t> a)",
 		"description": "Returns a 4x4 32-bit floating-point row-major matrix scaled by `a`.",
 		"sourceUrl": "https://github.com/atalantestudio/lyah/blob/2159ff6b70d80f8d903196311bd62f6b599b9298/lyah/mat/mat4x4.hpp#L44",
 		"since": "v1.0.0"
 	},
 	{
-		"signature": "LYAH_NODISCARD LYAH_INLINE static lyah::mat<4, 4, std::double_t> LYAH_CALL lyah::scaling(lyah::vec<3, std::double_t> a)",
+		"signature": "LYAH_NODISCARD LYAH_INLINE static lyah::mat<4, 4, std::double_t> LYAH_CALL lyah::mat<4, 4, std::double_t>::scaling(lyah::vec<3, std::double_t> a)",
 		"description": "Returns a 4x4 64-bit floating-point row-major matrix scaled by `a`.",
 		"sourceUrl": "https://github.com/atalantestudio/lyah/blob/2159ff6b70d80f8d903196311bd62f6b599b9298/lyah/mat/mat4x4.hpp#L44",
 		"since": "v1.0.0"
 	},
 	{
-		"signature": "LYAH_NODISCARD LYAH_INLINE static lyah::mat<4, 4, std::float_t> LYAH_CALL lyah::orthographic(std::float_t left, std::float_t right, std::float_t bottom, std::float_t top, std::float_t near, std::float_t far)",
+		"signature": "LYAH_NODISCARD LYAH_INLINE static lyah::mat<4, 4, std::float_t> LYAH_CALL lyah::mat<4, 4, std::float_t>::orthographic(std::float_t left, std::float_t right, std::float_t bottom, std::float_t top, std::float_t near, std::float_t far)",
 		"description": "Returns a 4x4 32-bit floating-point orthographic left-handed row-major matrix.",
 		"sourceUrl": "https://github.com/atalantestudio/lyah/blob/2159ff6b70d80f8d903196311bd62f6b599b9298/lyah/mat/mat4x4.hpp#L54",
 		"since": "v1.0.0"
 	},
 	{
-		"signature": "LYAH_NODISCARD LYAH_INLINE static lyah::mat<4, 4, std::double_t> LYAH_CALL lyah::orthographic(std::double_t left, std::double_t right, std::double_t bottom, std::double_t top, std::double_t near, std::double_t far)",
+		"signature": "LYAH_NODISCARD LYAH_INLINE static lyah::mat<4, 4, std::double_t> LYAH_CALL lyah::mat<4, 4, std::double_t>::orthographic(std::double_t left, std::double_t right, std::double_t bottom, std::double_t top, std::double_t near, std::double_t far)",
 		"description": "Returns a 4x4 64-bit floating-point orthographic left-handed row-major matrix.",
 		"sourceUrl": "https://github.com/atalantestudio/lyah/blob/2159ff6b70d80f8d903196311bd62f6b599b9298/lyah/mat/mat4x4.hpp#L54",
 		"since": "v1.0.0"
 	},
 	{
-		"signature": "LYAH_NODISCARD LYAH_INLINE static lyah::mat<4, 4, std::float_t> LYAH_CALL lyah::lookAt(lyah::vec<3, std::float_t> eye, lyah::vec<3, std::float_t> center, lyah::vec<3, std::float_t> up)",
+		"signature": "LYAH_NODISCARD LYAH_INLINE static lyah::mat<4, 4, std::float_t> LYAH_CALL lyah::mat<4, 4, std::float_t>::lookAt(lyah::vec<3, std::float_t> eye, lyah::vec<3, std::float_t> center, lyah::vec<3, std::float_t> up)",
 		"description": "Returns a 4x4 32-bit floating-point `lookAt` left-handed row-major matrix.",
 		"sourceUrl": "https://github.com/atalantestudio/lyah/blob/2159ff6b70d80f8d903196311bd62f6b599b9298/lyah/mat/mat4x4.hpp#L64",
 		"since": "v1.0.0"
 	},
 	{
-		"signature": "LYAH_NODISCARD LYAH_INLINE static lyah::mat<4, 4, std::double_t> LYAH_CALL lyah::lookAt(lyah::vec<3, std::double_t> eye, lyah::vec<3, std::double_t> center, lyah::vec<3, std::double_t> up)",
+		"signature": "LYAH_NODISCARD LYAH_INLINE static lyah::mat<4, 4, std::double_t> LYAH_CALL lyah::mat<4, 4, std::double_t>::lookAt(lyah::vec<3, std::double_t> eye, lyah::vec<3, std::double_t> center, lyah::vec<3, std::double_t> up)",
 		"description": "Returns a 4x4 64-bit floating-point `lookAt` left-handed row-major matrix.",
 		"sourceUrl": "https://github.com/atalantestudio/lyah/blob/2159ff6b70d80f8d903196311bd62f6b599b9298/lyah/mat/mat4x4.hpp#L64",
 		"since": "v1.0.0"
@@ -544,15 +556,15 @@
 		"since": "v1.1.0"
 	},
 	{
-		"signature": "LYAH_NODISCARD LYAH_CONSTEXPR LYAH_INLINE explicit lyah::quat<std::float_t>::quat(__m128 m)",
-		"description": "Creates a 32-bit floating-point quaternion from `m`.",
+		"signature": "LYAH_NODISCARD LYAH_INLINE explicit lyah::quat<std::float_t>::quat(__m128 m)",
+		"description": "Creates a 32-bit floating-point quaternion from `m`.\nThis function is marked as `constexpr` prior to v1.2.0.",
 		"sourceUrl": "https://github.com/atalantestudio/lyah/blob/2159ff6b70d80f8d903196311bd62f6b599b9298/lyah/quat/quat.ipp#L19",
 		"instructionSet": "SSE",
 		"since": "v1.0.0"
 	},
 	{
-		"signature": "LYAH_NODISCARD LYAH_CONSTEXPR LYAH_INLINE explicit lyah::quat<std::double_t>::quat(__m256d m)",
-		"description": "Creates a 64-bit floating-point quaternion from `m`.",
+		"signature": "LYAH_NODISCARD LYAH_INLINE explicit lyah::quat<std::double_t>::quat(__m256d m)",
+		"description": "Creates a 64-bit floating-point quaternion from `m`.\nThis function is marked as `constexpr` prior to v1.2.0.",
 		"sourceUrl": "https://github.com/atalantestudio/lyah/blob/2159ff6b70d80f8d903196311bd62f6b599b9298/lyah/quat/quat.ipp#L19",
 		"instructionSet": "AVX",
 		"since": "v1.0.0"
@@ -648,14 +660,14 @@
 		"since": "v1.0.0"
 	},
 	{
-		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::quat<std::float_t>::quat(lyah::quat<std::double_t> a)",
-		"description": "Creates a 32-bit floating-point quaternion converted from `a`.",
+		"signature": "LYAH_NODISCARD LYAH_INLINE explicit lyah::quat<std::float_t>::quat(lyah::quat<std::double_t> a)",
+		"description": "Creates a 32-bit floating-point quaternion converted from `a`.\nThis function is marked as `explicit` since v1.2.0.",
 		"sourceUrl": "https://github.com/atalantestudio/lyah/blob/2159ff6b70d80f8d903196311bd62f6b599b9298/lyah/quat/quat.ipp#L23",
 		"since": "v1.0.0"
 	},
 	{
-		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::quat<std::double_t>::quat(lyah::quat<std::float_t> a)",
-		"description": "Creates a 64-bit floating-point quaternion converted from `a`.",
+		"signature": "LYAH_NODISCARD LYAH_INLINE explicit lyah::quat<std::double_t>::quat(lyah::quat<std::float_t> a)",
+		"description": "Creates a 64-bit floating-point quaternion converted from `a`.\nThis function is marked as `explicit` since v1.2.0.",
 		"sourceUrl": "https://github.com/atalantestudio/lyah/blob/2159ff6b70d80f8d903196311bd62f6b599b9298/lyah/quat/quat.ipp#L23",
 		"since": "v1.0.0"
 	},
@@ -2571,46 +2583,28 @@
 		"since": "v1.0.0"
 	},
 	{
-		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::vec<2, std::float_t> LYAH_CALL lyah::max(lyah::vec<2, std::float_t> a, lyah::vec<2, std::float_t> b)",
-		"description": "Returns the result of an horizontal max comparison between `a` and `b`.",
-		"sourceUrl": "https://github.com/atalantestudio/lyah/blob/2159ff6b70d80f8d903196311bd62f6b599b9298/lyah/vec/m128/common.ipp#L46",
-		"instructionSet": "SSE",
-		"since": "v1.0.0"
+		"signature": "LYAH_NODISCARD LYAH_CONSTEXPR_CPP14 LYAH_INLINE std::float_t LYAH_CALL lyah::min(std::float_t a, std::float_t b)",
+		"description": "Returns the minimum value between `a` and `b`.",
+		"sourceUrl": "",
+		"since": "v1.2.0"
 	},
 	{
-		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::vec<3, std::float_t> LYAH_CALL lyah::max(lyah::vec<3, std::float_t> a, lyah::vec<3, std::float_t> b)",
-		"description": "Returns the result of an horizontal max comparison between `a` and `b`.",
-		"sourceUrl": "https://github.com/atalantestudio/lyah/blob/2159ff6b70d80f8d903196311bd62f6b599b9298/lyah/vec/m128/common.ipp#L46",
-		"instructionSet": "SSE",
-		"since": "v1.0.0"
+		"signature": "LYAH_NODISCARD LYAH_CONSTEXPR_CPP14 LYAH_INLINE std::double_t LYAH_CALL lyah::min(std::double_t a, std::double_t b)",
+		"description": "Returns the minimum value between `a` and `b`.",
+		"sourceUrl": "",
+		"since": "v1.2.0"
 	},
 	{
-		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::vec<4, std::float_t> LYAH_CALL lyah::max(lyah::vec<4, std::float_t> a, lyah::vec<4, std::float_t> b)",
-		"description": "Returns the result of an horizontal max comparison between `a` and `b`.",
-		"sourceUrl": "https://github.com/atalantestudio/lyah/blob/2159ff6b70d80f8d903196311bd62f6b599b9298/lyah/vec/m128/common.ipp#L46",
-		"instructionSet": "SSE",
-		"since": "v1.0.0"
+		"signature": "LYAH_NODISCARD LYAH_CONSTEXPR_CPP14 LYAH_INLINE std::int32_t LYAH_CALL lyah::min(std::int32_t a, std::int32_t b)",
+		"description": "Returns the minimum value between `a` and `b`.",
+		"sourceUrl": "",
+		"since": "v1.2.0"
 	},
 	{
-		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::vec<2, std::double_t> LYAH_CALL lyah::max(lyah::vec<2, std::double_t> a, lyah::vec<2, std::double_t> b)",
-		"description": "Returns the result of an horizontal max comparison between `a` and `b`.",
-		"sourceUrl": "https://github.com/atalantestudio/lyah/blob/2159ff6b70d80f8d903196311bd62f6b599b9298/lyah/vec/m128d/common.ipp#L22",
-		"instructionSet": "SSE2",
-		"since": "v1.0.0"
-	},
-	{
-		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::vec<3, std::double_t> LYAH_CALL lyah::max(lyah::vec<3, std::double_t> a, lyah::vec<3, std::double_t> b)",
-		"description": "Returns the result of an horizontal max comparison between `a` and `b`.",
-		"sourceUrl": "https://github.com/atalantestudio/lyah/blob/2159ff6b70d80f8d903196311bd62f6b599b9298/lyah/vec/m256d/common.ipp#L7",
-		"instructionSet": "AVX",
-		"since": "v1.0.0"
-	},
-	{
-		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::vec<4, std::double_t> LYAH_CALL lyah::max(lyah::vec<4, std::double_t> a, lyah::vec<4, std::double_t> b)",
-		"description": "Returns the result of an horizontal max comparison between `a` and `b`.",
-		"sourceUrl": "https://github.com/atalantestudio/lyah/blob/2159ff6b70d80f8d903196311bd62f6b599b9298/lyah/vec/m256d/common.ipp#L7",
-		"instructionSet": "AVX",
-		"since": "v1.0.0"
+		"signature": "LYAH_NODISCARD LYAH_CONSTEXPR_CPP14 LYAH_INLINE std::int64_t LYAH_CALL lyah::min(std::int64_t a, std::int64_t b)",
+		"description": "Returns the minimum value between `a` and `b`.",
+		"sourceUrl": "",
+		"since": "v1.2.0"
 	},
 	{
 		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::vec<2, std::float_t> LYAH_CALL lyah::min(lyah::vec<2, std::float_t> a, lyah::vec<2, std::float_t> b)",
@@ -2653,6 +2647,132 @@
 		"sourceUrl": "https://github.com/atalantestudio/lyah/blob/2159ff6b70d80f8d903196311bd62f6b599b9298/lyah/vec/m256d/common.ipp#L15",
 		"instructionSet": "AVX",
 		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_CONSTEXPR_CPP14 LYAH_INLINE std::float_t LYAH_CALL lyah::max(std::float_t a, std::float_t b)",
+		"description": "Returns the maximum value between `a` and `b`.",
+		"sourceUrl": "",
+		"since": "v1.2.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_CONSTEXPR_CPP14 LYAH_INLINE std::double_t LYAH_CALL lyah::max(std::double_t a, std::double_t b)",
+		"description": "Returns the maximum value between `a` and `b`.",
+		"sourceUrl": "",
+		"since": "v1.2.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_CONSTEXPR_CPP14 LYAH_INLINE std::int32_t LYAH_CALL lyah::max(std::int32_t a, std::int32_t b)",
+		"description": "Returns the maximum value between `a` and `b`.",
+		"sourceUrl": "",
+		"since": "v1.2.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_CONSTEXPR_CPP14 LYAH_INLINE std::int64_t LYAH_CALL lyah::max(std::int64_t a, std::int64_t b)",
+		"description": "Returns the maximum value between `a` and `b`.",
+		"sourceUrl": "",
+		"since": "v1.2.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::vec<2, std::float_t> LYAH_CALL lyah::max(lyah::vec<2, std::float_t> a, lyah::vec<2, std::float_t> b)",
+		"description": "Returns the result of an horizontal max comparison between `a` and `b`.",
+		"sourceUrl": "https://github.com/atalantestudio/lyah/blob/2159ff6b70d80f8d903196311bd62f6b599b9298/lyah/vec/m128/common.ipp#L46",
+		"instructionSet": "SSE",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::vec<3, std::float_t> LYAH_CALL lyah::max(lyah::vec<3, std::float_t> a, lyah::vec<3, std::float_t> b)",
+		"description": "Returns the result of an horizontal max comparison between `a` and `b`.",
+		"sourceUrl": "https://github.com/atalantestudio/lyah/blob/2159ff6b70d80f8d903196311bd62f6b599b9298/lyah/vec/m128/common.ipp#L46",
+		"instructionSet": "SSE",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::vec<4, std::float_t> LYAH_CALL lyah::max(lyah::vec<4, std::float_t> a, lyah::vec<4, std::float_t> b)",
+		"description": "Returns the result of an horizontal max comparison between `a` and `b`.",
+		"sourceUrl": "https://github.com/atalantestudio/lyah/blob/2159ff6b70d80f8d903196311bd62f6b599b9298/lyah/vec/m128/common.ipp#L46",
+		"instructionSet": "SSE",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::vec<2, std::double_t> LYAH_CALL lyah::max(lyah::vec<2, std::double_t> a, lyah::vec<2, std::double_t> b)",
+		"description": "Returns the result of an horizontal max comparison between `a` and `b`.",
+		"sourceUrl": "https://github.com/atalantestudio/lyah/blob/2159ff6b70d80f8d903196311bd62f6b599b9298/lyah/vec/m128d/common.ipp#L22",
+		"instructionSet": "SSE2",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::vec<3, std::double_t> LYAH_CALL lyah::max(lyah::vec<3, std::double_t> a, lyah::vec<3, std::double_t> b)",
+		"description": "Returns the result of an horizontal max comparison between `a` and `b`.",
+		"sourceUrl": "https://github.com/atalantestudio/lyah/blob/2159ff6b70d80f8d903196311bd62f6b599b9298/lyah/vec/m256d/common.ipp#L7",
+		"instructionSet": "AVX",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::vec<4, std::double_t> LYAH_CALL lyah::max(lyah::vec<4, std::double_t> a, lyah::vec<4, std::double_t> b)",
+		"description": "Returns the result of an horizontal max comparison between `a` and `b`.",
+		"sourceUrl": "https://github.com/atalantestudio/lyah/blob/2159ff6b70d80f8d903196311bd62f6b599b9298/lyah/vec/m256d/common.ipp#L7",
+		"instructionSet": "AVX",
+		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_CONSTEXPR_CPP14 LYAH_INLINE std::float_t LYAH_CALL lyah::clamp(std::float_t a, std::float_t min, std::float_t max)",
+		"description": "Clamps `a` between `min` and `max` and returns the result.",
+		"sourceUrl": "",
+		"since": "v1.2.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_CONSTEXPR_CPP14 LYAH_INLINE std::double_t LYAH_CALL lyah::clamp(std::double_t a, std::double_t min, std::double_t max)",
+		"description": "Clamps `a` between `min` and `max` and returns the result.",
+		"sourceUrl": "",
+		"since": "v1.2.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_CONSTEXPR_CPP14 LYAH_INLINE std::int32_t LYAH_CALL lyah::clamp(std::int32_t a, std::int32_t min, std::int32_t max)",
+		"description": "Clamps `a` between `min` and `max` and returns the result.",
+		"sourceUrl": "",
+		"since": "v1.2.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_CONSTEXPR_CPP14 LYAH_INLINE std::int64_t LYAH_CALL lyah::clamp(std::int64_t a, std::int64_t min, std::int64_t max)",
+		"description": "Clamps `a` between `min` and `max` and returns the result.",
+		"sourceUrl": "",
+		"since": "v1.2.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::vec<2, std::float_t> LYAH_CALL lyah::clamp(lyah::vec<2, std::float_t> a, lyah::vec<2, std::float_t> min, lyah::vec<2, std::float_t> max)",
+		"description": "Clamps `a` between `min` and `max` and returns the result.",
+		"sourceUrl": "",
+		"since": "v1.2.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::vec<3, std::float_t> LYAH_CALL lyah::clamp(lyah::vec<3, std::float_t> a, lyah::vec<3, std::float_t> min, lyah::vec<3, std::float_t> max)",
+		"description": "Clamps `a` between `min` and `max` and returns the result.",
+		"sourceUrl": "",
+		"since": "v1.2.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::vec<4, std::float_t> LYAH_CALL lyah::clamp(lyah::vec<4, std::float_t> a, lyah::vec<4, std::float_t> min, lyah::vec<4, std::float_t> max)",
+		"description": "Clamps `a` between `min` and `max` and returns the result.",
+		"sourceUrl": "",
+		"since": "v1.2.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::vec<2, std::double_t> LYAH_CALL lyah::clamp(lyah::vec<2, std::double_t> a, lyah::vec<2, std::double_t> min, lyah::vec<2, std::double_t> max)",
+		"description": "Clamps `a` between `min` and `max` and returns the result.",
+		"sourceUrl": "",
+		"since": "v1.2.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::vec<3, std::double_t> LYAH_CALL lyah::clamp(lyah::vec<3, std::double_t> a, lyah::vec<3, std::double_t> min, lyah::vec<3, std::double_t> max)",
+		"description": "Clamps `a` between `min` and `max` and returns the result.",
+		"sourceUrl": "",
+		"since": "v1.2.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::vec<4, std::double_t> LYAH_CALL lyah::clamp(lyah::vec<4, std::double_t> a, lyah::vec<4, std::double_t> min, lyah::vec<4, std::double_t> max)",
+		"description": "Clamps `a` between `min` and `max` and returns the result.",
+		"sourceUrl": "",
+		"since": "v1.2.0"
 	},
 	{
 		"signature": "LYAH_NODISCARD LYAH_INLINE std::float_t LYAH_CALL lyah::sum(lyah::vec<2, std::float_t> a)",
@@ -2907,6 +3027,18 @@
 		"since": "v1.0.0"
 	},
 	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::vec<2, std::float_t> LYAH_CALL lyah::cross(lyah::vec<2, std::float_t> a, std::float_t b)",
+		"description": "Returns the \"2D cross product\" of `a` and `b`.\nIf `b` is -1, the perpendicular vector to the left of `a` is returned.\nIf `b` is 1, the perpendicular vector to the right of `a` is returned.",
+		"sourceUrl": "",
+		"since": "v1.2.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::vec<2, std::double_t> LYAH_CALL lyah::cross(lyah::vec<2, std::double_t> a, std::double_t b)",
+		"description": "Returns the \"2D cross product\" of `a` and `b`.\nIf `b` is -1, the perpendicular vector to the left of `a` is returned.\nIf `b` is 1, the perpendicular vector to the right of `a` is returned.",
+		"sourceUrl": "",
+		"since": "v1.2.0"
+	},
+	{
 		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::vec<3, std::float_t> LYAH_CALL lyah::cross(lyah::vec<3, std::float_t> a, lyah::vec<3, std::float_t> b)",
 		"description": "Returns the cross product of `a` and `b`.",
 		"sourceUrl": "https://github.com/atalantestudio/lyah/blob/2159ff6b70d80f8d903196311bd62f6b599b9298/lyah/vec/m128/geometric.ipp#L8",
@@ -2943,6 +3075,42 @@
 		"description": "Returns the absolute value of `a`.",
 		"sourceUrl": "https://github.com/atalantestudio/lyah/blob/2159ff6b70d80f8d903196311bd62f6b599b9298/lyah/common.hpp#L21",
 		"since": "v1.1.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_CONSTEXPR_CPP23 LYAH_INLINE std::float_t LYAH_CALL ceil(std::float_t a)",
+		"description": "Returns `a` rounded up to the nearest integer.",
+		"sourceUrl": "",
+		"since": "v1.2.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_CONSTEXPR_CPP23 LYAH_INLINE std::double_t LYAH_CALL ceil(std::double_t a)",
+		"description": "Returns `a` rounded up to the nearest integer.",
+		"sourceUrl": "",
+		"since": "v1.2.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_CONSTEXPR_CPP23 LYAH_INLINE std::float_t LYAH_CALL floor(std::float_t a)",
+		"description": "Returns `a` rounded down to the nearest integer.",
+		"sourceUrl": "",
+		"since": "v1.2.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_CONSTEXPR_CPP23 LYAH_INLINE std::double_t LYAH_CALL floor(std::double_t a)",
+		"description": "Returns `a` rounded down to the nearest integer.",
+		"sourceUrl": "",
+		"since": "v1.2.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_CONSTEXPR_CPP26 LYAH_INLINE std::float_t LYAH_CALL log2(std::float_t a)",
+		"description": "Returns the base 2 logarithm of `a`.",
+		"sourceUrl": "",
+		"since": "v1.2.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_CONSTEXPR_CPP26 LYAH_INLINE std::double_t LYAH_CALL log2(std::double_t a)",
+		"description": "Returns the base 2 logarithm of `a`.",
+		"sourceUrl": "",
+		"since": "v1.2.0"
 	},
 	{
 		"signature": "LYAH_NODISCARD LYAH_CONSTEXPR LYAH_INLINE std::float_t LYAH_CALL lyah::lerp(std::float_t a, std::float_t b, std::float_t t)",
@@ -3077,6 +3245,30 @@
 		"since": "v1.0.0"
 	},
 	{
+		"signature": "LYAH_NODISCARD LYAH_CONSTEXPR LYAH_INLINE std::float_t LYAH_CALL lyah::tau()",
+		"description": "Returns an approximation of the tau constant.",
+		"sourceUrl": "",
+		"since": "v1.2.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_CONSTEXPR LYAH_INLINE std::double_t LYAH_CALL lyah::tau()",
+		"description": "Returns an approximation of the tau constant.",
+		"sourceUrl": "",
+		"since": "v1.2.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE std::float_t LYAH_CALL lyah::area(lyah::vec<2, std::float_t> a, lyah::vec<2, std::float_t> b)",
+		"description": "Returns the signed area of the parallelogram formed by `a` and `b`.",
+		"sourceUrl": "",
+		"since": "v1.2.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE std::double_t LYAH_CALL lyah::area(lyah::vec<2, std::double_t> a, lyah::vec<2, std::double_t> b)",
+		"description": "Returns the signed area of the parallelogram formed by `a` and `b`.",
+		"sourceUrl": "",
+		"since": "v1.2.0"
+	},
+	{
 		"signature": "LYAH_NODISCARD LYAH_INLINE std::float_t LYAH_CALL lyah::dot(lyah::vec<2, std::float_t> a, lyah::vec<2, std::float_t> b)",
 		"description": "Returns the dot product of `a` and `b`.",
 		"sourceUrl": "https://github.com/atalantestudio/lyah/blob/2159ff6b70d80f8d903196311bd62f6b599b9298/lyah/geometric.hpp#L10",
@@ -3175,6 +3367,54 @@
 		"since": "v1.0.0"
 	},
 	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE std::float_t LYAH_CALL lyah::lengthSquared(lyah::vec<2, std::float_t> a)",
+		"description": "Returns the squared length of `a`.",
+		"sourceUrl": "",
+		"since": "v1.2.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE std::float_t LYAH_CALL lyah::lengthSquared(lyah::vec<3, std::float_t> a)",
+		"description": "Returns the squared length of `a`.",
+		"sourceUrl": "",
+		"since": "v1.2.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE std::float_t LYAH_CALL lyah::lengthSquared(lyah::vec<4, std::float_t> a)",
+		"description": "Returns the squared length of `a`.",
+		"sourceUrl": "",
+		"since": "v1.2.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE std::double_t LYAH_CALL lyah::lengthSquared(lyah::vec<2, std::double_t> a)",
+		"description": "Returns the squared length of `a`.",
+		"sourceUrl": "",
+		"since": "v1.2.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE std::double_t LYAH_CALL lyah::lengthSquared(lyah::vec<3, std::double_t> a)",
+		"description": "Returns the squared length of `a`.",
+		"sourceUrl": "",
+		"since": "v1.2.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE std::double_t LYAH_CALL lyah::lengthSquared(lyah::vec<4, std::double_t> a)",
+		"description": "Returns the squared length of `a`.",
+		"sourceUrl": "",
+		"since": "v1.2.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE std::float_t LYAH_CALL lyah::lengthSquared(lyah::quat<std::float_t> a)",
+		"description": "Returns the squared length of `a`.",
+		"sourceUrl": "",
+		"since": "v1.2.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE std::double_t LYAH_CALL lyah::lengthSquared(lyah::quat<std::double_t> a)",
+		"description": "Returns the squared length of `a`.",
+		"sourceUrl": "",
+		"since": "v1.2.0"
+	},
+	{
 		"signature": "LYAH_NODISCARD LYAH_INLINE std::float_t LYAH_CALL lyah::distance(lyah::vec<2, std::float_t> a, lyah::vec<2, std::float_t> b)",
 		"description": "Returns the distance between `a` and `b`.",
 		"sourceUrl": "https://github.com/atalantestudio/lyah/blob/2159ff6b70d80f8d903196311bd62f6b599b9298/lyah/geometric.hpp#L20",
@@ -3209,6 +3449,42 @@
 		"description": "Returns the distance between `a` and `b`.",
 		"sourceUrl": "https://github.com/atalantestudio/lyah/blob/2159ff6b70d80f8d903196311bd62f6b599b9298/lyah/geometric.hpp#L20",
 		"since": "v1.0.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE std::float_t LYAH_CALL lyah::distanceSquared(lyah::vec<2, std::float_t> a, lyah::vec<2, std::float_t> b)",
+		"description": "Returns the squared distance between `a` and `b`.",
+		"sourceUrl": "",
+		"since": "v1.2.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE std::float_t LYAH_CALL lyah::distanceSquared(lyah::vec<3, std::float_t> a, lyah::vec<3, std::float_t> b)",
+		"description": "Returns the squared distance between `a` and `b`.",
+		"sourceUrl": "",
+		"since": "v1.2.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE std::float_t LYAH_CALL lyah::distanceSquared(lyah::vec<4, std::float_t> a, lyah::vec<4, std::float_t> b)",
+		"description": "Returns the squared distance between `a` and `b`.",
+		"sourceUrl": "",
+		"since": "v1.2.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE std::double_t LYAH_CALL lyah::distanceSquared(lyah::vec<2, std::double_t> a, lyah::vec<2, std::double_t> b)",
+		"description": "Returns the squared distance between `a` and `b`.",
+		"sourceUrl": "",
+		"since": "v1.2.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE std::double_t LYAH_CALL lyah::distanceSquared(lyah::vec<3, std::double_t> a, lyah::vec<3, std::double_t> b)",
+		"description": "Returns the squared distance between `a` and `b`.",
+		"sourceUrl": "",
+		"since": "v1.2.0"
+	},
+	{
+		"signature": "LYAH_NODISCARD LYAH_INLINE std::double_t LYAH_CALL lyah::distanceSquared(lyah::vec<4, std::double_t> a, lyah::vec<4, std::double_t> b)",
+		"description": "Returns the squared distance between `a` and `b`.",
+		"sourceUrl": "",
+		"since": "v1.2.0"
 	},
 	{
 		"signature": "LYAH_NODISCARD LYAH_INLINE lyah::vec<2, std::float_t> LYAH_CALL lyah::normalized(lyah::vec<2, std::float_t> a)",

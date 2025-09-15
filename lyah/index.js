@@ -103,10 +103,10 @@ function getFilteredMethods() {
 	const sortedFilterScores = filterScores.sort(compareMethodScores);
 
 	if (sortedFilterScores.length === 1) {
-		methodCount.textContent = "1 method found.";
+		methodCount.textContent = "1 method found";
 	}
 	else {
-		methodCount.textContent = `${sortedFilterScores.length} methods found.`;
+		methodCount.textContent = `${sortedFilterScores.length} methods found`;
 	}
 
 	for (const score of sortedFilterScores) {
@@ -221,7 +221,7 @@ function onKeyDown(event) {
 function formatMethodSignature(signature) {
 	let formattedSignature = signature;
 
-	// Replace LYAH_INLINE.
+	// Remove LYAH_INLINE.
 	formattedSignature = formattedSignature.replace("LYAH_INLINE ", "");
 
 	// Replace LYAH_CONSTEXPR_CPP26.
@@ -238,6 +238,14 @@ function formatMethodSignature(signature) {
 	}
 	else {
 		formattedSignature = formattedSignature.replace("LYAH_CONSTEXPR_CPP23", "");
+	}
+
+	// Replace LYAH_CONSTEXPR_CPP14.
+	if (cppVersion >= 2014) {
+		formattedSignature = formattedSignature.replace("LYAH_CONSTEXPR_CPP14", "constexpr");
+	}
+	else {
+		formattedSignature = formattedSignature.replace("LYAH_CONSTEXPR_CPP14", "");
 	}
 
 	// Replace LYAH_CONSTEXPR.
