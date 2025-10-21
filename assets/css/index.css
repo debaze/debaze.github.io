@@ -6,15 +6,14 @@
 @import url("text.css");
 
 :root {
-	--primary: #6d6576;
+	--primary: #001b2e;
 	--secondary: #545163;
-	--tertiary: #a57e8f;
+	--tertiary: #294c60;
 
-	--header-color: #545163;
-	--header-text-color: #d4cdc9;
+	--header-color: #001b2e;
 
-	--text: #d4cdc9;
-	--text-hover: #cbb5ac;
+	--text: #adb6c4;
+	--text-hover: #b6f6ff;
 
 	--external-link: #5cafe7;
 	--external-link-hover: #82cef9;
@@ -31,6 +30,7 @@ body {
 	background-color: var(--primary);
 	color: var(--text);
 	font-family: "PP Radio Grotesk", "Arial", sans-serif;
+	font-size: 1.1rem;
 }
 
 ::selection {
@@ -51,9 +51,9 @@ ul {
 	padding-left: 20px;
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 800px) {
 	.container {
-		max-width: 1000px;
+		max-width: 800px;
 		margin: 0 auto;
 	}
 

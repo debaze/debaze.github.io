@@ -30,7 +30,7 @@ export function loadBlog(posts) {
 	else {
 		for (const [slug, post] of postEntries) {
 			/**
-			 * @type {HTMLLIElement}
+			 * @type {HTMLAnchorElement}
 			 */
 			const postListItem = homeTemplate.content.querySelector(".post-list-item").cloneNode(true);
 
@@ -49,15 +49,22 @@ export function loadBlog(posts) {
 			 */
 			const postDescription = postListItem.querySelector(".description");
 
+			if (!post.description) {
+				postDescription.remove();
+			}
+			else {
+				postDescription.textContent = post.description;
+			}
+
 			postDate.textContent = post.publishedAt;
 
 			if (post.lastUpdatedAt) {
 				postDate.textContent += ` (last updated ${post.lastUpdatedAt})`;
 			}
 
-			postLink.href = `blog?post=${slug}`;
+			postListItem.href = `blog?post=${slug}`;
+
 			postLink.textContent = post.title;
-			postDescription.textContent = post.description;
 
 			postList.appendChild(postListItem);
 		}

@@ -1,6 +1,6 @@
 h1 {
 	margin: 0;
-	font-size: 1.5rem;
+	font-size: 1.75rem;
 }
 
 h2 {
@@ -33,12 +33,12 @@ a.external:hover {
 	color: var(--external-link-hover);
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 800px) {
 	h1 {
-		font-size: 1.75rem;
+		font-size: 2.0rem;
 	}
 
 	h2, h3 {
-		font-size: 1.5rem;
+		font-size: 1.65rem;
 	}
 }

@@ -1,29 +1,31 @@
 .home-link-list {
-	display: grid;
-	grid-template-columns: 1fr;
-	gap: 8px;
+	display: flex;
+	flex-direction: column;
+	row-gap: 8px;
 	padding-left: 0;
 }
 
-.home-link {
+.home-link-item {
 	display: flex;
 	flex-direction: column;
 	row-gap: 8px;
 	padding: 16px;
-	background-color: var(--secondary);
+	border-width: 1px;
+	border-style: solid;
+	border-color: var(--tertiary);
+	transition-property: background-color, color;
+	transition-duration: 0.2s;
 }
 
-.home-link-name {
-	font-size: 1rem;
-	font-weight: bold;
-}
-
-.home-link:hover {
+.home-link-item:hover {
+	background-color: #294c6075;
 	text-decoration: none;
 }
 
-@media screen and (min-width: 1000px) {
-	.home-link-list {
-		grid-template-columns: 1fr 1fr;
-	}
+.home-link-item:focus {
+	border-color: var(--text);
+}
+
+.home-link-name {
+	font-weight: bold;
 }

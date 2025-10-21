@@ -10,7 +10,7 @@
 	font-size: 3rem;
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 800px) {
 	.not-found-container {
 		margin: 32px 0;
 	}

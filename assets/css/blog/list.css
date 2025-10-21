@@ -1,0 +1,46 @@
+.post-list {
+	display: flex;
+	flex-direction: column;
+	padding-left: 0;
+	list-style-type: none;
+}
+
+.post-list-item {
+	display: flex;
+	flex-direction: column;
+	row-gap: 8px;
+	margin: 1px 0;
+	padding: 16px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: var(--secondary);
+	transition-property: background-color, color;
+	transition-duration: 0.2s;
+}
+
+.post-list-item:not(:first-of-type) {
+	margin-top: -2px;
+}
+
+.post-list-item:hover {
+	text-decoration: none;
+}
+
+.post-list-item:focus {
+	position: relative;
+	border-color: var(--text);
+}
+
+.post-list-item .date {
+	font-size: 1rem;
+	font-weight: bold;
+}
+
+.post-list-item .title {
+	padding-bottom: 0;
+	line-height: 20px;
+}
+
+.no-posts-section {
+	margin-top: 16px;
+}
