@@ -3,6 +3,7 @@ export {};
 /**
  * @typedef {Object} Data
  * @property {Technology[]} technologies
+ * @property {Experience[]} _3dExperiences
  * @property {Experience[]} professionalExperiences
  * @property {Experience[]} personalExperiences
  */
@@ -27,6 +28,7 @@ export {};
  * @property {String} name
  * @property {String} [siteUrl]
  * @property {String} [repositoryUrl]
+ * @property {String} [documentationUrl]
  * @property {String} description
  * @property {String[]} [missions]
  * @property {Number[]} technologyIds
@@ -49,12 +51,30 @@ const template = document.body.querySelector("#data-template");
 /**
  * @type {HTMLDivElement}
  */
+const _3dExperiencePlaceholder = document.body.querySelector("#_3d-experience-placeholder");
+
+/**
+ * @type {HTMLDivElement}
+ */
 const professionalExperiencePlaceholder = document.body.querySelector("#professional-experience-placeholder");
 
 /**
  * @type {HTMLDivElement}
  */
 const personalExperiencePlaceholder = document.body.querySelector("#personal-experience-placeholder");
+
+// 3D experience
+{
+	const _3dExperienceFragment = document.createDocumentFragment();
+
+	for (const experience of dataJson._3dExperiences) {
+		const experienceElement = getExperienceElement(experience);
+
+		_3dExperienceFragment.appendChild(experienceElement);
+	}
+
+	_3dExperiencePlaceholder.replaceWith(_3dExperienceFragment);
+}
 
 // Professional experiences
 {
@@ -115,7 +135,7 @@ function getExperienceElement(experience) {
 	experienceNameElement.textContent = experience.name;
 
 	if (experience.description) {
-		experienceDescriptionElement.innerHTML = experience.description;
+		experienceDescriptionElement.innerHTML = experience.description.replaceAll("\n", "<br />");
 	}
 	else {
 		experienceDescriptionElement.remove();
@@ -214,7 +234,24 @@ function getExperienceElement(experience) {
 			projectLinkListElement.appendChild(projectLinkListItemElement);
 		}
 
-		projectDescriptionElement.textContent = project.description;
+		if (project.documentationUrl) {
+			/**
+			 * @type {HTMLLinkElement}
+			 */
+			// @ts-ignore
+			const projectLinkListItemElement = template.content.querySelector(".project-documentation-link-list-item").cloneNode(true);
+
+			/**
+			 * @type {HTMLAnchorElement}
+			 */
+			const projectLinkElement = projectLinkListItemElement.querySelector(".project-link");
+
+			projectLinkElement.href = project.documentationUrl;
+
+			projectLinkListElement.appendChild(projectLinkListItemElement);
+		}
+
+		projectDescriptionElement.innerHTML = project.description.replaceAll("\n", "<br />");
 
 		for (const technologyId of project.technologyIds) {
 			const technology = dataJson.technologies.find(technology => technology.id === technologyId);

@@ -131,6 +131,53 @@
 			"iconSrc": "assets/images/googlecharts.png"
 		}
 	],
+	"_3dExperiences": [
+		{
+			"name": "Game engine (2022 — present)",
+			"description": "Personal project",
+			"projects": [
+				{
+					"name": "Lyah",
+					"repositoryUrl": "https://github.com/atalantestudio/lyah",
+					"documentationUrl": "https://debaze.github.io/lyah",
+					"description": "A C++ SIMD mathematics library for computer graphics. It features 2D-4D vectors, 2x2-4x4 square matrices and quaternions, along with common mathematical functions. It is header-only, fully tested and documented, and can be easily integrated into other projects.",
+					"technologyIds": [26]
+				},
+				{
+					"name": "OpenGL graphics adapter",
+					"repositoryUrl": "https://github.com/debaze/OpenGLAbstraction",
+					"description": "An implementation of an OpenGL abstraction, designed for compatibility with other lower-level APIs.\nContains a custom function loader, enums, commands and Vulkan-like objects.\nSupports direct/indirect drawing, compute, direct/indirect dispatch, storage/uniform buffers, 2D texture and texture views, blending, depth-testing, line width, scissor, viewport, buffer/image copying, descriptor sets, vertex attributes. GPU synchronization with fences, texture samplers and GLSL/SPIR-V shaders.",
+					"technologyIds": [26, 27]
+				},
+				{
+					"name": "Asset builder",
+					"repositoryUrl": "https://github.com/debaze/AssetBuilder",
+					"description": "A copy of the asset builder source from the game engine I'm writing.",
+					"technologyIds": [26]
+				},
+				{
+					"name": "FBX parser",
+					"repositoryUrl": "https://github.com/debaze/FBXParser",
+					"description": "A copy of the FBX parser I wrote for my game engine. The DEFLATE decompression script is not included.",
+					"technologyIds": [26]
+				},
+				{
+					"name": "Raytracer",
+					"siteUrl": "https://debaze.github.io/webgpu_raytracer",
+					"repositoryUrl": "https://github.com/debaze/webgpu_raytracer",
+					"description": "In-browser raytracing demo.",
+					"technologyIds": [29]
+				},
+				{
+					"name": "GJK",
+					"siteUrl": "https://debaze.github.io/gjk",
+					"repositoryUrl": "https://github.com/debaze/gjk",
+					"description": "Visualisation de collisions 2D en continu avec les algorithmes Gilbert-Johnson-Keerthi et Bilateral Advancement.",
+					"technologyIds": [12]
+				}
+			]
+		}
+	],
 	"professionalExperiences": [
 		{
 			"name": "Keole et Gazoline (14/09/2021 — 30/09/2024)",
@@ -353,7 +400,7 @@
 					"technologyIds": [22]
 				},
 				{
-					"name": "Lyah (1.1.1)",
+					"name": "Lyah",
 					"repositoryUrl": "https://github.com/atalantestudio/lyah",
 					"description": "Librairie de mathématiques vectorielles accélérées avec les jeux d'instruction SIMD. Lyah met à disposition des vecteurs 2D/3D/4D, des matrices carrées 2x2/3x3/4x4 et des quaternions, en plus de fonctions mathématiques communes. Elle est header-only, entièrement testée et documentée, et est facilement intégrable dans des projets existants.",
 					"technologyIds": [26]
@@ -368,20 +415,6 @@
 		{
 			"name": "Divers",
 			"projects": [
-				{
-					"name": "Raytracer",
-					"siteUrl": "https://debaze.github.io/webgpu_raytracer",
-					"repositoryUrl": "https://github.com/debaze/webgpu_raytracer",
-					"description": "Démo de raytracing en ligne.",
-					"technologyIds": [29]
-				},
-				{
-					"name": "GJK",
-					"siteUrl": "https://debaze.github.io/gjk",
-					"repositoryUrl": "https://github.com/debaze/gjk",
-					"description": "Visualisation de collisions 2D en continu avec les algorithmes Gilbert-Johnson-Keerthi et Bilateral Advancement.",
-					"technologyIds": [12]
-				},
 				{
 					"name": "Quiver",
 					"siteUrl": "https://debaze.github.io/Quiver",
